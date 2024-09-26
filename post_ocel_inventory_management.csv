@@ -1,0 +1,1211 @@
+ocel:activity,ocel:timestamp,ocel:type:MAT,ocel:type:PLA,ocel:type:PO_ITEM,ocel:type:SO_ITEM,ocel:type:CUSTOMER,ocel:type:SUPPLIER,Stock Before,Stock After,ocel:type:MAT_PLA,ocel:eid
+Create Sales Order Item (Understock to Understock),2023-10-15,['MAT-1'],['Plant2'],,['SO_ITEM--72-4'],['CUSTOMER--17'],,0.0,0.0,['MAT-1_Plant2'],e1
+Create Purchase Order Item (Understock),2023-11-06,['MAT-1'],['Plant2'],['PO_ITEM--130-3'],,,['SUPPLIER--26'],0.0,0.0,['MAT-1_Plant2'],e2
+Create Purchase Order Item (Understock),2023-12-10,['MAT-1'],['Plant5'],['PO_ITEM--8-1'],,,['SUPPLIER--26'],0.0,0.0,['MAT-1_Plant5'],e3
+Create Purchase Order Item (Understock),2023-12-31,['MAT-1'],['Plant4'],['PO_ITEM--96-1'],,,['SUPPLIER--17'],0.0,0.0,['MAT-1_Plant4'],e4
+Create Purchase Order Item (Understock),2024-02-13,['MAT-1'],['Plant2'],['PO_ITEM--5-2'],,,['SUPPLIER--16'],0.0,0.0,['MAT-1_Plant2'],e5
+Create Purchase Order Item (Understock),2024-03-16,['MAT-1'],['Plant2'],['PO_ITEM--105-2'],,,['SUPPLIER--12'],0.0,0.0,['MAT-1_Plant2'],e6
+Create Sales Order Item (Understock to Understock),2024-03-25,['MAT-1'],['Plant3'],,['SO_ITEM--63-3'],['CUSTOMER--49'],,0.0,0.0,['MAT-1_Plant3'],e7
+Create Purchase Suggestion Item (Understock),2024-04-04,['MAT-1'],['Plant5'],,,,,0.0,0.0,['MAT-1_Plant5'],e8
+Create Purchase Order Item (Understock),2024-05-31,['MAT-1'],['Plant4'],['PO_ITEM--102-3'],,,['SUPPLIER--2'],0.0,0.0,['MAT-1_Plant4'],e9
+Create Purchase Suggestion Item (Understock),2024-06-16,['MAT-1'],['Plant2'],,,,,0.0,0.0,['MAT-1_Plant2'],e10
+Create Purchase Order Item (Understock),2024-06-18,['MAT-1'],['Plant2'],['PO_ITEM--77-1'],,,['SUPPLIER--22'],0.0,0.0,['MAT-1_Plant2'],e11
+Create Sales Order Item (Understock to Understock),2024-06-25,['MAT-1'],['Plant4'],,['SO_ITEM--94-1'],['CUSTOMER--24'],,0.0,0.0,['MAT-1_Plant4'],e12
+Create Purchase Order Item (Understock),2024-09-16,['MAT-1'],['Plant1'],['PO_ITEM--51-4'],,,['SUPPLIER--1'],0.0,0.0,['MAT-1_Plant1'],e13
+Create Purchase Order Item (Understock),2023-11-16,['MAT-2'],['Plant3'],['PO_ITEM--83-2'],,,['SUPPLIER--12'],0.0,13.0,['MAT-2_Plant3'],e15
+Create Sales Order Item,2024-01-22,['MAT-2'],['Plant5'],,['SO_ITEM--159-1'],['CUSTOMER--2'],,0.0,13.0,['MAT-2_Plant5'],e16
+Create Sales Order Item,2024-04-21,['MAT-2'],['Plant3'],,['SO_ITEM--156-5'],['CUSTOMER--11'],,0.0,13.0,['MAT-2_Plant3'],e17
+Create Sales Order Item,2024-04-24,['MAT-2'],['Plant3'],,['SO_ITEM--45-1'],['CUSTOMER--13'],,0.0,13.0,['MAT-2_Plant3'],e18
+Create Purchase Order Item (Understock),2024-05-14,['MAT-2'],['Plant3'],['PO_ITEM--109-1'],,,['SUPPLIER--15'],0.0,13.0,['MAT-2_Plant3'],e19
+Create Sales Order Item,2024-05-21,['MAT-2'],['Plant2'],,['SO_ITEM--51-1'],['CUSTOMER--25'],,0.0,13.0,['MAT-2_Plant2'],e20
+Create Sales Order Item,2024-07-16,['MAT-2'],['Plant5'],,['SO_ITEM--110-2'],['CUSTOMER--48'],,0.0,13.0,['MAT-2_Plant5'],e21
+Create Purchase Order Item (Understock),2024-09-25,['MAT-2'],['Plant3'],['PO_ITEM--133-1'],,,['SUPPLIER--20'],0.0,13.0,['MAT-2_Plant3'],e22
+Goods Receipt (Understock to Understock),2023-12-02,['MAT-3'],['Plant3'],['PO_ITEM--121-2'],,,['SUPPLIER--16'],0.0,0.0,['MAT-3_Plant3'],e24
+Create Purchase Order Item (Overstock),2024-01-29,['MAT-3'],['Plant5'],['PO_ITEM--39-2'],,,['SUPPLIER--26'],92.0,92.0,['MAT-3_Plant5'],e25
+Create Purchase Order Item (Overstock),2024-02-15,['MAT-3'],['Plant4'],['PO_ITEM--38-3'],,,['SUPPLIER--11'],92.0,92.0,['MAT-3_Plant4'],e26
+Create Purchase Order Item (Overstock),2024-03-14,['MAT-3'],['Plant5'],['PO_ITEM--49-2'],,,['SUPPLIER--20'],92.0,92.0,['MAT-3_Plant5'],e27
+Create Sales Order Item (Overstock to Overstock),2024-04-18,['MAT-3'],['Plant5'],,['SO_ITEM--4-2'],['CUSTOMER--47'],,92.0,92.0,['MAT-3_Plant5'],e28
+Create Sales Order Item (Overstock to Overstock),2024-06-13,['MAT-3'],['Plant4'],,['SO_ITEM--184-3'],['CUSTOMER--42'],,92.0,92.0,['MAT-3_Plant4'],e29
+Create Purchase Order Item (Overstock),2024-07-02,['MAT-3'],['Plant4'],['PO_ITEM--31-3'],,,['SUPPLIER--21'],92.0,92.0,['MAT-3_Plant4'],e30
+Goods Issue (Overstock to Overstock),2024-09-11,['MAT-3'],['Plant2'],,,['CUSTOMER--361353'],,92.0,92.0,['MAT-3_Plant2'],e31
+Create Purchase Order Item (Overstock),2024-09-24,['MAT-3'],['Plant5'],['PO_ITEM--143-2'],,,['SUPPLIER--17'],3.0,3.0,['MAT-3_Plant5'],e32
+Create Sales Order Item (Understock to Understock),2023-12-16,['MAT-4'],['Plant3'],,['SO_ITEM--28-3'],['CUSTOMER--44'],,0.0,0.0,['MAT-4_Plant3'],e34
+Goods Receipt (Understock to Understock),2024-05-07,['MAT-4'],['Plant4'],['PO_ITEM--56-1'],,,['SUPPLIER--10'],0.0,0.0,['MAT-4_Plant4'],e35
+Goods Receipt (Overstock to Overstock),2024-06-14,['MAT-4'],['Plant3'],['PO_ITEM--127-1'],,,['SUPPLIER--24'],41.0,41.0,['MAT-4_Plant3'],e36
+Create Sales Order Item (Overstock to Overstock),2024-09-03,['MAT-4'],['Plant2'],,['SO_ITEM--83-2'],['CUSTOMER--17'],,64.0,64.0,['MAT-4_Plant2'],e37
+Create Purchase Order Item (Overstock),2024-09-16,['MAT-4'],['Plant5'],['PO_ITEM--51-3'],,,['SUPPLIER--1'],64.0,64.0,['MAT-4_Plant5'],e38
+Create Purchase Order Item (Understock),2023-12-05,['MAT-5'],['Plant2'],['PO_ITEM--63-1'],,,['SUPPLIER--26'],0.0,0.0,['MAT-5_Plant2'],e40
+Create Purchase Order Item (Understock),2023-12-09,['MAT-5'],['Plant2'],['PO_ITEM--142-2'],,,['SUPPLIER--4'],0.0,0.0,['MAT-5_Plant2'],e41
+Create Sales Order Item (Understock to Understock),2024-01-05,['MAT-5'],['Plant2'],,['SO_ITEM--54-1'],['CUSTOMER--12'],,0.0,0.0,['MAT-5_Plant2'],e42
+Create Purchase Order Item (Understock),2024-01-15,['MAT-5'],['Plant1'],['PO_ITEM--72-1'],,,['SUPPLIER--4'],0.0,0.0,['MAT-5_Plant1'],e43
+Goods Receipt (Understock to Understock),2024-02-06,['MAT-5'],['Plant5'],['PO_ITEM--94-3'],,,['SUPPLIER--12'],0.0,0.0,['MAT-5_Plant5'],e44
+Create Purchase Order Item (Overstock),2024-03-11,['MAT-5'],['Plant5'],['PO_ITEM--2-1'],,,['SUPPLIER--5'],69.0,69.0,['MAT-5_Plant5'],e45
+Create Purchase Suggestion Item (Overstock),2024-05-03,['MAT-5'],['Plant2'],,,,,69.0,69.0,['MAT-5_Plant2'],e46
+Create Purchase Order Item (Overstock),2024-06-04,['MAT-5'],['Plant4'],['PO_ITEM--52-2'],,,['SUPPLIER--29'],69.0,69.0,['MAT-5_Plant4'],e47
+Create Sales Order Item (Overstock to Overstock),2024-07-08,['MAT-5'],['Plant5'],,['SO_ITEM--75-2'],['CUSTOMER--14'],,69.0,69.0,['MAT-5_Plant5'],e48
+Create Purchase Order Item (Overstock),2024-07-15,['MAT-5'],['Plant4'],['PO_ITEM--115-2'],,,['SUPPLIER--14'],69.0,69.0,['MAT-5_Plant4'],e49
+Goods Receipt (Overstock to Overstock),2024-08-05,['MAT-5'],['Plant5'],['PO_ITEM--2-4'],,,['SUPPLIER--5'],69.0,69.0,['MAT-5_Plant5'],e50
+Create Sales Order Item (Understock to Understock),2023-12-04,['MAT-6'],['Plant4'],,['SO_ITEM--81-1'],['CUSTOMER--20'],,0.0,0.0,['MAT-6_Plant4'],e52
+Goods Receipt (Understock to Understock),2023-12-19,['MAT-6'],['Plant5'],['PO_ITEM--37-4'],,,['SUPPLIER--4'],0.0,0.0,['MAT-6_Plant5'],e53
+Create Purchase Order Item (Overstock),2024-02-02,['MAT-6'],['Plant2'],['PO_ITEM--7-1'],,,['SUPPLIER--19'],62.0,62.0,['MAT-6_Plant2'],e54
+Create Sales Order Item (Overstock to Overstock),2024-03-13,['MAT-6'],['Plant2'],,['SO_ITEM--84-2'],['CUSTOMER--22'],,62.0,62.0,['MAT-6_Plant2'],e55
+Create Purchase Order Item (Overstock),2024-04-04,['MAT-6'],['Plant2'],['PO_ITEM--95-3'],,,['SUPPLIER--17'],62.0,62.0,['MAT-6_Plant2'],e56
+Create Sales Order Item (Overstock to Overstock),2024-04-28,['MAT-6'],['Plant5'],,['SO_ITEM--172-4'],['CUSTOMER--10'],,62.0,62.0,['MAT-6_Plant5'],e57
+Create Sales Order Item (Overstock to Overstock),2024-05-08,['MAT-6'],['Plant3'],,['SO_ITEM--39-2'],['CUSTOMER--28'],,62.0,62.0,['MAT-6_Plant3'],e58
+Create Sales Order Item (Overstock to Overstock),2024-05-09,['MAT-6'],['Plant4'],,['SO_ITEM--97-2'],['CUSTOMER--2'],,62.0,62.0,['MAT-6_Plant4'],e59
+Create Purchase Order Item (Overstock),2024-05-27,['MAT-6'],['Plant4'],['PO_ITEM--41-1'],,,['SUPPLIER--9'],62.0,62.0,['MAT-6_Plant4'],e60
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-6'],['Plant3'],['PO_ITEM--88-2'],,,['SUPPLIER--30'],62.0,62.0,['MAT-6_Plant3'],e61
+Create Sales Order Item (Overstock to Overstock),2024-09-09,['MAT-6'],['Plant2'],,['SO_ITEM--13-4'],['CUSTOMER--1'],,62.0,62.0,['MAT-6_Plant2'],e62
+Create Purchase Order Item (Overstock),2024-09-23,['MAT-6'],['Plant2'],['PO_ITEM--79-2'],,,['SUPPLIER--3'],62.0,62.0,['MAT-6_Plant2'],e63
+Create Purchase Order Item (Understock),2023-11-29,['MAT-7'],['Plant4'],['PO_ITEM--75-2'],,,['SUPPLIER--30'],0.0,0.0,['MAT-7_Plant4'],e65
+Create Sales Order Item (Understock to Understock),2023-12-02,['MAT-7'],['Plant4'],,['SO_ITEM--143-2'],['CUSTOMER--19'],,0.0,0.0,['MAT-7_Plant4'],e66
+Create Sales Order Item (Understock to Understock),2023-12-06,['MAT-7'],['Plant2'],,['SO_ITEM--164-2'],['CUSTOMER--16'],,0.0,0.0,['MAT-7_Plant2'],e67
+Create Sales Order Item (Understock to Understock),2024-01-22,['MAT-7'],['Plant2'],,['SO_ITEM--159-3'],['CUSTOMER--2'],,0.0,0.0,['MAT-7_Plant2'],e68
+Create Sales Order Item (Understock to Understock),2024-02-24,['MAT-7'],['Plant3'],,['SO_ITEM--147-1'],['CUSTOMER--19'],,0.0,0.0,['MAT-7_Plant3'],e69
+Create Purchase Suggestion Item (Understock),2024-03-04,['MAT-7'],['Plant2'],,,,,0.0,0.0,['MAT-7_Plant2'],e70
+Create Sales Order Item (Understock to Understock),2024-03-25,['MAT-7'],['Plant2'],,['SO_ITEM--63-4'],['CUSTOMER--49'],,0.0,0.0,['MAT-7_Plant2'],e71
+Goods Receipt (Understock to Understock),2024-04-19,['MAT-7'],['Plant1'],['PO_ITEM--56-3'],,,['SUPPLIER--10'],0.0,0.0,['MAT-7_Plant1'],e72
+Create Purchase Order Item (Overstock),2024-04-22,['MAT-7'],['Plant3'],['PO_ITEM--118-2'],,,['SUPPLIER--26'],37.0,37.0,['MAT-7_Plant3'],e73
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-7'],['Plant3'],,['SO_ITEM--20-3'],['CUSTOMER--1'],,37.0,37.0,['MAT-7_Plant3'],e74
+Create Purchase Order Item (Overstock),2024-06-18,['MAT-7'],['Plant5'],['PO_ITEM--77-2'],,,['SUPPLIER--22'],37.0,37.0,['MAT-7_Plant5'],e75
+Goods Receipt (Overstock to Overstock),2024-06-21,['MAT-7'],['Plant2'],['PO_ITEM--81-4'],,,['SUPPLIER--19'],37.0,37.0,['MAT-7_Plant2'],e76
+Create Sales Order Item (Overstock to Overstock),2024-07-26,['MAT-7'],['Plant1'],,['SO_ITEM--189-1'],['CUSTOMER--9'],,124.0,124.0,['MAT-7_Plant1'],e77
+Create Sales Order Item (Overstock to Overstock),2024-08-16,['MAT-7'],['Plant3'],,['SO_ITEM--157-2'],['CUSTOMER--44'],,124.0,124.0,['MAT-7_Plant3'],e78
+Create Purchase Order Item (Understock),2024-01-02,['MAT-8'],['Plant3'],['PO_ITEM--17-5'],,,['SUPPLIER--12'],0.0,49.0,['MAT-8_Plant3'],e80
+Create Sales Order Item (Overstock to Overstock),2024-01-12,['MAT-8'],['Plant2'],,['SO_ITEM--68-5'],['CUSTOMER--34'],,94.0,237.0,['MAT-8_Plant2'],e81
+Create Sales Order Item,2024-02-02,['MAT-8'],['Plant3'],,['SO_ITEM--109-3'],['CUSTOMER--27'],,0.0,49.0,['MAT-8_Plant3'],e82
+Create Sales Order Item (Overstock to Overstock),2024-02-18,['MAT-8'],['Plant5'],,['SO_ITEM--18-3'],['CUSTOMER--14'],,94.0,237.0,['MAT-8_Plant5'],e83
+Create Sales Order Item,2024-03-13,['MAT-8'],['Plant3'],,['SO_ITEM--84-1'],['CUSTOMER--22'],,0.0,49.0,['MAT-8_Plant3'],e84
+Create Sales Order Item (Overstock to Overstock),2024-04-05,['MAT-8'],['Plant5'],,['SO_ITEM--140-2'],['CUSTOMER--13'],,94.0,237.0,['MAT-8_Plant5'],e85
+Create Sales Order Item (Overstock to Overstock),2024-04-11,['MAT-8'],['Plant2'],,['SO_ITEM--119-1'],['CUSTOMER--49'],,94.0,237.0,['MAT-8_Plant2'],e86
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-8'],['Plant4'],['PO_ITEM--88-1'],,,['SUPPLIER--30'],94.0,237.0,['MAT-8_Plant4'],e87
+Goods Issue (Overstock to Overstock),2024-07-30,['MAT-8'],['Plant5'],,,['CUSTOMER--540224'],,94.0,237.0,['MAT-8_Plant5'],e88
+Create Sales Order Item,2024-08-05,['MAT-8'],['Plant5'],,['SO_ITEM--57-1'],['CUSTOMER--21'],,0.0,143.0,['MAT-8_Plant5'],e89
+Create Purchase Order Item (Understock),2024-08-08,['MAT-8'],['Plant4'],['PO_ITEM--114-1'],,,['SUPPLIER--30'],0.0,143.0,['MAT-8_Plant4'],e90
+Create Purchase Order Item (Understock),2024-09-23,['MAT-8'],['Plant2'],['PO_ITEM--79-1'],,,['SUPPLIER--3'],0.0,143.0,['MAT-8_Plant2'],e91
+Create Purchase Order Item (Understock),2023-11-07,['MAT-9'],['Plant2'],['PO_ITEM--45-4'],,,['SUPPLIER--15'],0.0,0.0,['MAT-9_Plant2'],e93
+Goods Receipt (Understock to Understock),2023-11-25,['MAT-9'],['Plant2'],['PO_ITEM--11-5'],,,['SUPPLIER--24'],0.0,0.0,['MAT-9_Plant2'],e94
+Create Purchase Order Item (Overstock),2023-12-07,['MAT-9'],['Plant4'],['PO_ITEM--148-4'],,,['SUPPLIER--30'],88.0,88.0,['MAT-9_Plant4'],e95
+Create Sales Order Item (Overstock to Overstock),2023-12-31,['MAT-9'],['Plant5'],,['SO_ITEM--101-3'],['CUSTOMER--49'],,88.0,88.0,['MAT-9_Plant5'],e96
+Create Purchase Suggestion Item (Overstock),2024-02-22,['MAT-9'],['Plant3'],,,,,88.0,88.0,['MAT-9_Plant3'],e97
+Create Purchase Order Item (Overstock),2024-02-24,['MAT-9'],['Plant5'],['PO_ITEM--119-1'],,,['SUPPLIER--8'],88.0,88.0,['MAT-9_Plant5'],e98
+Create Sales Order Item (Overstock to Overstock),2024-04-03,['MAT-9'],['Plant5'],,['SO_ITEM--40-1'],['CUSTOMER--6'],,88.0,88.0,['MAT-9_Plant5'],e99
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-9'],['Plant5'],,['SO_ITEM--193-1'],['CUSTOMER--8'],,88.0,88.0,['MAT-9_Plant5'],e100
+Create Purchase Order Item (Overstock),2024-05-21,['MAT-9'],['Plant3'],['PO_ITEM--32-2'],,,['SUPPLIER--12'],88.0,88.0,['MAT-9_Plant3'],e101
+Create Sales Order Item (Overstock to Overstock),2024-06-07,['MAT-9'],['Plant2'],,['SO_ITEM--11-2'],['CUSTOMER--33'],,88.0,88.0,['MAT-9_Plant2'],e102
+Create Purchase Order Item (Overstock),2024-07-13,['MAT-9'],['Plant2'],['PO_ITEM--89-3'],,,['SUPPLIER--23'],88.0,88.0,['MAT-9_Plant2'],e103
+Goods Issue (Overstock to Overstock),2024-07-23,['MAT-9'],['Plant3'],,,['CUSTOMER--150909'],,88.0,88.0,['MAT-9_Plant3'],e104
+Create Purchase Suggestion Item (Overstock),2024-09-17,['MAT-9'],['Plant5'],,,,,36.0,36.0,['MAT-9_Plant5'],e105
+Create Purchase Order Item (Overstock),2024-09-23,['MAT-9'],['Plant4'],['PO_ITEM--93-2'],,,['SUPPLIER--29'],36.0,36.0,['MAT-9_Plant4'],e106
+Create Purchase Order Item (Understock),2024-01-02,['MAT-10'],['Plant1'],['PO_ITEM--17-1'],,,['SUPPLIER--12'],0.0,0.0,['MAT-10_Plant1'],e108
+Create Sales Order Item (Understock to Understock),2024-01-22,['MAT-10'],['Plant1'],,['SO_ITEM--159-2'],['CUSTOMER--2'],,0.0,0.0,['MAT-10_Plant1'],e109
+Create Sales Order Item,2024-01-26,['MAT-10'],['Plant3'],,['SO_ITEM--95-3'],['CUSTOMER--40'],,10.0,20.0,['MAT-10_Plant3'],e110
+Create Sales Order Item (Understock to Understock),2024-01-31,['MAT-10'],['Plant5'],,['SO_ITEM--41-1'],['CUSTOMER--38'],,0.0,0.0,['MAT-10_Plant5'],e111
+Create Sales Order Item,2024-01-31,['MAT-10'],['Plant3'],,['SO_ITEM--41-3'],['CUSTOMER--38'],,10.0,20.0,['MAT-10_Plant3'],e112
+Goods Receipt (Understock to Understock),2024-02-06,['MAT-10'],['Plant2'],['PO_ITEM--110-5'],,,['SUPPLIER--25'],0.0,0.0,['MAT-10_Plant2'],e113
+Create Purchase Order Item (Overstock),2024-02-27,['MAT-10'],['Plant2'],['PO_ITEM--37-3'],,,['SUPPLIER--4'],27.0,27.0,['MAT-10_Plant2'],e114
+Create Purchase Order Item (Overstock),2024-03-01,['MAT-10'],['Plant4'],['PO_ITEM--40-1'],,,['SUPPLIER--18'],27.0,27.0,['MAT-10_Plant4'],e115
+Create Purchase Order Item (Normal),2024-03-16,['MAT-10'],['Plant3'],['PO_ITEM--92-4'],,,['SUPPLIER--28'],37.0,47.0,['MAT-10_Plant3'],e116
+Create Sales Order Item (Overstock to Overstock),2024-04-20,['MAT-10'],['Plant1'],,['SO_ITEM--98-1'],['CUSTOMER--49'],,27.0,27.0,['MAT-10_Plant1'],e117
+Create Sales Order Item,2024-05-15,['MAT-10'],['Plant3'],,['SO_ITEM--196-4'],['CUSTOMER--26'],,37.0,47.0,['MAT-10_Plant3'],e118
+Create Sales Order Item (Overstock to Overstock),2024-05-18,['MAT-10'],['Plant2'],,['SO_ITEM--19-2'],['CUSTOMER--25'],,27.0,27.0,['MAT-10_Plant2'],e119
+Create Purchase Suggestion Item (Overstock),2024-08-13,['MAT-10'],['Plant5'],,,,,27.0,27.0,['MAT-10_Plant5'],e120
+Create Sales Order Item,2024-09-09,['MAT-10'],['Plant3'],,['SO_ITEM--13-2'],['CUSTOMER--1'],,37.0,47.0,['MAT-10_Plant3'],e121
+Goods Issue,2024-09-24,['MAT-10'],['Plant3'],,,['CUSTOMER--881471'],,37.0,47.0,['MAT-10_Plant3'],e122
+Create Sales Order Item (Understock to Understock),2023-10-26,['MAT-11'],['Plant4'],,['SO_ITEM--129-1'],['CUSTOMER--49'],,0.0,0.0,['MAT-11_Plant4'],e124
+Create Purchase Order Item (Understock),2023-11-07,['MAT-11'],['Plant2'],['PO_ITEM--135-3'],,,['SUPPLIER--6'],0.0,0.0,['MAT-11_Plant2'],e125
+Goods Receipt (Understock to Normal),2023-11-10,['MAT-11'],['Plant5'],['PO_ITEM--137-1'],,,['SUPPLIER--18'],33.0,66.0,['MAT-11_Plant5'],e126
+Create Sales Order Item (Overstock to Overstock),2023-12-15,['MAT-11'],['Plant4'],,['SO_ITEM--50-2'],['CUSTOMER--48'],,46.0,46.0,['MAT-11_Plant4'],e127
+Goods Issue (Overstock to Overstock),2023-12-16,['MAT-11'],['Plant5'],,,['CUSTOMER--183437'],,79.0,112.0,['MAT-11_Plant5'],e128
+Create Sales Order Item,2024-01-04,['MAT-11'],['Plant1'],,['SO_ITEM--24-1'],['CUSTOMER--33'],,0.0,33.0,['MAT-11_Plant1'],e129
+Goods Receipt (Understock to Overstock),2024-01-07,['MAT-11'],['Plant3'],['PO_ITEM--100-5'],,,['SUPPLIER--15'],0.0,33.0,['MAT-11_Plant3'],e130
+Create Purchase Suggestion Item (Overstock),2024-05-10,['MAT-11'],['Plant1'],,,,,82.0,115.0,['MAT-11_Plant1'],e131
+Create Sales Order Item (Overstock to Overstock),2024-06-20,['MAT-11'],['Plant3'],,['SO_ITEM--141-1'],['CUSTOMER--23'],,82.0,115.0,['MAT-11_Plant3'],e132
+Create Sales Order Item (Overstock to Overstock),2024-08-04,['MAT-11'],['Plant1'],,['SO_ITEM--65-2'],['CUSTOMER--1'],,82.0,115.0,['MAT-11_Plant1'],e133
+Create Purchase Order Item (Overstock),2024-08-15,['MAT-11'],['Plant1'],['PO_ITEM--59-1'],,,['SUPPLIER--30'],82.0,115.0,['MAT-11_Plant1'],e134
+Create Sales Order Item (Overstock to Overstock),2024-08-23,['MAT-11'],['Plant2'],,['SO_ITEM--31-2'],['CUSTOMER--15'],,49.0,49.0,['MAT-11_Plant2'],e135
+Goods Receipt (Normal to Overstock),2024-02-25,['MAT-12'],['Plant5'],['PO_ITEM--43-1'],,,['SUPPLIER--6'],80.0,160.0,['MAT-12_Plant5'],e137
+Create Purchase Order Item (Overstock),2024-03-13,['MAT-12'],['Plant1'],['PO_ITEM--43-2'],,,['SUPPLIER--6'],17.0,17.0,['MAT-12_Plant1'],e138
+Create Purchase Order Item (Overstock),2024-03-14,['MAT-12'],['Plant2'],['PO_ITEM--49-1'],,,['SUPPLIER--20'],17.0,17.0,['MAT-12_Plant2'],e139
+Create Purchase Order Item (Overstock),2024-03-14,['MAT-12'],['Plant1'],['PO_ITEM--49-3'],,,['SUPPLIER--20'],17.0,17.0,['MAT-12_Plant1'],e140
+Create Purchase Order Item (Overstock),2024-03-14,['MAT-12'],['Plant2'],['PO_ITEM--129-4'],,,['SUPPLIER--11'],17.0,17.0,['MAT-12_Plant2'],e141
+Create Purchase Order Item (Overstock),2024-03-26,['MAT-12'],['Plant1'],['PO_ITEM--78-1'],,,['SUPPLIER--22'],17.0,17.0,['MAT-12_Plant1'],e142
+Create Purchase Order Item (Overstock),2024-04-18,['MAT-12'],['Plant2'],['PO_ITEM--120-2'],,,['SUPPLIER--6'],17.0,17.0,['MAT-12_Plant2'],e143
+Create Purchase Order Item (Overstock),2024-05-12,['MAT-12'],['Plant1'],['PO_ITEM--20-1'],,,['SUPPLIER--25'],17.0,17.0,['MAT-12_Plant1'],e144
+Create Purchase Order Item (Overstock),2024-06-08,['MAT-12'],['Plant1'],['PO_ITEM--86-4'],,,['SUPPLIER--18'],17.0,17.0,['MAT-12_Plant1'],e145
+Create Sales Order Item (Overstock to Overstock),2024-07-11,['MAT-12'],['Plant3'],,['SO_ITEM--180-4'],['CUSTOMER--28'],,17.0,17.0,['MAT-12_Plant3'],e146
+Goods Issue (Overstock to Overstock),2024-09-20,['MAT-12'],['Plant5'],,,['CUSTOMER--591492'],,97.0,177.0,['MAT-12_Plant5'],e147
+Create Sales Order Item (Understock to Understock),2023-11-06,['MAT-13'],['Plant3'],,['SO_ITEM--118-2'],['CUSTOMER--8'],,0.0,0.0,['MAT-13_Plant3'],e149
+Create Purchase Order Item (Understock),2023-11-23,['MAT-13'],['Plant1'],['PO_ITEM--138-4'],,,['SUPPLIER--29'],0.0,0.0,['MAT-13_Plant1'],e150
+Create Purchase Order Item (Understock),2023-12-28,['MAT-13'],['Plant2'],['PO_ITEM--76-1'],,,['SUPPLIER--13'],0.0,0.0,['MAT-13_Plant2'],e151
+Create Sales Order Item (Understock to Understock),2024-01-28,['MAT-13'],['Plant3'],,['SO_ITEM--5-2'],['CUSTOMER--12'],,0.0,0.0,['MAT-13_Plant3'],e152
+Create Purchase Order Item (Understock),2024-03-16,['MAT-13'],['Plant3'],['PO_ITEM--92-1'],,,['SUPPLIER--28'],0.0,0.0,['MAT-13_Plant3'],e153
+Create Sales Order Item (Understock to Understock),2024-03-26,['MAT-13'],['Plant2'],,['SO_ITEM--7-3'],['CUSTOMER--33'],,0.0,0.0,['MAT-13_Plant2'],e154
+Create Purchase Order Item (Understock),2024-04-18,['MAT-13'],['Plant3'],['PO_ITEM--120-4'],,,['SUPPLIER--6'],0.0,0.0,['MAT-13_Plant3'],e155
+Create Sales Order Item (Understock to Understock),2024-05-15,['MAT-13'],['Plant2'],,['SO_ITEM--196-1'],['CUSTOMER--26'],,0.0,0.0,['MAT-13_Plant2'],e156
+Goods Receipt (Understock to Understock),2024-06-06,['MAT-13'],['Plant1'],['PO_ITEM--97-2'],,,['SUPPLIER--19'],0.0,0.0,['MAT-13_Plant1'],e157
+Create Sales Order Item (Overstock to Overstock),2024-06-19,['MAT-13'],['Plant4'],,['SO_ITEM--8-4'],['CUSTOMER--34'],,60.0,60.0,['MAT-13_Plant4'],e158
+Create Purchase Order Item (Overstock),2024-07-02,['MAT-13'],['Plant5'],['PO_ITEM--31-4'],,,['SUPPLIER--21'],60.0,60.0,['MAT-13_Plant5'],e159
+Create Purchase Order Item (Overstock),2024-08-08,['MAT-13'],['Plant2'],['PO_ITEM--114-2'],,,['SUPPLIER--30'],60.0,60.0,['MAT-13_Plant2'],e160
+Create Sales Order Item (Overstock to Overstock),2024-09-25,['MAT-13'],['Plant3'],,['SO_ITEM--87-2'],['CUSTOMER--17'],,60.0,60.0,['MAT-13_Plant3'],e161
+Create Sales Order Item (Overstock to Overstock),2023-10-17,['MAT-14'],['Plant1'],,['SO_ITEM--194-1'],['CUSTOMER--5'],,106.0,212.0,['MAT-14_Plant1'],e163
+Create Purchase Order Item (Understock),2023-11-07,['MAT-14'],['Plant2'],['PO_ITEM--135-4'],,,['SUPPLIER--6'],0.0,0.0,['MAT-14_Plant2'],e164
+Create Sales Order Item (Overstock to Overstock),2023-12-04,['MAT-14'],['Plant5'],,['SO_ITEM--192-1'],['CUSTOMER--30'],,63.0,126.0,['MAT-14_Plant5'],e165
+Create Purchase Order Item (Overstock),2023-12-19,['MAT-14'],['Plant5'],['PO_ITEM--117-2'],,,['SUPPLIER--20'],63.0,126.0,['MAT-14_Plant5'],e166
+Goods Issue (Overstock to Overstock),2023-12-24,['MAT-14'],['Plant5'],,,['CUSTOMER--347771'],,63.0,126.0,['MAT-14_Plant5'],e167
+Create Purchase Order Item (Overstock),2024-01-02,['MAT-14'],['Plant4'],['PO_ITEM--67-1'],,,['SUPPLIER--26'],129.0,321.0,['MAT-14_Plant4'],e168
+Create Sales Order Item (Overstock to Overstock),2024-01-07,['MAT-14'],['Plant4'],,['SO_ITEM--173-5'],['CUSTOMER--13'],,129.0,321.0,['MAT-14_Plant4'],e169
+Create Purchase Order Item (Overstock),2024-01-12,['MAT-14'],['Plant4'],['PO_ITEM--146-1'],,,['SUPPLIER--21'],129.0,321.0,['MAT-14_Plant4'],e170
+Create Purchase Order Item (Understock),2024-02-10,['MAT-14'],['Plant5'],['PO_ITEM--25-4'],,,['SUPPLIER--24'],0.0,63.0,['MAT-14_Plant5'],e171
+Create Sales Order Item,2024-03-13,['MAT-14'],['Plant1'],,['SO_ITEM--84-3'],['CUSTOMER--22'],,43.0,149.0,['MAT-14_Plant1'],e172
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-14'],['Plant4'],,['SO_ITEM--63-2'],['CUSTOMER--49'],,129.0,321.0,['MAT-14_Plant4'],e173
+Create Sales Order Item (Overstock to Overstock),2024-04-05,['MAT-14'],['Plant3'],,['SO_ITEM--140-1'],['CUSTOMER--13'],,43.0,149.0,['MAT-14_Plant3'],e174
+Create Purchase Suggestion Item (Understock),2024-04-07,['MAT-14'],['Plant5'],,,,,0.0,63.0,['MAT-14_Plant5'],e175
+Goods Issue,2024-04-13,['MAT-14'],['Plant1'],,,['CUSTOMER--125404'],,43.0,149.0,['MAT-14_Plant1'],e176
+Create Sales Order Item,2024-04-22,['MAT-14'],['Plant3'],,['SO_ITEM--47-1'],['CUSTOMER--2'],,0.0,106.0,['MAT-14_Plant3'],e177
+Create Purchase Suggestion Item (Understock),2024-07-28,['MAT-14'],['Plant1'],,,,,0.0,106.0,['MAT-14_Plant1'],e178
+Goods Issue (Overstock to Overstock),2024-09-04,['MAT-14'],['Plant4'],,,['CUSTOMER--192021'],,86.0,278.0,['MAT-14_Plant4'],e179
+Create Sales Order Item (Understock to Understock),2023-10-27,['MAT-15'],['Plant2'],,['SO_ITEM--2-1'],['CUSTOMER--49'],,0.0,0.0,['MAT-15_Plant2'],e181
+Create Sales Order Item (Understock to Understock),2023-10-27,['MAT-15'],['Plant5'],,['SO_ITEM--2-2'],['CUSTOMER--49'],,0.0,0.0,['MAT-15_Plant5'],e182
+Create Purchase Order Item (Understock),2023-11-06,['MAT-15'],['Plant4'],['PO_ITEM--130-4'],,,['SUPPLIER--26'],0.0,0.0,['MAT-15_Plant4'],e183
+Create Purchase Order Item (Understock),2023-11-07,['MAT-15'],['Plant1'],['PO_ITEM--45-1'],,,['SUPPLIER--15'],0.0,0.0,['MAT-15_Plant1'],e184
+Create Purchase Suggestion Item (Understock),2023-11-25,['MAT-15'],['Plant3'],,,,,0.0,0.0,['MAT-15_Plant3'],e185
+Create Purchase Order Item (Understock),2023-12-05,['MAT-15'],['Plant4'],['PO_ITEM--63-2'],,,['SUPPLIER--26'],0.0,0.0,['MAT-15_Plant4'],e186
+Goods Receipt (Understock to Understock),2023-12-19,['MAT-15'],['Plant1'],['PO_ITEM--126-5'],,,['SUPPLIER--3'],0.0,0.0,['MAT-15_Plant1'],e187
+Create Sales Order Item (Overstock to Overstock),2024-01-25,['MAT-15'],['Plant5'],,['SO_ITEM--137-2'],['CUSTOMER--50'],,4.0,4.0,['MAT-15_Plant5'],e188
+Create Sales Order Item (Overstock to Overstock),2024-03-26,['MAT-15'],['Plant5'],,['SO_ITEM--7-4'],['CUSTOMER--33'],,4.0,4.0,['MAT-15_Plant5'],e189
+Create Sales Order Item (Overstock to Overstock),2024-03-30,['MAT-15'],['Plant4'],,['SO_ITEM--64-1'],['CUSTOMER--4'],,4.0,4.0,['MAT-15_Plant4'],e190
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-15'],['Plant3'],,['SO_ITEM--20-2'],['CUSTOMER--1'],,4.0,4.0,['MAT-15_Plant3'],e191
+Create Purchase Suggestion Item (Overstock),2024-06-20,['MAT-15'],['Plant4'],,,,,4.0,4.0,['MAT-15_Plant4'],e192
+Create Purchase Suggestion Item (Overstock),2024-07-18,['MAT-15'],['Plant4'],,,,,4.0,4.0,['MAT-15_Plant4'],e193
+Create Sales Order Item (Overstock to Overstock),2024-09-03,['MAT-15'],['Plant3'],,['SO_ITEM--83-1'],['CUSTOMER--17'],,4.0,4.0,['MAT-15_Plant3'],e194
+Create Purchase Order Item (Overstock),2024-09-16,['MAT-15'],['Plant4'],['PO_ITEM--51-1'],,,['SUPPLIER--1'],4.0,4.0,['MAT-15_Plant4'],e195
+Create Sales Order Item (Understock to Understock),2023-10-12,['MAT-16'],['Plant1'],,['SO_ITEM--96-2'],['CUSTOMER--10'],,0.0,0.0,['MAT-16_Plant1'],e197
+Create Sales Order Item (Understock to Understock),2023-10-13,['MAT-16'],['Plant5'],,['SO_ITEM--27-1'],['CUSTOMER--7'],,0.0,0.0,['MAT-16_Plant5'],e198
+Create Purchase Order Item (Understock),2023-12-25,['MAT-16'],['Plant5'],['PO_ITEM--122-1'],,,['SUPPLIER--20'],0.0,0.0,['MAT-16_Plant5'],e199
+Create Purchase Order Item (Understock),2024-03-16,['MAT-16'],['Plant2'],['PO_ITEM--61-2'],,,['SUPPLIER--22'],0.0,0.0,['MAT-16_Plant2'],e200
+Create Purchase Suggestion Item (Understock),2024-04-24,['MAT-16'],['Plant1'],,,,,0.0,0.0,['MAT-16_Plant1'],e201
+Create Sales Order Item (Understock to Understock),2024-05-22,['MAT-16'],['Plant5'],,['SO_ITEM--115-1'],['CUSTOMER--15'],,0.0,0.0,['MAT-16_Plant5'],e202
+Create Sales Order Item (Understock to Understock),2023-12-27,['MAT-17'],['Plant4'],,['SO_ITEM--155-3'],['CUSTOMER--42'],,0.0,0.0,['MAT-17_Plant4'],e204
+Create Purchase Order Item (Understock),2024-01-08,['MAT-17'],['Plant5'],['PO_ITEM--84-5'],,,['SUPPLIER--13'],0.0,0.0,['MAT-17_Plant5'],e205
+Create Purchase Order Item (Understock),2024-06-08,['MAT-17'],['Plant4'],['PO_ITEM--86-2'],,,['SUPPLIER--18'],0.0,0.0,['MAT-17_Plant4'],e206
+Goods Receipt (Understock to Understock),2024-06-17,['MAT-17'],['Plant1'],['PO_ITEM--45-2'],,,['SUPPLIER--15'],0.0,0.0,['MAT-17_Plant1'],e207
+Create Sales Order Item (Overstock to Overstock),2024-08-05,['MAT-17'],['Plant1'],,['SO_ITEM--57-2'],['CUSTOMER--21'],,86.0,86.0,['MAT-17_Plant1'],e208
+Create Purchase Suggestion Item (Understock),2023-10-09,['MAT-18'],['Plant4'],,,,,88.0,176.0,['MAT-18_Plant4'],e210
+Goods Issue,2023-11-22,['MAT-18'],['Plant1'],,,['CUSTOMER--941633'],,22.0,44.0,['MAT-18_Plant1'],e211
+Create Sales Order Item,2023-12-16,['MAT-18'],['Plant4'],,['SO_ITEM--28-4'],['CUSTOMER--44'],,71.0,159.0,['MAT-18_Plant4'],e212
+Create Sales Order Item,2023-12-26,['MAT-18'],['Plant4'],,['SO_ITEM--123-3'],['CUSTOMER--31'],,71.0,159.0,['MAT-18_Plant4'],e213
+Create Sales Order Item (Overstock to Overstock),2024-01-16,['MAT-18'],['Plant3'],,['SO_ITEM--42-1'],['CUSTOMER--1'],,21.0,59.0,['MAT-18_Plant3'],e214
+Goods Issue (Overstock to Overstock),2024-02-01,['MAT-18'],['Plant2'],,,['CUSTOMER--883568'],,71.0,159.0,['MAT-18_Plant2'],e215
+Create Purchase Order Item (Overstock),2024-02-24,['MAT-18'],['Plant3'],['PO_ITEM--16-2'],,,['SUPPLIER--13'],12.0,50.0,['MAT-18_Plant3'],e216
+Create Purchase Order Item (Overstock),2024-03-07,['MAT-18'],['Plant2'],['PO_ITEM--4-3'],,,['SUPPLIER--17'],62.0,150.0,['MAT-18_Plant2'],e217
+Goods Issue,2024-04-07,['MAT-18'],['Plant4'],,,['CUSTOMER--925297'],,62.0,150.0,['MAT-18_Plant4'],e218
+Create Sales Order Item (Overstock to Overstock),2024-05-28,['MAT-18'],['Plant2'],,['SO_ITEM--69-1'],['CUSTOMER--11'],,50.0,138.0,['MAT-18_Plant2'],e219
+Goods Receipt (Understock to Overstock),2024-07-09,['MAT-18'],['Plant3'],['PO_ITEM--137-4'],,,['SUPPLIER--18'],0.0,38.0,['MAT-18_Plant3'],e220
+Create Sales Order Item (Overstock to Overstock),2024-07-31,['MAT-18'],['Plant2'],,['SO_ITEM--112-5'],['CUSTOMER--3'],,67.0,155.0,['MAT-18_Plant2'],e221
+Goods Issue (Understock to Understock),2024-08-28,['MAT-18'],['Plant1'],,,['CUSTOMER--807614'],,1.0,23.0,['MAT-18_Plant1'],e222
+Goods Issue,2024-09-10,['MAT-18'],['Plant4'],,,['CUSTOMER--479873'],,66.0,154.0,['MAT-18_Plant4'],e223
+Create Purchase Order Item (Understock),2024-09-11,['MAT-18'],['Plant2'],['PO_ITEM--87-2'],,,['SUPPLIER--23'],0.0,88.0,['MAT-18_Plant2'],e224
+Create Sales Order Item,2024-09-12,['MAT-18'],['Plant2'],,['SO_ITEM--187-1'],['CUSTOMER--21'],,0.0,88.0,['MAT-18_Plant2'],e225
+Create Purchase Order Item (Understock),2024-09-23,['MAT-18'],['Plant5'],['PO_ITEM--93-1'],,,['SUPPLIER--29'],0.0,88.0,['MAT-18_Plant5'],e226
+Create Purchase Order Item (Understock),2024-09-25,['MAT-18'],['Plant4'],['PO_ITEM--133-4'],,,['SUPPLIER--20'],0.0,88.0,['MAT-18_Plant4'],e227
+Create Sales Order Item (Understock to Understock),2023-10-23,['MAT-19'],['Plant5'],,['SO_ITEM--38-1'],['CUSTOMER--34'],,0.0,0.0,['MAT-19_Plant5'],e229
+Create Sales Order Item (Understock to Understock),2023-12-16,['MAT-19'],['Plant2'],,['SO_ITEM--127-1'],['CUSTOMER--44'],,0.0,0.0,['MAT-19_Plant2'],e230
+Create Purchase Suggestion Item (Understock),2023-12-24,['MAT-19'],['Plant2'],,,,,0.0,0.0,['MAT-19_Plant2'],e231
+Create Sales Order Item (Understock to Understock),2024-01-19,['MAT-19'],['Plant3'],,['SO_ITEM--53-4'],['CUSTOMER--10'],,0.0,0.0,['MAT-19_Plant3'],e232
+Create Sales Order Item (Understock to Understock),2024-01-30,['MAT-19'],['Plant4'],,['SO_ITEM--177-4'],['CUSTOMER--35'],,0.0,0.0,['MAT-19_Plant4'],e233
+Create Purchase Order Item (Understock),2024-02-26,['MAT-19'],['Plant2'],['PO_ITEM--3-5'],,,['SUPPLIER--12'],0.0,0.0,['MAT-19_Plant2'],e234
+Create Sales Order Item (Understock to Understock),2024-04-11,['MAT-19'],['Plant2'],,['SO_ITEM--119-3'],['CUSTOMER--49'],,0.0,0.0,['MAT-19_Plant2'],e235
+Create Purchase Order Item (Understock),2024-04-22,['MAT-19'],['Plant2'],['PO_ITEM--118-1'],,,['SUPPLIER--26'],0.0,0.0,['MAT-19_Plant2'],e236
+Create Purchase Order Item (Understock),2024-05-21,['MAT-19'],['Plant5'],['PO_ITEM--32-1'],,,['SUPPLIER--12'],0.0,0.0,['MAT-19_Plant5'],e237
+Create Sales Order Item (Understock to Understock),2024-07-16,['MAT-19'],['Plant2'],,['SO_ITEM--110-1'],['CUSTOMER--48'],,0.0,0.0,['MAT-19_Plant2'],e238
+Create Purchase Suggestion Item (Understock),2024-08-01,['MAT-19'],['Plant3'],,,,,0.0,0.0,['MAT-19_Plant3'],e239
+Create Sales Order Item (Understock to Understock),2023-10-25,['MAT-20'],['Plant5'],,['SO_ITEM--30-2'],['CUSTOMER--39'],,0.0,0.0,['MAT-20_Plant5'],e241
+Create Purchase Suggestion Item (Understock),2023-10-26,['MAT-20'],['Plant4'],,,,,0.0,0.0,['MAT-20_Plant4'],e242
+Create Sales Order Item (Overstock to Overstock),2023-12-06,['MAT-20'],['Plant3'],,['SO_ITEM--164-4'],['CUSTOMER--16'],,39.0,78.0,['MAT-20_Plant3'],e243
+Create Purchase Order Item (Understock),2023-12-22,['MAT-20'],['Plant4'],['PO_ITEM--47-4'],,,['SUPPLIER--27'],0.0,0.0,['MAT-20_Plant4'],e244
+Create Sales Order Item (Understock to Understock),2024-01-25,['MAT-20'],['Plant5'],,['SO_ITEM--137-4'],['CUSTOMER--50'],,0.0,0.0,['MAT-20_Plant5'],e245
+Create Sales Order Item,2024-05-07,['MAT-20'],['Plant2'],,['SO_ITEM--35-1'],['CUSTOMER--41'],,39.0,78.0,['MAT-20_Plant2'],e246
+Create Sales Order Item (Overstock to Overstock),2024-05-13,['MAT-20'],['Plant3'],,['SO_ITEM--74-1'],['CUSTOMER--32'],,39.0,78.0,['MAT-20_Plant3'],e247
+Create Purchase Suggestion Item (Normal),2024-05-19,['MAT-20'],['Plant2'],,,,,39.0,78.0,['MAT-20_Plant2'],e248
+Goods Issue,2024-07-07,['MAT-20'],['Plant2'],,,['CUSTOMER--639156'],,39.0,78.0,['MAT-20_Plant2'],e249
+Create Sales Order Item,2024-07-17,['MAT-20'],['Plant1'],,['SO_ITEM--182-3'],['CUSTOMER--44'],,0.0,39.0,['MAT-20_Plant1'],e250
+Create Purchase Order Item (Understock),2024-07-21,['MAT-20'],['Plant3'],['PO_ITEM--66-3'],,,['SUPPLIER--27'],0.0,39.0,['MAT-20_Plant3'],e251
+Create Purchase Order Item (Overstock),2024-01-12,['MAT-21'],['Plant4'],['PO_ITEM--146-4'],,,['SUPPLIER--21'],71.0,142.0,['MAT-21_Plant4'],e253
+Create Purchase Order Item (Overstock),2024-01-22,['MAT-21'],['Plant4'],['PO_ITEM--23-1'],,,['SUPPLIER--17'],71.0,142.0,['MAT-21_Plant4'],e254
+Create Purchase Order Item (Overstock),2024-03-08,['MAT-21'],['Plant3'],['PO_ITEM--54-2'],,,['SUPPLIER--18'],71.0,142.0,['MAT-21_Plant3'],e255
+Goods Issue (Overstock to Overstock),2024-04-15,['MAT-21'],['Plant1'],,,['CUSTOMER--804695'],,71.0,142.0,['MAT-21_Plant1'],e256
+Create Sales Order Item,2024-05-05,['MAT-21'],['Plant3'],,['SO_ITEM--43-3'],['CUSTOMER--28'],,0.0,71.0,['MAT-21_Plant3'],e257
+Create Purchase Order Item (Understock),2024-06-18,['MAT-21'],['Plant4'],['PO_ITEM--125-1'],,,['SUPPLIER--10'],0.0,71.0,['MAT-21_Plant4'],e258
+Create Purchase Suggestion Item (Understock),2024-06-25,['MAT-21'],['Plant3'],,,,,0.0,71.0,['MAT-21_Plant3'],e259
+Create Sales Order Item,2024-07-13,['MAT-21'],['Plant3'],,['SO_ITEM--17-3'],['CUSTOMER--35'],,0.0,71.0,['MAT-21_Plant3'],e260
+Create Purchase Order Item (Understock),2024-07-24,['MAT-21'],['Plant4'],['PO_ITEM--94-1'],,,['SUPPLIER--12'],0.0,71.0,['MAT-21_Plant4'],e261
+Create Sales Order Item (Understock to Understock),2023-10-21,['MAT-22'],['Plant4'],,['SO_ITEM--23-2'],['CUSTOMER--41'],,0.0,0.0,['MAT-22_Plant4'],e263
+Goods Receipt (Understock to Understock),2023-12-04,['MAT-22'],['Plant1'],['PO_ITEM--66-5'],,,['SUPPLIER--27'],0.0,0.0,['MAT-22_Plant1'],e264
+Create Sales Order Item (Overstock to Overstock),2023-12-27,['MAT-22'],['Plant1'],,['SO_ITEM--155-2'],['CUSTOMER--42'],,23.0,23.0,['MAT-22_Plant1'],e265
+Create Purchase Suggestion Item (Overstock),2023-12-29,['MAT-22'],['Plant2'],,,,,23.0,23.0,['MAT-22_Plant2'],e266
+Create Sales Order Item (Overstock to Overstock),2024-01-05,['MAT-22'],['Plant3'],,['SO_ITEM--54-5'],['CUSTOMER--12'],,23.0,23.0,['MAT-22_Plant3'],e267
+Create Sales Order Item (Overstock to Overstock),2024-01-09,['MAT-22'],['Plant5'],,['SO_ITEM--48-2'],['CUSTOMER--46'],,23.0,23.0,['MAT-22_Plant5'],e268
+Create Sales Order Item (Overstock to Overstock),2024-01-25,['MAT-22'],['Plant1'],,['SO_ITEM--137-1'],['CUSTOMER--50'],,23.0,23.0,['MAT-22_Plant1'],e269
+Create Purchase Order Item (Overstock),2024-01-29,['MAT-22'],['Plant2'],['PO_ITEM--56-2'],,,['SUPPLIER--10'],23.0,23.0,['MAT-22_Plant2'],e270
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-22'],['Plant5'],,['SO_ITEM--73-4'],['CUSTOMER--3'],,23.0,23.0,['MAT-22_Plant5'],e271
+Create Sales Order Item (Overstock to Overstock),2024-05-19,['MAT-22'],['Plant1'],,['SO_ITEM--100-1'],['CUSTOMER--7'],,23.0,23.0,['MAT-22_Plant1'],e272
+Create Purchase Order Item (Overstock),2024-09-24,['MAT-22'],['Plant3'],['PO_ITEM--143-3'],,,['SUPPLIER--17'],23.0,23.0,['MAT-22_Plant3'],e273
+Create Purchase Suggestion Item (Understock),2024-01-05,['MAT-23'],['Plant4'],,,,,0.0,0.0,['MAT-23_Plant4'],e275
+Create Purchase Order Item (Understock),2024-02-10,['MAT-23'],['Plant4'],['PO_ITEM--147-1'],,,['SUPPLIER--4'],0.0,0.0,['MAT-23_Plant4'],e276
+Create Sales Order Item (Understock to Understock),2024-02-24,['MAT-23'],['Plant1'],,['SO_ITEM--147-2'],['CUSTOMER--19'],,0.0,0.0,['MAT-23_Plant1'],e277
+Create Purchase Order Item (Understock),2024-03-07,['MAT-23'],['Plant4'],['PO_ITEM--4-2'],,,['SUPPLIER--17'],0.0,0.0,['MAT-23_Plant4'],e278
+Goods Receipt (Understock to Understock),2024-03-11,['MAT-23'],['Plant2'],['PO_ITEM--42-4'],,,['SUPPLIER--12'],0.0,0.0,['MAT-23_Plant2'],e279
+Create Sales Order Item (Overstock to Overstock),2024-04-20,['MAT-23'],['Plant4'],,['SO_ITEM--98-3'],['CUSTOMER--49'],,13.0,13.0,['MAT-23_Plant4'],e280
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-23'],['Plant5'],,['SO_ITEM--35-4'],['CUSTOMER--41'],,13.0,13.0,['MAT-23_Plant5'],e281
+Create Purchase Order Item (Overstock),2024-06-04,['MAT-23'],['Plant4'],['PO_ITEM--52-1'],,,['SUPPLIER--29'],13.0,13.0,['MAT-23_Plant4'],e282
+Create Sales Order Item (Overstock to Overstock),2024-07-12,['MAT-23'],['Plant2'],,['SO_ITEM--131-1'],['CUSTOMER--3'],,13.0,13.0,['MAT-23_Plant2'],e283
+Create Purchase Order Item (Overstock),2024-08-26,['MAT-23'],['Plant2'],['PO_ITEM--91-1'],,,['SUPPLIER--10'],13.0,13.0,['MAT-23_Plant2'],e284
+Create Purchase Order Item (Overstock),2024-09-25,['MAT-23'],['Plant5'],['PO_ITEM--133-3'],,,['SUPPLIER--20'],13.0,13.0,['MAT-23_Plant5'],e285
+Create Purchase Order Item (Overstock),2023-12-03,['MAT-24'],['Plant3'],['PO_ITEM--97-3'],,,['SUPPLIER--19'],124.0,248.0,['MAT-24_Plant3'],e287
+Create Sales Order Item (Overstock to Overstock),2024-01-05,['MAT-24'],['Plant5'],,['SO_ITEM--197-3'],['CUSTOMER--6'],,184.0,368.0,['MAT-24_Plant5'],e288
+Create Sales Order Item (Overstock to Overstock),2024-02-04,['MAT-24'],['Plant2'],,['SO_ITEM--49-1'],['CUSTOMER--16'],,184.0,368.0,['MAT-24_Plant2'],e289
+Create Purchase Order Item (Overstock),2024-02-24,['MAT-24'],['Plant5'],['PO_ITEM--16-1'],,,['SUPPLIER--13'],184.0,368.0,['MAT-24_Plant5'],e290
+Goods Issue (Overstock to Overstock),2024-03-01,['MAT-24'],['Plant1'],,,['CUSTOMER--762407'],,184.0,368.0,['MAT-24_Plant1'],e291
+Create Purchase Suggestion Item (Overstock),2024-03-13,['MAT-24'],['Plant2'],,,,,127.0,311.0,['MAT-24_Plant2'],e292
+Create Purchase Order Item (Overstock),2024-03-17,['MAT-24'],['Plant2'],['PO_ITEM--11-2'],,,['SUPPLIER--24'],127.0,311.0,['MAT-24_Plant2'],e293
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-24'],['Plant5'],,['SO_ITEM--10-3'],['CUSTOMER--27'],,127.0,311.0,['MAT-24_Plant5'],e294
+Goods Issue (Overstock to Overstock),2024-03-25,['MAT-24'],['Plant3'],,,['CUSTOMER--487001'],,67.0,191.0,['MAT-24_Plant3'],e295
+Goods Issue (Overstock to Overstock),2024-03-30,['MAT-24'],['Plant1'],,,['CUSTOMER--431295'],,60.0,244.0,['MAT-24_Plant1'],e296
+Create Purchase Suggestion Item (Understock),2024-04-01,['MAT-24'],['Plant5'],,,,,0.0,184.0,['MAT-24_Plant5'],e297
+Create Sales Order Item,2024-06-09,['MAT-24'],['Plant2'],,['SO_ITEM--174-1'],['CUSTOMER--26'],,0.0,184.0,['MAT-24_Plant2'],e298
+Create Purchase Order Item (Understock),2024-07-13,['MAT-24'],['Plant1'],['PO_ITEM--89-1'],,,['SUPPLIER--23'],0.0,184.0,['MAT-24_Plant1'],e299
+Create Purchase Order Item (Understock),2024-08-22,['MAT-24'],['Plant5'],['PO_ITEM--100-2'],,,['SUPPLIER--15'],0.0,184.0,['MAT-24_Plant5'],e300
+Create Purchase Order Item (Understock),2024-08-26,['MAT-24'],['Plant4'],['PO_ITEM--73-1'],,,['SUPPLIER--28'],0.0,184.0,['MAT-24_Plant4'],e301
+Create Purchase Order Item (Understock),2024-01-13,['MAT-25'],['Plant3'],['PO_ITEM--112-1'],,,['SUPPLIER--25'],0.0,3.0,['MAT-25_Plant3'],e303
+Create Purchase Order Item (Understock),2024-01-29,['MAT-25'],['Plant4'],['PO_ITEM--58-1'],,,['SUPPLIER--13'],0.0,3.0,['MAT-25_Plant4'],e304
+Create Sales Order Item,2024-01-30,['MAT-25'],['Plant2'],,['SO_ITEM--177-1'],['CUSTOMER--35'],,0.0,3.0,['MAT-25_Plant2'],e305
+Create Purchase Order Item (Understock),2024-03-17,['MAT-25'],['Plant5'],['PO_ITEM--11-1'],,,['SUPPLIER--24'],0.0,3.0,['MAT-25_Plant5'],e306
+Create Purchase Order Item (Understock),2024-04-07,['MAT-25'],['Plant1'],['PO_ITEM--131-1'],,,['SUPPLIER--21'],0.0,3.0,['MAT-25_Plant1'],e307
+Create Sales Order Item,2024-04-21,['MAT-25'],['Plant5'],,['SO_ITEM--156-4'],['CUSTOMER--11'],,0.0,3.0,['MAT-25_Plant5'],e308
+Goods Receipt (Understock to Normal),2024-04-26,['MAT-25'],['Plant2'],['PO_ITEM--74-5'],,,['SUPPLIER--2'],0.0,3.0,['MAT-25_Plant2'],e309
+Create Purchase Order Item (Overstock),2024-04-27,['MAT-25'],['Plant2'],['PO_ITEM--53-1'],,,['SUPPLIER--21'],23.0,26.0,['MAT-25_Plant2'],e310
+Create Sales Order Item (Overstock to Overstock),2024-04-28,['MAT-25'],['Plant1'],,['SO_ITEM--172-1'],['CUSTOMER--10'],,23.0,26.0,['MAT-25_Plant1'],e311
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-25'],['Plant2'],,['SO_ITEM--37-2'],['CUSTOMER--39'],,23.0,26.0,['MAT-25_Plant2'],e312
+Create Purchase Suggestion Item (Overstock),2024-06-30,['MAT-25'],['Plant2'],,,,,23.0,26.0,['MAT-25_Plant2'],e313
+Create Purchase Order Item (Overstock),2023-11-23,['MAT-26'],['Plant4'],['PO_ITEM--138-3'],,,['SUPPLIER--29'],117.0,234.0,['MAT-26_Plant4'],e315
+Create Purchase Order Item (Overstock),2023-11-26,['MAT-26'],['Plant4'],['PO_ITEM--34-3'],,,['SUPPLIER--6'],117.0,234.0,['MAT-26_Plant4'],e316
+Create Purchase Order Item (Overstock),2024-01-10,['MAT-26'],['Plant3'],['PO_ITEM--22-1'],,,['SUPPLIER--22'],93.0,186.0,['MAT-26_Plant3'],e317
+Create Purchase Order Item (Overstock),2024-01-29,['MAT-26'],['Plant4'],['PO_ITEM--56-1'],,,['SUPPLIER--10'],117.0,234.0,['MAT-26_Plant4'],e318
+Create Purchase Order Item (Overstock),2024-03-17,['MAT-26'],['Plant1'],['PO_ITEM--116-1'],,,['SUPPLIER--21'],93.0,186.0,['MAT-26_Plant1'],e319
+Create Purchase Order Item (Overstock),2024-03-23,['MAT-26'],['Plant5'],['PO_ITEM--126-2'],,,['SUPPLIER--3'],116.0,232.0,['MAT-26_Plant5'],e320
+Goods Issue (Overstock to Overstock),2024-04-17,['MAT-26'],['Plant5'],,,['CUSTOMER--381070'],,116.0,232.0,['MAT-26_Plant5'],e321
+Create Sales Order Item,2024-05-07,['MAT-26'],['Plant1'],,['SO_ITEM--26-1'],['CUSTOMER--6'],,0.0,93.0,['MAT-26_Plant1'],e322
+Create Sales Order Item (Overstock to Overstock),2024-05-17,['MAT-26'],['Plant4'],,['SO_ITEM--151-1'],['CUSTOMER--11'],,24.0,141.0,['MAT-26_Plant4'],e323
+Create Sales Order Item,2024-06-25,['MAT-26'],['Plant2'],,['SO_ITEM--70-2'],['CUSTOMER--4'],,24.0,141.0,['MAT-26_Plant2'],e324
+Create Sales Order Item,2024-07-08,['MAT-26'],['Plant3'],,['SO_ITEM--195-1'],['CUSTOMER--42'],,0.0,93.0,['MAT-26_Plant3'],e325
+Goods Issue,2024-07-19,['MAT-26'],['Plant2'],,,['CUSTOMER--758734'],,24.0,141.0,['MAT-26_Plant2'],e326
+Goods Receipt (Understock to Overstock),2024-08-29,['MAT-26'],['Plant4'],['PO_ITEM--14-3'],,,['SUPPLIER--10'],0.0,117.0,['MAT-26_Plant4'],e327
+Create Sales Order Item,2024-09-12,['MAT-26'],['Plant5'],,['SO_ITEM--187-3'],['CUSTOMER--21'],,0.0,116.0,['MAT-26_Plant5'],e328
+Create Sales Order Item (Understock to Understock),2023-10-21,['MAT-27'],['Plant2'],,['SO_ITEM--23-1'],['CUSTOMER--41'],,0.0,0.0,['MAT-27_Plant2'],e330
+Create Purchase Suggestion Item (Overstock),2023-10-31,['MAT-27'],['Plant3'],,,,,41.0,82.0,['MAT-27_Plant3'],e331
+Create Purchase Order Item (Understock),2023-11-19,['MAT-27'],['Plant4'],['PO_ITEM--12-1'],,,['SUPPLIER--20'],41.0,82.0,['MAT-27_Plant4'],e332
+Create Purchase Order Item (Overstock),2023-11-28,['MAT-27'],['Plant3'],['PO_ITEM--134-1'],,,['SUPPLIER--21'],41.0,82.0,['MAT-27_Plant3'],e333
+Create Purchase Order Item (Understock),2023-12-05,['MAT-27'],['Plant4'],['PO_ITEM--98-1'],,,['SUPPLIER--11'],41.0,82.0,['MAT-27_Plant4'],e334
+Create Purchase Order Item (Understock),2023-12-05,['MAT-27'],['Plant4'],['PO_ITEM--98-5'],,,['SUPPLIER--11'],41.0,82.0,['MAT-27_Plant4'],e335
+Create Purchase Suggestion Item (Understock),2023-12-06,['MAT-27'],['Plant2'],,,,,0.0,0.0,['MAT-27_Plant2'],e336
+Create Purchase Order Item (Overstock),2024-01-08,['MAT-27'],['Plant5'],['PO_ITEM--84-2'],,,['SUPPLIER--13'],41.0,82.0,['MAT-27_Plant5'],e337
+Create Sales Order Item,2024-02-03,['MAT-27'],['Plant4'],,['SO_ITEM--148-2'],['CUSTOMER--18'],,41.0,82.0,['MAT-27_Plant4'],e338
+Goods Issue,2024-04-17,['MAT-27'],['Plant4'],,,['CUSTOMER--799051'],,41.0,82.0,['MAT-27_Plant4'],e339
+Create Sales Order Item,2024-05-08,['MAT-27'],['Plant1'],,['SO_ITEM--124-1'],['CUSTOMER--6'],,0.0,41.0,['MAT-27_Plant1'],e340
+Create Sales Order Item,2024-06-25,['MAT-27'],['Plant5'],,['SO_ITEM--94-3'],['CUSTOMER--24'],,0.0,41.0,['MAT-27_Plant5'],e341
+Create Purchase Suggestion Item (Understock),2024-07-24,['MAT-27'],['Plant3'],,,,,0.0,41.0,['MAT-27_Plant3'],e342
+Create Sales Order Item,2024-08-04,['MAT-27'],['Plant1'],,['SO_ITEM--65-3'],['CUSTOMER--1'],,0.0,41.0,['MAT-27_Plant1'],e343
+Goods Receipt (Understock to Overstock),2024-09-14,['MAT-27'],['Plant3'],['PO_ITEM--9-1'],,,['SUPPLIER--27'],0.0,41.0,['MAT-27_Plant3'],e344
+Create Sales Order Item (Overstock to Overstock),2024-01-04,['MAT-28'],['Plant4'],,['SO_ITEM--24-2'],['CUSTOMER--33'],,55.0,110.0,['MAT-28_Plant4'],e346
+Goods Issue,2024-01-07,['MAT-28'],['Plant1'],,,['CUSTOMER--522666'],,55.0,110.0,['MAT-28_Plant1'],e347
+Create Purchase Order Item (Understock),2024-02-15,['MAT-28'],['Plant1'],['PO_ITEM--38-2'],,,['SUPPLIER--11'],0.0,55.0,['MAT-28_Plant1'],e348
+Create Sales Order Item,2024-05-21,['MAT-28'],['Plant4'],,['SO_ITEM--51-2'],['CUSTOMER--25'],,0.0,55.0,['MAT-28_Plant4'],e349
+Create Purchase Order Item (Understock),2024-07-13,['MAT-28'],['Plant5'],['PO_ITEM--106-1'],,,['SUPPLIER--15'],0.0,55.0,['MAT-28_Plant5'],e350
+Create Purchase Order Item (Understock),2024-08-26,['MAT-28'],['Plant1'],['PO_ITEM--91-2'],,,['SUPPLIER--10'],0.0,55.0,['MAT-28_Plant1'],e351
+Create Sales Order Item,2024-09-01,['MAT-28'],['Plant5'],,['SO_ITEM--146-3'],['CUSTOMER--29'],,0.0,55.0,['MAT-28_Plant5'],e352
+Create Sales Order Item,2024-09-06,['MAT-28'],['Plant3'],,['SO_ITEM--93-5'],['CUSTOMER--12'],,0.0,55.0,['MAT-28_Plant3'],e353
+Create Purchase Order Item (Understock),2024-09-24,['MAT-28'],['Plant2'],['PO_ITEM--143-1'],,,['SUPPLIER--17'],0.0,55.0,['MAT-28_Plant2'],e354
+Create Sales Order Item (Understock to Understock),2023-10-19,['MAT-29'],['Plant1'],,['SO_ITEM--12-3'],['CUSTOMER--31'],,0.0,0.0,['MAT-29_Plant1'],e356
+Create Purchase Order Item (Understock),2023-11-07,['MAT-29'],['Plant2'],['PO_ITEM--135-2'],,,['SUPPLIER--6'],0.0,0.0,['MAT-29_Plant2'],e357
+Create Purchase Order Item (Understock),2023-12-01,['MAT-29'],['Plant2'],['PO_ITEM--71-2'],,,['SUPPLIER--20'],0.0,0.0,['MAT-29_Plant2'],e358
+Create Purchase Order Item (Understock),2023-12-05,['MAT-29'],['Plant1'],['PO_ITEM--98-2'],,,['SUPPLIER--11'],0.0,0.0,['MAT-29_Plant1'],e359
+Create Sales Order Item (Understock to Understock),2024-01-12,['MAT-29'],['Plant1'],,['SO_ITEM--68-3'],['CUSTOMER--34'],,0.0,0.0,['MAT-29_Plant1'],e360
+Create Purchase Order Item (Understock),2024-03-26,['MAT-29'],['Plant5'],['PO_ITEM--78-2'],,,['SUPPLIER--22'],0.0,0.0,['MAT-29_Plant5'],e361
+Create Sales Order Item (Understock to Understock),2024-03-28,['MAT-29'],['Plant4'],,['SO_ITEM--61-3'],['CUSTOMER--43'],,0.0,0.0,['MAT-29_Plant4'],e362
+Create Sales Order Item (Understock to Understock),2024-07-08,['MAT-29'],['Plant4'],,['SO_ITEM--195-2'],['CUSTOMER--42'],,0.0,0.0,['MAT-29_Plant4'],e363
+Create Sales Order Item (Understock to Understock),2023-12-01,['MAT-30'],['Plant2'],,['SO_ITEM--135-1'],['CUSTOMER--1'],,0.0,0.0,['MAT-30_Plant2'],e365
+Create Sales Order Item (Understock to Understock),2023-12-05,['MAT-30'],['Plant3'],,['SO_ITEM--134-2'],['CUSTOMER--14'],,0.0,0.0,['MAT-30_Plant3'],e366
+Goods Receipt (Understock to Understock),2024-04-13,['MAT-30'],['Plant5'],['PO_ITEM--17-3'],,,['SUPPLIER--12'],0.0,0.0,['MAT-30_Plant5'],e367
+Create Purchase Order Item (Overstock),2024-05-06,['MAT-30'],['Plant4'],['PO_ITEM--46-2'],,,['SUPPLIER--21'],41.0,41.0,['MAT-30_Plant4'],e368
+Create Sales Order Item (Overstock to Overstock),2024-05-25,['MAT-30'],['Plant1'],,['SO_ITEM--175-1'],['CUSTOMER--3'],,41.0,41.0,['MAT-30_Plant1'],e369
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-30'],['Plant3'],['PO_ITEM--88-5'],,,['SUPPLIER--30'],41.0,41.0,['MAT-30_Plant3'],e370
+Create Purchase Order Item (Overstock),2024-07-13,['MAT-30'],['Plant5'],['PO_ITEM--89-5'],,,['SUPPLIER--23'],41.0,41.0,['MAT-30_Plant5'],e371
+Create Purchase Suggestion Item (Overstock),2024-07-20,['MAT-30'],['Plant5'],,,,,41.0,41.0,['MAT-30_Plant5'],e372
+Create Purchase Order Item (Overstock),2024-08-08,['MAT-30'],['Plant2'],['PO_ITEM--137-1'],,,['SUPPLIER--18'],41.0,41.0,['MAT-30_Plant2'],e373
+Create Sales Order Item (Overstock to Overstock),2024-08-11,['MAT-30'],['Plant2'],,['SO_ITEM--52-1'],['CUSTOMER--5'],,41.0,41.0,['MAT-30_Plant2'],e374
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-30'],['Plant2'],['PO_ITEM--111-1'],,,['SUPPLIER--18'],41.0,41.0,['MAT-30_Plant2'],e375
+Goods Receipt (Overstock to Overstock),2024-08-28,['MAT-30'],['Plant3'],['PO_ITEM--81-1'],,,['SUPPLIER--19'],41.0,41.0,['MAT-30_Plant3'],e376
+Create Purchase Order Item (Overstock),2024-09-08,['MAT-30'],['Plant4'],['PO_ITEM--124-1'],,,['SUPPLIER--16'],84.0,84.0,['MAT-30_Plant4'],e377
+Goods Receipt (Overstock to Overstock),2024-09-21,['MAT-30'],['Plant2'],['PO_ITEM--135-3'],,,['SUPPLIER--6'],84.0,84.0,['MAT-30_Plant2'],e378
+Create Sales Order Item (Overstock to Overstock),2024-09-25,['MAT-30'],['Plant4'],,['SO_ITEM--87-1'],['CUSTOMER--17'],,167.0,167.0,['MAT-30_Plant4'],e379
+Create Purchase Order Item (Understock),2023-11-05,['MAT-31'],['Plant5'],['PO_ITEM--48-4'],,,['SUPPLIER--1'],0.0,57.0,['MAT-31_Plant5'],e381
+Create Purchase Order Item (Normal),2023-11-06,['MAT-31'],['Plant2'],['PO_ITEM--130-1'],,,['SUPPLIER--26'],39.0,135.0,['MAT-31_Plant2'],e382
+Create Sales Order Item,2024-01-07,['MAT-31'],['Plant4'],,['SO_ITEM--125-2'],['CUSTOMER--26'],,0.0,57.0,['MAT-31_Plant4'],e383
+Create Purchase Order Item (Understock),2024-02-26,['MAT-31'],['Plant5'],['PO_ITEM--3-4'],,,['SUPPLIER--12'],0.0,57.0,['MAT-31_Plant5'],e384
+Create Sales Order Item,2024-03-30,['MAT-31'],['Plant5'],,['SO_ITEM--64-3'],['CUSTOMER--4'],,0.0,57.0,['MAT-31_Plant5'],e385
+Create Purchase Order Item (Understock),2024-04-18,['MAT-31'],['Plant4'],['PO_ITEM--120-5'],,,['SUPPLIER--6'],0.0,57.0,['MAT-31_Plant4'],e386
+Create Sales Order Item,2024-04-25,['MAT-31'],['Plant5'],,['SO_ITEM--113-1'],['CUSTOMER--49'],,0.0,57.0,['MAT-31_Plant5'],e387
+Goods Issue,2024-04-25,['MAT-31'],['Plant2'],,,['CUSTOMER--672392'],,39.0,135.0,['MAT-31_Plant2'],e388
+Create Sales Order Item,2024-06-14,['MAT-31'],['Plant2'],,['SO_ITEM--181-1'],['CUSTOMER--37'],,0.0,96.0,['MAT-31_Plant2'],e389
+Create Sales Order Item,2024-07-31,['MAT-31'],['Plant2'],,['SO_ITEM--112-1'],['CUSTOMER--3'],,0.0,96.0,['MAT-31_Plant2'],e390
+Create Sales Order Item,2024-09-19,['MAT-31'],['Plant1'],,['SO_ITEM--179-1'],['CUSTOMER--19'],,0.0,96.0,['MAT-31_Plant1'],e391
+Create Purchase Order Item (Understock),2024-01-10,['MAT-32'],['Plant3'],['PO_ITEM--145-1'],,,['SUPPLIER--9'],0.0,0.0,['MAT-32_Plant3'],e393
+Goods Receipt (Understock to Understock),2024-01-28,['MAT-32'],['Plant4'],['PO_ITEM--98-1'],,,['SUPPLIER--11'],0.0,0.0,['MAT-32_Plant4'],e394
+Create Sales Order Item (Overstock to Overstock),2024-02-02,['MAT-32'],['Plant2'],,['SO_ITEM--22-2'],['CUSTOMER--3'],,71.0,71.0,['MAT-32_Plant2'],e395
+Create Sales Order Item (Overstock to Overstock),2024-02-03,['MAT-32'],['Plant3'],,['SO_ITEM--148-1'],['CUSTOMER--18'],,71.0,71.0,['MAT-32_Plant3'],e396
+Goods Receipt (Overstock to Overstock),2024-02-23,['MAT-32'],['Plant3'],['PO_ITEM--99-5'],,,['SUPPLIER--4'],71.0,71.0,['MAT-32_Plant3'],e397
+Create Sales Order Item (Overstock to Overstock),2024-03-12,['MAT-32'],['Plant1'],,['SO_ITEM--142-1'],['CUSTOMER--44'],,168.0,168.0,['MAT-32_Plant1'],e398
+Create Sales Order Item (Overstock to Overstock),2024-03-12,['MAT-32'],['Plant5'],,['SO_ITEM--142-2'],['CUSTOMER--44'],,168.0,168.0,['MAT-32_Plant5'],e399
+Create Sales Order Item (Overstock to Overstock),2024-03-26,['MAT-32'],['Plant4'],,['SO_ITEM--7-2'],['CUSTOMER--33'],,168.0,168.0,['MAT-32_Plant4'],e400
+Goods Receipt (Overstock to Overstock),2024-03-31,['MAT-32'],['Plant3'],['PO_ITEM--106-4'],,,['SUPPLIER--15'],168.0,168.0,['MAT-32_Plant3'],e401
+Create Sales Order Item (Overstock to Overstock),2024-04-02,['MAT-32'],['Plant3'],,['SO_ITEM--186-1'],['CUSTOMER--48'],,225.0,225.0,['MAT-32_Plant3'],e402
+Goods Issue (Overstock to Overstock),2024-04-05,['MAT-32'],['Plant3'],,,['CUSTOMER--860661'],,225.0,225.0,['MAT-32_Plant3'],e403
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-32'],['Plant4'],,['SO_ITEM--73-2'],['CUSTOMER--3'],,189.0,189.0,['MAT-32_Plant4'],e404
+Create Sales Order Item (Overstock to Overstock),2024-04-28,['MAT-32'],['Plant2'],,['SO_ITEM--172-3'],['CUSTOMER--10'],,189.0,189.0,['MAT-32_Plant2'],e405
+Create Purchase Suggestion Item (Overstock),2024-05-04,['MAT-32'],['Plant5'],,,,,189.0,189.0,['MAT-32_Plant5'],e406
+Create Sales Order Item (Overstock to Overstock),2024-06-13,['MAT-32'],['Plant1'],,['SO_ITEM--184-2'],['CUSTOMER--42'],,189.0,189.0,['MAT-32_Plant1'],e407
+Goods Receipt (Overstock to Overstock),2024-08-19,['MAT-32'],['Plant1'],['PO_ITEM--63-2'],,,['SUPPLIER--26'],189.0,189.0,['MAT-32_Plant1'],e408
+Create Purchase Order Item (Understock),2023-12-07,['MAT-33'],['Plant1'],['PO_ITEM--148-3'],,,['SUPPLIER--30'],0.0,49.0,['MAT-33_Plant1'],e410
+Create Purchase Order Item (Understock),2023-12-19,['MAT-33'],['Plant2'],['PO_ITEM--108-4'],,,['SUPPLIER--29'],0.0,49.0,['MAT-33_Plant2'],e411
+Create Sales Order Item,2024-01-19,['MAT-33'],['Plant2'],,['SO_ITEM--53-2'],['CUSTOMER--10'],,0.0,49.0,['MAT-33_Plant2'],e412
+Create Purchase Order Item (Understock),2024-04-18,['MAT-33'],['Plant1'],['PO_ITEM--120-1'],,,['SUPPLIER--6'],0.0,49.0,['MAT-33_Plant1'],e413
+Goods Receipt (Understock to Overstock),2024-04-29,['MAT-33'],['Plant2'],['PO_ITEM--32-1'],,,['SUPPLIER--12'],0.0,49.0,['MAT-33_Plant2'],e414
+Create Purchase Order Item (Overstock),2024-05-29,['MAT-33'],['Plant1'],['PO_ITEM--60-3'],,,['SUPPLIER--3'],89.0,138.0,['MAT-33_Plant1'],e415
+Create Sales Order Item (Overstock to Overstock),2024-06-13,['MAT-33'],['Plant2'],,['SO_ITEM--184-4'],['CUSTOMER--42'],,89.0,138.0,['MAT-33_Plant2'],e416
+Create Sales Order Item (Overstock to Overstock),2024-06-19,['MAT-33'],['Plant2'],,['SO_ITEM--8-5'],['CUSTOMER--34'],,89.0,138.0,['MAT-33_Plant2'],e417
+Create Sales Order Item (Overstock to Overstock),2024-09-12,['MAT-33'],['Plant3'],,['SO_ITEM--187-2'],['CUSTOMER--21'],,40.0,40.0,['MAT-33_Plant3'],e418
+Create Sales Order Item (Overstock to Overstock),2023-11-14,['MAT-34'],['Plant4'],,['SO_ITEM--111-1'],['CUSTOMER--15'],,69.0,69.0,['MAT-34_Plant4'],e420
+Create Sales Order Item (Overstock to Overstock),2023-12-19,['MAT-34'],['Plant3'],,['SO_ITEM--56-2'],['CUSTOMER--45'],,69.0,69.0,['MAT-34_Plant3'],e421
+Goods Receipt (Overstock to Overstock),2024-02-23,['MAT-34'],['Plant4'],['PO_ITEM--29-5'],,,['SUPPLIER--29'],69.0,69.0,['MAT-34_Plant4'],e422
+Create Sales Order Item (Overstock to Overstock),2024-03-04,['MAT-34'],['Plant1'],,['SO_ITEM--121-1'],['CUSTOMER--2'],,75.0,75.0,['MAT-34_Plant1'],e423
+Create Sales Order Item (Overstock to Overstock),2024-03-13,['MAT-34'],['Plant3'],,['SO_ITEM--84-5'],['CUSTOMER--22'],,75.0,75.0,['MAT-34_Plant3'],e424
+Create Purchase Suggestion Item (Overstock),2024-03-25,['MAT-34'],['Plant3'],,,,,75.0,75.0,['MAT-34_Plant3'],e425
+Create Sales Order Item (Overstock to Overstock),2024-04-10,['MAT-34'],['Plant1'],,['SO_ITEM--78-1'],['CUSTOMER--7'],,75.0,75.0,['MAT-34_Plant1'],e426
+Create Purchase Order Item (Overstock),2024-04-22,['MAT-34'],['Plant3'],['PO_ITEM--118-3'],,,['SUPPLIER--26'],75.0,75.0,['MAT-34_Plant3'],e427
+Goods Issue (Overstock to Overstock),2024-07-17,['MAT-34'],['Plant4'],,,['CUSTOMER--328056'],,75.0,75.0,['MAT-34_Plant4'],e428
+Create Purchase Order Item (Overstock),2024-08-01,['MAT-34'],['Plant2'],['PO_ITEM--144-2'],,,['SUPPLIER--13'],52.0,52.0,['MAT-34_Plant2'],e429
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-34'],['Plant1'],['PO_ITEM--100-5'],,,['SUPPLIER--15'],52.0,52.0,['MAT-34_Plant1'],e430
+Create Sales Order Item (Overstock to Overstock),2024-09-25,['MAT-34'],['Plant5'],,['SO_ITEM--87-3'],['CUSTOMER--17'],,52.0,52.0,['MAT-34_Plant5'],e431
+Create Purchase Order Item (Understock),2023-11-05,['MAT-35'],['Plant2'],['PO_ITEM--113-1'],,,['SUPPLIER--22'],0.0,0.0,['MAT-35_Plant2'],e433
+Create Sales Order Item (Understock to Understock),2023-11-08,['MAT-35'],['Plant1'],,['SO_ITEM--105-1'],['CUSTOMER--21'],,0.0,0.0,['MAT-35_Plant1'],e434
+Create Purchase Order Item (Understock),2023-11-29,['MAT-35'],['Plant5'],['PO_ITEM--50-1'],,,['SUPPLIER--29'],0.0,0.0,['MAT-35_Plant5'],e435
+Create Purchase Suggestion Item (Understock),2023-12-05,['MAT-35'],['Plant2'],,,,,0.0,0.0,['MAT-35_Plant2'],e436
+Create Purchase Suggestion Item (Understock),2023-12-29,['MAT-35'],['Plant4'],,,,,0.0,0.0,['MAT-35_Plant4'],e437
+Create Sales Order Item (Understock to Understock),2024-01-05,['MAT-35'],['Plant4'],,['SO_ITEM--197-4'],['CUSTOMER--6'],,0.0,0.0,['MAT-35_Plant4'],e438
+Create Sales Order Item (Understock to Understock),2024-04-16,['MAT-35'],['Plant5'],,['SO_ITEM--183-2'],['CUSTOMER--50'],,0.0,0.0,['MAT-35_Plant5'],e439
+Create Sales Order Item (Understock to Understock),2024-04-21,['MAT-35'],['Plant5'],,['SO_ITEM--156-1'],['CUSTOMER--11'],,0.0,0.0,['MAT-35_Plant5'],e440
+Create Sales Order Item (Understock to Understock),2024-04-22,['MAT-35'],['Plant3'],,['SO_ITEM--73-5'],['CUSTOMER--3'],,0.0,0.0,['MAT-35_Plant3'],e441
+Create Sales Order Item (Understock to Understock),2024-06-04,['MAT-35'],['Plant2'],,['SO_ITEM--167-1'],['CUSTOMER--46'],,0.0,0.0,['MAT-35_Plant2'],e442
+Create Purchase Order Item (Understock),2024-06-08,['MAT-35'],['Plant5'],['PO_ITEM--86-3'],,,['SUPPLIER--18'],0.0,0.0,['MAT-35_Plant5'],e443
+Create Purchase Order Item (Understock),2024-08-01,['MAT-35'],['Plant2'],['PO_ITEM--144-4'],,,['SUPPLIER--13'],0.0,0.0,['MAT-35_Plant2'],e444
+Create Sales Order Item (Understock to Understock),2024-08-11,['MAT-35'],['Plant3'],,['SO_ITEM--52-4'],['CUSTOMER--5'],,0.0,0.0,['MAT-35_Plant3'],e445
+Create Purchase Order Item (Understock),2024-09-02,['MAT-35'],['Plant3'],['PO_ITEM--6-4'],,,['SUPPLIER--5'],0.0,0.0,['MAT-35_Plant3'],e446
+Create Sales Order Item (Understock to Understock),2024-09-13,['MAT-35'],['Plant3'],,['SO_ITEM--160-3'],['CUSTOMER--44'],,0.0,0.0,['MAT-35_Plant3'],e447
+Create Sales Order Item (Overstock to Overstock),2024-01-11,['MAT-36'],['Plant5'],,['SO_ITEM--130-3'],['CUSTOMER--23'],,65.0,130.0,['MAT-36_Plant5'],e449
+Create Sales Order Item (Overstock to Overstock),2024-01-28,['MAT-36'],['Plant5'],,['SO_ITEM--5-3'],['CUSTOMER--12'],,65.0,130.0,['MAT-36_Plant5'],e450
+Create Sales Order Item (Overstock to Overstock),2024-02-28,['MAT-36'],['Plant2'],,['SO_ITEM--71-5'],['CUSTOMER--45'],,65.0,130.0,['MAT-36_Plant2'],e451
+Create Purchase Order Item (Understock),2024-03-08,['MAT-36'],['Plant4'],['PO_ITEM--54-3'],,,['SUPPLIER--18'],0.0,0.0,['MAT-36_Plant4'],e452
+Create Sales Order Item (Overstock to Overstock),2024-03-30,['MAT-36'],['Plant2'],,['SO_ITEM--64-2'],['CUSTOMER--4'],,65.0,130.0,['MAT-36_Plant2'],e453
+Create Sales Order Item (Overstock to Overstock),2024-04-11,['MAT-36'],['Plant2'],,['SO_ITEM--119-2'],['CUSTOMER--49'],,65.0,130.0,['MAT-36_Plant2'],e454
+Goods Issue (Overstock to Overstock),2024-05-02,['MAT-36'],['Plant2'],,,['CUSTOMER--193677'],,65.0,130.0,['MAT-36_Plant2'],e455
+Goods Issue,2024-05-17,['MAT-36'],['Plant1'],,,['CUSTOMER--421165'],,39.0,104.0,['MAT-36_Plant1'],e456
+Create Sales Order Item,2024-06-25,['MAT-36'],['Plant2'],,['SO_ITEM--168-1'],['CUSTOMER--8'],,0.0,65.0,['MAT-36_Plant2'],e457
+Goods Receipt (Understock to Overstock),2024-08-14,['MAT-36'],['Plant5'],['PO_ITEM--141-1'],,,['SUPPLIER--10'],0.0,65.0,['MAT-36_Plant5'],e458
+Create Purchase Order Item (Overstock),2023-11-06,['MAT-37'],['Plant1'],['PO_ITEM--121-2'],,,['SUPPLIER--16'],39.0,39.0,['MAT-37_Plant1'],e460
+Create Purchase Order Item (Overstock),2023-11-19,['MAT-37'],['Plant5'],['PO_ITEM--12-5'],,,['SUPPLIER--20'],39.0,39.0,['MAT-37_Plant5'],e461
+Create Sales Order Item (Overstock to Overstock),2023-12-05,['MAT-37'],['Plant2'],,['SO_ITEM--134-1'],['CUSTOMER--14'],,39.0,39.0,['MAT-37_Plant2'],e462
+Create Sales Order Item (Overstock to Overstock),2023-12-05,['MAT-37'],['Plant3'],,['SO_ITEM--134-3'],['CUSTOMER--14'],,39.0,39.0,['MAT-37_Plant3'],e463
+Create Sales Order Item (Overstock to Overstock),2023-12-31,['MAT-37'],['Plant2'],,['SO_ITEM--101-1'],['CUSTOMER--49'],,39.0,39.0,['MAT-37_Plant2'],e464
+Create Purchase Order Item (Overstock),2024-01-10,['MAT-37'],['Plant3'],['PO_ITEM--145-3'],,,['SUPPLIER--9'],39.0,39.0,['MAT-37_Plant3'],e465
+Create Sales Order Item (Overstock to Overstock),2024-01-11,['MAT-37'],['Plant5'],,['SO_ITEM--130-1'],['CUSTOMER--23'],,39.0,39.0,['MAT-37_Plant5'],e466
+Create Sales Order Item (Overstock to Overstock),2024-02-24,['MAT-37'],['Plant3'],,['SO_ITEM--147-4'],['CUSTOMER--19'],,39.0,39.0,['MAT-37_Plant3'],e467
+Create Purchase Suggestion Item (Overstock),2024-03-16,['MAT-37'],['Plant4'],,,,,39.0,39.0,['MAT-37_Plant4'],e468
+Create Purchase Order Item (Overstock),2024-04-04,['MAT-37'],['Plant5'],['PO_ITEM--95-4'],,,['SUPPLIER--17'],39.0,39.0,['MAT-37_Plant5'],e469
+Goods Receipt (Overstock to Overstock),2024-04-12,['MAT-37'],['Plant1'],['PO_ITEM--60-4'],,,['SUPPLIER--3'],39.0,39.0,['MAT-37_Plant1'],e470
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-37'],['Plant1'],,['SO_ITEM--35-2'],['CUSTOMER--41'],,57.0,57.0,['MAT-37_Plant1'],e471
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-37'],['Plant4'],,['SO_ITEM--35-3'],['CUSTOMER--41'],,57.0,57.0,['MAT-37_Plant4'],e472
+Create Sales Order Item (Overstock to Overstock),2024-05-08,['MAT-37'],['Plant5'],,['SO_ITEM--39-4'],['CUSTOMER--28'],,57.0,57.0,['MAT-37_Plant5'],e473
+Create Purchase Order Item (Overstock),2024-05-31,['MAT-37'],['Plant1'],['PO_ITEM--102-4'],,,['SUPPLIER--2'],57.0,57.0,['MAT-37_Plant1'],e474
+Create Purchase Order Item (Overstock),2024-07-21,['MAT-37'],['Plant3'],['PO_ITEM--66-1'],,,['SUPPLIER--27'],57.0,57.0,['MAT-37_Plant3'],e475
+Goods Receipt (Understock to Overstock),2023-10-28,['MAT-38'],['Plant5'],['PO_ITEM--74-2'],,,['SUPPLIER--2'],0.0,49.0,['MAT-38_Plant5'],e477
+Goods Receipt (Overstock to Overstock),2023-11-24,['MAT-38'],['Plant5'],['PO_ITEM--9-2'],,,['SUPPLIER--27'],61.0,110.0,['MAT-38_Plant5'],e478
+Create Sales Order Item (Normal to Normal),2023-12-02,['MAT-38'],['Plant4'],,['SO_ITEM--143-3'],['CUSTOMER--19'],,28.0,28.0,['MAT-38_Plant4'],e479
+Goods Receipt (Overstock to Overstock),2023-12-15,['MAT-38'],['Plant1'],['PO_ITEM--145-1'],,,['SUPPLIER--9'],28.0,28.0,['MAT-38_Plant1'],e480
+Create Sales Order Item (Overstock to Overstock),2024-01-09,['MAT-38'],['Plant1'],,['SO_ITEM--48-4'],['CUSTOMER--46'],,127.0,127.0,['MAT-38_Plant1'],e481
+Create Purchase Order Item (Overstock),2024-01-13,['MAT-38'],['Plant5'],['PO_ITEM--112-4'],,,['SUPPLIER--25'],176.0,225.0,['MAT-38_Plant5'],e482
+Create Sales Order Item (Overstock to Overstock),2024-02-24,['MAT-38'],['Plant5'],,['SO_ITEM--147-3'],['CUSTOMER--19'],,176.0,225.0,['MAT-38_Plant5'],e483
+Create Sales Order Item (Overstock to Overstock),2024-05-18,['MAT-38'],['Plant1'],,['SO_ITEM--19-4'],['CUSTOMER--25'],,127.0,127.0,['MAT-38_Plant1'],e484
+Create Sales Order Item (Overstock to Overstock),2024-08-11,['MAT-38'],['Plant3'],,['SO_ITEM--52-2'],['CUSTOMER--5'],,127.0,127.0,['MAT-38_Plant3'],e485
+Goods Issue (Overstock to Overstock),2024-08-16,['MAT-38'],['Plant5'],,,['CUSTOMER--487999'],,176.0,225.0,['MAT-38_Plant5'],e486
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-38'],['Plant4'],['PO_ITEM--100-3'],,,['SUPPLIER--15'],110.0,110.0,['MAT-38_Plant4'],e487
+Create Sales Order Item (Overstock to Overstock),2024-09-04,['MAT-38'],['Plant5'],,['SO_ITEM--66-1'],['CUSTOMER--44'],,159.0,208.0,['MAT-38_Plant5'],e488
+Create Purchase Order Item (Overstock),2024-09-08,['MAT-38'],['Plant3'],['PO_ITEM--124-2'],,,['SUPPLIER--16'],110.0,110.0,['MAT-38_Plant3'],e489
+Create Sales Order Item (Overstock to Overstock),2023-11-14,['MAT-39'],['Plant4'],,['SO_ITEM--111-2'],['CUSTOMER--15'],,73.0,146.0,['MAT-39_Plant4'],e491
+Create Sales Order Item (Understock to Understock),2023-11-16,['MAT-39'],['Plant3'],,['SO_ITEM--188-1'],['CUSTOMER--14'],,0.0,0.0,['MAT-39_Plant3'],e492
+Create Purchase Order Item (Understock),2023-12-22,['MAT-39'],['Plant3'],['PO_ITEM--47-3'],,,['SUPPLIER--27'],0.0,0.0,['MAT-39_Plant3'],e493
+Create Sales Order Item (Overstock to Overstock),2024-01-09,['MAT-39'],['Plant4'],,['SO_ITEM--48-3'],['CUSTOMER--46'],,73.0,146.0,['MAT-39_Plant4'],e494
+Create Purchase Order Item (Overstock),2024-03-08,['MAT-39'],['Plant4'],['PO_ITEM--54-1'],,,['SUPPLIER--18'],73.0,146.0,['MAT-39_Plant4'],e495
+Create Sales Order Item (Overstock to Overstock),2024-03-09,['MAT-39'],['Plant4'],,['SO_ITEM--77-3'],['CUSTOMER--35'],,73.0,146.0,['MAT-39_Plant4'],e496
+Create Purchase Order Item (Understock),2024-03-14,['MAT-39'],['Plant3'],['PO_ITEM--129-1'],,,['SUPPLIER--11'],0.0,0.0,['MAT-39_Plant3'],e497
+Create Purchase Suggestion Item (Understock),2024-05-13,['MAT-39'],['Plant1'],,,,,0.0,0.0,['MAT-39_Plant1'],e498
+Create Sales Order Item (Understock to Understock),2024-07-17,['MAT-39'],['Plant1'],,['SO_ITEM--182-2'],['CUSTOMER--44'],,0.0,0.0,['MAT-39_Plant1'],e499
+Create Sales Order Item (Understock to Understock),2024-08-16,['MAT-39'],['Plant2'],,['SO_ITEM--157-3'],['CUSTOMER--44'],,0.0,0.0,['MAT-39_Plant2'],e500
+Create Sales Order Item (Understock to Understock),2024-09-04,['MAT-39'],['Plant5'],,['SO_ITEM--66-4'],['CUSTOMER--44'],,0.0,0.0,['MAT-39_Plant5'],e501
+Goods Issue (Overstock to Overstock),2024-09-18,['MAT-39'],['Plant4'],,,['CUSTOMER--550729'],,73.0,146.0,['MAT-39_Plant4'],e502
+Create Sales Order Item (Understock to Understock),2023-11-28,['MAT-40'],['Plant1'],,['SO_ITEM--116-3'],['CUSTOMER--41'],,0.0,0.0,['MAT-40_Plant1'],e504
+Create Purchase Order Item (Understock),2024-01-13,['MAT-40'],['Plant4'],['PO_ITEM--112-2'],,,['SUPPLIER--25'],0.0,0.0,['MAT-40_Plant4'],e505
+Goods Receipt (Understock to Understock),2024-02-09,['MAT-40'],['Plant4'],['PO_ITEM--29-4'],,,['SUPPLIER--29'],0.0,0.0,['MAT-40_Plant4'],e506
+Create Purchase Order Item (Overstock),2024-03-16,['MAT-40'],['Plant1'],['PO_ITEM--105-1'],,,['SUPPLIER--12'],54.0,54.0,['MAT-40_Plant1'],e507
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-40'],['Plant2'],,['SO_ITEM--10-2'],['CUSTOMER--27'],,54.0,54.0,['MAT-40_Plant2'],e508
+Create Purchase Order Item (Overstock),2024-04-03,['MAT-40'],['Plant2'],['PO_ITEM--103-3'],,,['SUPPLIER--25'],54.0,54.0,['MAT-40_Plant2'],e509
+Create Purchase Order Item (Overstock),2024-05-31,['MAT-40'],['Plant2'],['PO_ITEM--102-5'],,,['SUPPLIER--2'],54.0,54.0,['MAT-40_Plant2'],e510
+Create Sales Order Item (Overstock to Overstock),2024-07-17,['MAT-40'],['Plant2'],,['SO_ITEM--182-4'],['CUSTOMER--44'],,54.0,54.0,['MAT-40_Plant2'],e511
+Create Purchase Order Item (Normal),2023-11-26,['MAT-41'],['Plant3'],['PO_ITEM--34-2'],,,['SUPPLIER--6'],57.0,114.0,['MAT-41_Plant3'],e513
+Goods Issue,2024-01-11,['MAT-41'],['Plant3'],,,['CUSTOMER--436137'],,57.0,114.0,['MAT-41_Plant3'],e514
+Create Sales Order Item (Overstock to Overstock),2024-01-19,['MAT-41'],['Plant1'],,['SO_ITEM--53-1'],['CUSTOMER--10'],,74.0,205.0,['MAT-41_Plant1'],e515
+Create Sales Order Item (Overstock to Overstock),2024-02-03,['MAT-41'],['Plant5'],,['SO_ITEM--149-1'],['CUSTOMER--9'],,74.0,205.0,['MAT-41_Plant5'],e516
+Create Sales Order Item (Overstock to Overstock),2024-05-05,['MAT-41'],['Plant5'],,['SO_ITEM--43-4'],['CUSTOMER--28'],,74.0,205.0,['MAT-41_Plant5'],e517
+Goods Issue (Overstock to Overstock),2024-05-23,['MAT-41'],['Plant5'],,,['CUSTOMER--717704'],,74.0,205.0,['MAT-41_Plant5'],e518
+Goods Receipt (Understock to Overstock),2024-06-08,['MAT-41'],['Plant1'],['PO_ITEM--29-2'],,,['SUPPLIER--29'],0.0,131.0,['MAT-41_Plant1'],e519
+Create Purchase Order Item (Understock),2024-08-01,['MAT-41'],['Plant4'],['PO_ITEM--144-3'],,,['SUPPLIER--13'],0.0,125.0,['MAT-41_Plant4'],e520
+Create Purchase Order Item (Understock),2023-11-05,['MAT-42'],['Plant3'],['PO_ITEM--48-5'],,,['SUPPLIER--1'],36.0,72.0,['MAT-42_Plant3'],e522
+Create Sales Order Item (Understock to Understock),2024-02-04,['MAT-42'],['Plant1'],,['SO_ITEM--49-2'],['CUSTOMER--16'],,0.0,0.0,['MAT-42_Plant1'],e523
+Create Purchase Order Item (Understock),2024-03-17,['MAT-42'],['Plant2'],['PO_ITEM--116-2'],,,['SUPPLIER--21'],0.0,0.0,['MAT-42_Plant2'],e524
+Create Sales Order Item (Understock to Understock),2024-04-20,['MAT-42'],['Plant5'],,['SO_ITEM--98-2'],['CUSTOMER--49'],,0.0,0.0,['MAT-42_Plant5'],e525
+Create Purchase Suggestion Item (Understock),2024-04-27,['MAT-42'],['Plant1'],,,,,0.0,0.0,['MAT-42_Plant1'],e526
+Create Sales Order Item (Understock to Understock),2024-05-08,['MAT-42'],['Plant2'],,['SO_ITEM--39-5'],['CUSTOMER--28'],,0.0,0.0,['MAT-42_Plant2'],e527
+Create Sales Order Item (Understock to Understock),2024-05-19,['MAT-42'],['Plant2'],,['SO_ITEM--100-3'],['CUSTOMER--7'],,0.0,0.0,['MAT-42_Plant2'],e528
+Create Sales Order Item (Understock to Understock),2024-06-19,['MAT-42'],['Plant1'],,['SO_ITEM--8-2'],['CUSTOMER--34'],,0.0,0.0,['MAT-42_Plant1'],e529
+Create Sales Order Item (Understock to Understock),2024-07-24,['MAT-42'],['Plant1'],,['SO_ITEM--178-1'],['CUSTOMER--14'],,0.0,0.0,['MAT-42_Plant1'],e530
+Goods Receipt (Understock to Understock),2024-08-13,['MAT-42'],['Plant5'],['PO_ITEM--48-5'],,,['SUPPLIER--1'],0.0,0.0,['MAT-42_Plant5'],e531
+Goods Issue (Understock to Understock),2024-08-31,['MAT-42'],['Plant3'],,,['CUSTOMER--853223'],,59.0,95.0,['MAT-42_Plant3'],e532
+Create Purchase Order Item (Overstock),2024-02-13,['MAT-43'],['Plant2'],['PO_ITEM--5-3'],,,['SUPPLIER--16'],31.0,62.0,['MAT-43_Plant2'],e534
+Goods Issue (Overstock to Overstock),2024-02-27,['MAT-43'],['Plant1'],,,['CUSTOMER--831083'],,87.0,174.0,['MAT-43_Plant1'],e535
+Create Purchase Order Item (Understock),2024-03-11,['MAT-43'],['Plant1'],['PO_ITEM--150-2'],,,['SUPPLIER--20'],0.0,87.0,['MAT-43_Plant1'],e536
+Create Sales Order Item,2024-03-21,['MAT-43'],['Plant5'],,['SO_ITEM--92-1'],['CUSTOMER--36'],,0.0,87.0,['MAT-43_Plant5'],e537
+Goods Receipt (Understock to Overstock),2024-03-24,['MAT-43'],['Plant1'],['PO_ITEM--36-1'],,,['SUPPLIER--27'],0.0,87.0,['MAT-43_Plant1'],e538
+Create Sales Order Item,2024-04-02,['MAT-43'],['Plant4'],,['SO_ITEM--186-2'],['CUSTOMER--48'],,0.0,31.0,['MAT-43_Plant4'],e539
+Create Purchase Suggestion Item (Understock),2024-04-07,['MAT-43'],['Plant2'],,,,,0.0,31.0,['MAT-43_Plant2'],e540
+Create Purchase Order Item (Understock),2024-04-16,['MAT-43'],['Plant4'],['PO_ITEM--33-1'],,,['SUPPLIER--10'],0.0,31.0,['MAT-43_Plant4'],e541
+Create Sales Order Item,2024-04-22,['MAT-43'],['Plant2'],,['SO_ITEM--73-3'],['CUSTOMER--3'],,0.0,31.0,['MAT-43_Plant2'],e542
+Create Sales Order Item,2024-05-17,['MAT-43'],['Plant2'],,['SO_ITEM--21-3'],['CUSTOMER--25'],,0.0,31.0,['MAT-43_Plant2'],e543
+Create Sales Order Item (Overstock to Overstock),2024-07-22,['MAT-43'],['Plant5'],,['SO_ITEM--154-2'],['CUSTOMER--42'],,56.0,143.0,['MAT-43_Plant5'],e544
+Create Purchase Suggestion Item (Understock),2024-08-06,['MAT-43'],['Plant2'],,,,,0.0,31.0,['MAT-43_Plant2'],e545
+Create Sales Order Item,2024-09-04,['MAT-43'],['Plant3'],,['SO_ITEM--66-5'],['CUSTOMER--44'],,0.0,31.0,['MAT-43_Plant3'],e546
+Create Purchase Order Item (Overstock),2023-10-01,['MAT-44'],['Plant5'],['PO_ITEM--65-1'],,,['SUPPLIER--24'],26.0,52.0,['MAT-44_Plant5'],e548
+Create Sales Order Item (Overstock to Overstock),2023-10-01,['MAT-44'],['Plant1'],,['SO_ITEM--107-4'],['CUSTOMER--26'],,71.0,142.0,['MAT-44_Plant1'],e549
+Goods Issue (Overstock to Overstock),2023-11-09,['MAT-44'],['Plant2'],,,['CUSTOMER--779187'],,71.0,142.0,['MAT-44_Plant2'],e550
+Create Purchase Order Item (Understock),2023-12-09,['MAT-44'],['Plant2'],['PO_ITEM--142-1'],,,['SUPPLIER--4'],0.0,71.0,['MAT-44_Plant2'],e551
+Create Purchase Order Item (Understock),2023-12-19,['MAT-44'],['Plant1'],['PO_ITEM--117-3'],,,['SUPPLIER--20'],0.0,71.0,['MAT-44_Plant1'],e552
+Create Purchase Order Item (Understock),2023-12-25,['MAT-44'],['Plant1'],['PO_ITEM--122-2'],,,['SUPPLIER--20'],0.0,71.0,['MAT-44_Plant1'],e553
+Create Sales Order Item,2024-01-05,['MAT-44'],['Plant3'],,['SO_ITEM--54-2'],['CUSTOMER--12'],,0.0,71.0,['MAT-44_Plant3'],e554
+Create Sales Order Item,2024-02-02,['MAT-44'],['Plant4'],,['SO_ITEM--109-4'],['CUSTOMER--27'],,0.0,71.0,['MAT-44_Plant4'],e555
+Goods Receipt (Understock to Overstock),2024-03-06,['MAT-44'],['Plant4'],['PO_ITEM--63-1'],,,['SUPPLIER--26'],0.0,71.0,['MAT-44_Plant4'],e556
+Create Purchase Order Item (Overstock),2024-03-07,['MAT-44'],['Plant1'],['PO_ITEM--4-1'],,,['SUPPLIER--17'],45.0,116.0,['MAT-44_Plant1'],e557
+Create Sales Order Item,2024-05-02,['MAT-44'],['Plant5'],,['SO_ITEM--67-4'],['CUSTOMER--22'],,0.0,26.0,['MAT-44_Plant5'],e558
+Create Sales Order Item,2024-05-15,['MAT-44'],['Plant5'],,['SO_ITEM--198-1'],['CUSTOMER--48'],,0.0,26.0,['MAT-44_Plant5'],e559
+Create Sales Order Item (Overstock to Overstock),2024-07-22,['MAT-44'],['Plant1'],,['SO_ITEM--154-3'],['CUSTOMER--42'],,45.0,116.0,['MAT-44_Plant1'],e560
+Create Purchase Order Item (Overstock),2024-09-02,['MAT-44'],['Plant4'],['PO_ITEM--6-3'],,,['SUPPLIER--5'],45.0,116.0,['MAT-44_Plant4'],e561
+Create Purchase Order Item (Normal),2024-09-11,['MAT-44'],['Plant2'],['PO_ITEM--87-3'],,,['SUPPLIER--23'],45.0,116.0,['MAT-44_Plant2'],e562
+Create Sales Order Item (Overstock to Overstock),2024-09-12,['MAT-44'],['Plant4'],,['SO_ITEM--187-5'],['CUSTOMER--21'],,45.0,116.0,['MAT-44_Plant4'],e563
+Create Sales Order Item (Understock to Understock),2023-10-26,['MAT-45'],['Plant5'],,['SO_ITEM--158-1'],['CUSTOMER--3'],,0.0,0.0,['MAT-45_Plant5'],e565
+Create Purchase Order Item (Understock),2023-11-29,['MAT-45'],['Plant1'],['PO_ITEM--50-2'],,,['SUPPLIER--29'],0.0,0.0,['MAT-45_Plant1'],e566
+Create Sales Order Item (Understock to Understock),2023-12-03,['MAT-45'],['Plant4'],,['SO_ITEM--104-3'],['CUSTOMER--11'],,0.0,0.0,['MAT-45_Plant4'],e567
+Create Sales Order Item (Understock to Understock),2024-01-02,['MAT-45'],['Plant1'],,['SO_ITEM--33-1'],['CUSTOMER--38'],,0.0,0.0,['MAT-45_Plant1'],e568
+Create Sales Order Item (Understock to Understock),2024-01-28,['MAT-45'],['Plant1'],,['SO_ITEM--9-1'],['CUSTOMER--47'],,0.0,0.0,['MAT-45_Plant1'],e569
+Create Purchase Order Item (Understock),2024-03-14,['MAT-45'],['Plant4'],['PO_ITEM--129-2'],,,['SUPPLIER--11'],0.0,0.0,['MAT-45_Plant4'],e570
+Create Purchase Order Item (Understock),2024-03-16,['MAT-45'],['Plant5'],['PO_ITEM--92-3'],,,['SUPPLIER--28'],0.0,0.0,['MAT-45_Plant5'],e571
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-45'],['Plant3'],,['SO_ITEM--63-1'],['CUSTOMER--49'],,95.0,190.0,['MAT-45_Plant3'],e572
+Create Purchase Order Item (Overstock),2024-06-08,['MAT-45'],['Plant3'],['PO_ITEM--86-1'],,,['SUPPLIER--18'],95.0,190.0,['MAT-45_Plant3'],e573
+Create Sales Order Item (Overstock to Overstock),2024-07-31,['MAT-45'],['Plant3'],,['SO_ITEM--112-2'],['CUSTOMER--3'],,95.0,190.0,['MAT-45_Plant3'],e574
+Create Sales Order Item (Understock to Understock),2024-08-03,['MAT-45'],['Plant5'],,['SO_ITEM--76-1'],['CUSTOMER--42'],,0.0,0.0,['MAT-45_Plant5'],e575
+Goods Issue (Overstock to Overstock),2024-09-20,['MAT-45'],['Plant3'],,,['CUSTOMER--802360'],,95.0,190.0,['MAT-45_Plant3'],e576
+Create Sales Order Item (Understock to Understock),2024-01-12,['MAT-46'],['Plant2'],,['SO_ITEM--68-2'],['CUSTOMER--34'],,0.0,0.0,['MAT-46_Plant2'],e578
+Create Sales Order Item (Understock to Understock),2024-02-02,['MAT-46'],['Plant2'],,['SO_ITEM--109-1'],['CUSTOMER--27'],,0.0,0.0,['MAT-46_Plant2'],e579
+Create Purchase Order Item (Understock),2024-03-01,['MAT-46'],['Plant5'],['PO_ITEM--40-3'],,,['SUPPLIER--18'],0.0,0.0,['MAT-46_Plant5'],e580
+Goods Receipt (Understock to Understock),2024-05-31,['MAT-46'],['Plant4'],['PO_ITEM--125-3'],,,['SUPPLIER--10'],0.0,0.0,['MAT-46_Plant4'],e581
+Create Purchase Suggestion Item (Overstock),2024-06-01,['MAT-46'],['Plant1'],,,,,44.0,44.0,['MAT-46_Plant1'],e582
+Create Sales Order Item (Overstock to Overstock),2024-06-25,['MAT-46'],['Plant3'],,['SO_ITEM--168-3'],['CUSTOMER--8'],,44.0,44.0,['MAT-46_Plant3'],e583
+Create Sales Order Item (Overstock to Overstock),2024-06-25,['MAT-46'],['Plant5'],,['SO_ITEM--168-4'],['CUSTOMER--8'],,44.0,44.0,['MAT-46_Plant5'],e584
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-46'],['Plant1'],['PO_ITEM--100-4'],,,['SUPPLIER--15'],44.0,44.0,['MAT-46_Plant1'],e585
+Create Sales Order Item (Overstock to Overstock),2024-09-09,['MAT-46'],['Plant5'],,['SO_ITEM--128-4'],['CUSTOMER--47'],,44.0,44.0,['MAT-46_Plant5'],e586
+Goods Receipt (Overstock to Overstock),2023-10-25,['MAT-47'],['Plant3'],['PO_ITEM--50-4'],,,['SUPPLIER--29'],86.0,172.0,['MAT-47_Plant3'],e588
+Create Sales Order Item (Overstock to Overstock),2023-11-01,['MAT-47'],['Plant3'],,['SO_ITEM--15-1'],['CUSTOMER--6'],,89.0,175.0,['MAT-47_Plant3'],e589
+Create Purchase Order Item (Overstock),2023-11-05,['MAT-47'],['Plant3'],['PO_ITEM--48-2'],,,['SUPPLIER--1'],89.0,175.0,['MAT-47_Plant3'],e590
+Create Purchase Order Item (Understock),2023-11-16,['MAT-47'],['Plant5'],['PO_ITEM--83-1'],,,['SUPPLIER--12'],89.0,175.0,['MAT-47_Plant5'],e591
+Create Purchase Suggestion Item (Understock),2023-11-21,['MAT-47'],['Plant5'],,,,,89.0,175.0,['MAT-47_Plant5'],e592
+Create Purchase Order Item (Overstock),2023-11-23,['MAT-47'],['Plant4'],['PO_ITEM--138-2'],,,['SUPPLIER--29'],89.0,175.0,['MAT-47_Plant4'],e593
+Goods Issue,2023-12-18,['MAT-47'],['Plant5'],,,['CUSTOMER--386270'],,89.0,175.0,['MAT-47_Plant5'],e594
+Create Sales Order Item (Overstock to Overstock),2023-12-26,['MAT-47'],['Plant3'],,['SO_ITEM--123-4'],['CUSTOMER--31'],,20.0,106.0,['MAT-47_Plant3'],e595
+Create Purchase Suggestion Item (Normal),2024-01-03,['MAT-47'],['Plant2'],,,,,20.0,106.0,['MAT-47_Plant2'],e596
+Create Sales Order Item (Overstock to Overstock),2024-01-07,['MAT-47'],['Plant4'],,['SO_ITEM--173-4'],['CUSTOMER--13'],,20.0,106.0,['MAT-47_Plant4'],e597
+Create Purchase Suggestion Item (Overstock),2024-01-08,['MAT-47'],['Plant3'],,,,,20.0,106.0,['MAT-47_Plant3'],e598
+Goods Issue,2024-03-05,['MAT-47'],['Plant2'],,,['CUSTOMER--383297'],,20.0,106.0,['MAT-47_Plant2'],e599
+Create Sales Order Item,2024-03-28,['MAT-47'],['Plant4'],,['SO_ITEM--61-1'],['CUSTOMER--43'],,0.0,86.0,['MAT-47_Plant4'],e600
+Create Sales Order Item,2024-05-08,['MAT-47'],['Plant2'],,['SO_ITEM--39-1'],['CUSTOMER--28'],,0.0,86.0,['MAT-47_Plant2'],e601
+Create Sales Order Item (Understock to Understock),2024-05-17,['MAT-47'],['Plant5'],,['SO_ITEM--21-2'],['CUSTOMER--25'],,0.0,86.0,['MAT-47_Plant5'],e602
+Create Sales Order Item (Understock to Understock),2024-05-26,['MAT-47'],['Plant5'],,['SO_ITEM--162-1'],['CUSTOMER--37'],,0.0,86.0,['MAT-47_Plant5'],e603
+Create Sales Order Item,2024-06-09,['MAT-47'],['Plant3'],,['SO_ITEM--85-2'],['CUSTOMER--34'],,0.0,86.0,['MAT-47_Plant3'],e604
+Goods Receipt (Understock to Understock),2024-07-24,['MAT-47'],['Plant5'],['PO_ITEM--38-4'],,,['SUPPLIER--11'],0.0,86.0,['MAT-47_Plant5'],e605
+Create Purchase Suggestion Item (Understock),2024-08-09,['MAT-47'],['Plant5'],,,,,84.0,170.0,['MAT-47_Plant5'],e606
+Create Sales Order Item (Overstock to Overstock),2024-08-24,['MAT-47'],['Plant2'],,['SO_ITEM--14-1'],['CUSTOMER--18'],,84.0,170.0,['MAT-47_Plant2'],e607
+Create Sales Order Item (Overstock to Overstock),2024-09-01,['MAT-47'],['Plant4'],,['SO_ITEM--146-2'],['CUSTOMER--29'],,84.0,170.0,['MAT-47_Plant4'],e608
+Create Purchase Order Item (Understock),2024-09-02,['MAT-47'],['Plant5'],['PO_ITEM--6-5'],,,['SUPPLIER--5'],84.0,170.0,['MAT-47_Plant5'],e609
+Create Sales Order Item (Overstock to Overstock),2024-09-25,['MAT-47'],['Plant2'],,['SO_ITEM--87-4'],['CUSTOMER--17'],,84.0,170.0,['MAT-47_Plant2'],e610
+Goods Issue,2023-10-26,['MAT-48'],['Plant1'],,,['CUSTOMER--706744'],,28.0,56.0,['MAT-48_Plant1'],e612
+Create Sales Order Item,2023-12-06,['MAT-48'],['Plant2'],,['SO_ITEM--164-5'],['CUSTOMER--16'],,0.0,28.0,['MAT-48_Plant2'],e613
+Create Purchase Suggestion Item (Understock),2023-12-22,['MAT-48'],['Plant2'],,,,,0.0,28.0,['MAT-48_Plant2'],e614
+Create Sales Order Item,2024-01-05,['MAT-48'],['Plant5'],,['SO_ITEM--54-4'],['CUSTOMER--12'],,0.0,28.0,['MAT-48_Plant5'],e615
+Create Sales Order Item,2024-01-07,['MAT-48'],['Plant2'],,['SO_ITEM--173-3'],['CUSTOMER--13'],,0.0,28.0,['MAT-48_Plant2'],e616
+Create Sales Order Item,2024-01-11,['MAT-48'],['Plant3'],,['SO_ITEM--130-4'],['CUSTOMER--23'],,0.0,28.0,['MAT-48_Plant3'],e617
+Create Purchase Order Item (Understock),2024-01-29,['MAT-48'],['Plant3'],['PO_ITEM--39-1'],,,['SUPPLIER--26'],0.0,28.0,['MAT-48_Plant3'],e618
+Create Sales Order Item,2024-04-28,['MAT-48'],['Plant4'],,['SO_ITEM--172-2'],['CUSTOMER--10'],,0.0,28.0,['MAT-48_Plant4'],e619
+Create Sales Order Item,2024-05-02,['MAT-48'],['Plant3'],,['SO_ITEM--67-1'],['CUSTOMER--22'],,0.0,28.0,['MAT-48_Plant3'],e620
+Create Sales Order Item,2024-05-08,['MAT-48'],['Plant3'],,['SO_ITEM--124-2'],['CUSTOMER--6'],,0.0,28.0,['MAT-48_Plant3'],e621
+Create Sales Order Item,2024-05-15,['MAT-48'],['Plant1'],,['SO_ITEM--126-3'],['CUSTOMER--46'],,0.0,28.0,['MAT-48_Plant1'],e622
+Create Purchase Order Item (Understock),2024-06-06,['MAT-48'],['Plant3'],['PO_ITEM--18-3'],,,['SUPPLIER--29'],0.0,28.0,['MAT-48_Plant3'],e623
+Create Sales Order Item,2024-06-17,['MAT-48'],['Plant5'],,['SO_ITEM--152-1'],['CUSTOMER--27'],,0.0,28.0,['MAT-48_Plant5'],e624
+Create Sales Order Item,2024-09-17,['MAT-48'],['Plant4'],,['SO_ITEM--103-2'],['CUSTOMER--4'],,0.0,28.0,['MAT-48_Plant4'],e625
+Create Purchase Order Item (Overstock),2023-10-15,['MAT-49'],['Plant5'],['PO_ITEM--80-1'],,,['SUPPLIER--16'],36.0,72.0,['MAT-49_Plant5'],e627
+Create Sales Order Item (Understock to Understock),2023-10-23,['MAT-49'],['Plant1'],,['SO_ITEM--88-3'],['CUSTOMER--49'],,0.0,0.0,['MAT-49_Plant1'],e628
+Create Purchase Suggestion Item (Overstock),2023-10-27,['MAT-49'],['Plant2'],,,,,65.0,130.0,['MAT-49_Plant2'],e629
+Create Sales Order Item (Overstock to Overstock),2023-10-27,['MAT-49'],['Plant3'],,['SO_ITEM--59-5'],['CUSTOMER--16'],,65.0,130.0,['MAT-49_Plant3'],e630
+Create Sales Order Item (Overstock to Overstock),2023-12-01,['MAT-49'],['Plant2'],,['SO_ITEM--135-2'],['CUSTOMER--1'],,65.0,130.0,['MAT-49_Plant2'],e631
+Create Sales Order Item,2024-02-14,['MAT-49'],['Plant4'],,['SO_ITEM--25-1'],['CUSTOMER--11'],,65.0,130.0,['MAT-49_Plant4'],e632
+Create Purchase Suggestion Item (Understock),2024-03-05,['MAT-49'],['Plant1'],,,,,0.0,0.0,['MAT-49_Plant1'],e633
+Create Sales Order Item (Overstock to Overstock),2024-03-09,['MAT-49'],['Plant3'],,['SO_ITEM--77-1'],['CUSTOMER--35'],,65.0,130.0,['MAT-49_Plant3'],e634
+Goods Receipt (Overstock to Overstock),2024-03-17,['MAT-49'],['Plant2'],['PO_ITEM--102-3'],,,['SUPPLIER--2'],65.0,130.0,['MAT-49_Plant2'],e635
+Goods Issue (Overstock to Overstock),2024-04-08,['MAT-49'],['Plant4'],,,['CUSTOMER--551898'],,100.0,165.0,['MAT-49_Plant4'],e636
+Create Sales Order Item,2024-05-15,['MAT-49'],['Plant5'],,['SO_ITEM--91-1'],['CUSTOMER--30'],,0.0,36.0,['MAT-49_Plant5'],e637
+Create Sales Order Item (Overstock to Overstock),2024-05-17,['MAT-49'],['Plant2'],,['SO_ITEM--191-5'],['CUSTOMER--40'],,29.0,94.0,['MAT-49_Plant2'],e638
+Goods Receipt (Understock to Overstock),2024-06-03,['MAT-49'],['Plant5'],['PO_ITEM--45-2'],,,['SUPPLIER--15'],0.0,36.0,['MAT-49_Plant5'],e639
+Create Sales Order Item (Overstock to Overstock),2024-07-05,['MAT-49'],['Plant5'],,['SO_ITEM--185-1'],['CUSTOMER--50'],,29.0,65.0,['MAT-49_Plant5'],e640
+Create Purchase Order Item (Overstock),2024-07-13,['MAT-49'],['Plant2'],['PO_ITEM--89-2'],,,['SUPPLIER--23'],58.0,123.0,['MAT-49_Plant2'],e641
+Goods Issue,2024-08-03,['MAT-49'],['Plant4'],,,['CUSTOMER--548899'],,58.0,123.0,['MAT-49_Plant4'],e642
+Create Purchase Order Item (Understock),2024-08-26,['MAT-49'],['Plant2'],['PO_ITEM--73-2'],,,['SUPPLIER--28'],0.0,65.0,['MAT-49_Plant2'],e643
+Create Sales Order Item,2024-09-04,['MAT-49'],['Plant2'],,['SO_ITEM--66-2'],['CUSTOMER--44'],,0.0,65.0,['MAT-49_Plant2'],e644
+Create Purchase Suggestion Item (Understock),2024-09-06,['MAT-49'],['Plant2'],,,,,0.0,65.0,['MAT-49_Plant2'],e645
+Create Sales Order Item,2024-09-09,['MAT-49'],['Plant3'],,['SO_ITEM--13-5'],['CUSTOMER--1'],,0.0,65.0,['MAT-49_Plant3'],e646
+Goods Receipt (Understock to Normal),2024-09-20,['MAT-49'],['Plant4'],['PO_ITEM--21-4'],,,['SUPPLIER--13'],0.0,65.0,['MAT-49_Plant4'],e647
+Create Purchase Suggestion Item (Understock),2023-12-03,['MAT-50'],['Plant1'],,,,,0.0,0.0,['MAT-50_Plant1'],e649
+Create Sales Order Item (Understock to Understock),2023-12-04,['MAT-50'],['Plant4'],,['SO_ITEM--192-2'],['CUSTOMER--30'],,0.0,0.0,['MAT-50_Plant4'],e650
+Create Sales Order Item (Understock to Understock),2024-01-12,['MAT-50'],['Plant5'],,['SO_ITEM--68-1'],['CUSTOMER--34'],,0.0,0.0,['MAT-50_Plant5'],e651
+Create Purchase Suggestion Item (Understock),2024-02-20,['MAT-50'],['Plant2'],,,,,0.0,0.0,['MAT-50_Plant2'],e652
+Create Purchase Order Item (Understock),2024-03-16,['MAT-50'],['Plant1'],['PO_ITEM--61-1'],,,['SUPPLIER--22'],0.0,0.0,['MAT-50_Plant1'],e653
+Create Purchase Suggestion Item (Understock),2024-05-09,['MAT-50'],['Plant2'],,,,,0.0,0.0,['MAT-50_Plant2'],e654
+Goods Receipt (Understock to Understock),2024-06-24,['MAT-50'],['Plant5'],['PO_ITEM--127-4'],,,['SUPPLIER--24'],0.0,0.0,['MAT-50_Plant5'],e655
+Create Sales Order Item (Overstock to Overstock),2024-07-05,['MAT-50'],['Plant3'],,['SO_ITEM--185-3'],['CUSTOMER--50'],,8.0,8.0,['MAT-50_Plant3'],e656
+Goods Receipt (Overstock to Overstock),2024-07-25,['MAT-50'],['Plant1'],['PO_ITEM--91-2'],,,['SUPPLIER--10'],8.0,8.0,['MAT-50_Plant1'],e657
+Create Purchase Order Item (Overstock),2024-08-08,['MAT-50'],['Plant5'],['PO_ITEM--137-3'],,,['SUPPLIER--18'],108.0,108.0,['MAT-50_Plant5'],e658
+Create Sales Order Item (Overstock to Overstock),2024-09-01,['MAT-50'],['Plant4'],,['SO_ITEM--146-1'],['CUSTOMER--29'],,108.0,108.0,['MAT-50_Plant4'],e659
+Goods Issue (Overstock to Overstock),2024-09-10,['MAT-50'],['Plant2'],,,['CUSTOMER--280443'],,108.0,108.0,['MAT-50_Plant2'],e660
+Create Sales Order Item (Overstock to Overstock),2024-09-13,['MAT-50'],['Plant1'],,['SO_ITEM--160-4'],['CUSTOMER--44'],,78.0,78.0,['MAT-50_Plant1'],e661
+Goods Issue (Overstock to Overstock),2023-10-31,['MAT-51'],['Plant2'],,,['CUSTOMER--790421'],,75.0,150.0,['MAT-51_Plant2'],e663
+Goods Receipt (Understock to Overstock),2023-11-21,['MAT-51'],['Plant4'],['PO_ITEM--145-3'],,,['SUPPLIER--9'],0.0,75.0,['MAT-51_Plant4'],e664
+Create Sales Order Item,2024-02-12,['MAT-51'],['Plant3'],,['SO_ITEM--102-1'],['CUSTOMER--33'],,0.0,50.0,['MAT-51_Plant3'],e665
+Create Sales Order Item,2024-06-25,['MAT-51'],['Plant1'],,['SO_ITEM--6-1'],['CUSTOMER--49'],,0.0,50.0,['MAT-51_Plant1'],e666
+Create Sales Order Item,2024-06-25,['MAT-51'],['Plant1'],,['SO_ITEM--168-2'],['CUSTOMER--8'],,0.0,50.0,['MAT-51_Plant1'],e667
+Create Sales Order Item (Overstock to Overstock),2024-07-05,['MAT-51'],['Plant4'],,['SO_ITEM--185-2'],['CUSTOMER--50'],,25.0,100.0,['MAT-51_Plant4'],e668
+Goods Receipt (Understock to Overstock),2024-07-26,['MAT-51'],['Plant3'],['PO_ITEM--110-3'],,,['SUPPLIER--25'],0.0,50.0,['MAT-51_Plant3'],e669
+Create Sales Order Item (Overstock to Overstock),2024-08-10,['MAT-51'],['Plant4'],,['SO_ITEM--1-2'],['CUSTOMER--10'],,66.0,141.0,['MAT-51_Plant4'],e670
+Create Purchase Order Item (Overstock),2024-08-28,['MAT-51'],['Plant4'],['PO_ITEM--64-2'],,,['SUPPLIER--16'],66.0,141.0,['MAT-51_Plant4'],e671
+Create Purchase Order Item (Overstock),2024-09-07,['MAT-51'],['Plant4'],['PO_ITEM--107-4'],,,['SUPPLIER--11'],66.0,141.0,['MAT-51_Plant4'],e672
+Create Purchase Order Item (Overstock),2024-09-24,['MAT-51'],['Plant1'],['PO_ITEM--143-5'],,,['SUPPLIER--17'],41.0,91.0,['MAT-51_Plant1'],e673
+Create Purchase Order Item (Understock),2023-10-06,['MAT-52'],['Plant1'],['PO_ITEM--141-1'],,,['SUPPLIER--10'],0.0,17.0,['MAT-52_Plant1'],e675
+Create Purchase Order Item (Understock),2023-11-29,['MAT-52'],['Plant1'],['PO_ITEM--75-3'],,,['SUPPLIER--30'],0.0,17.0,['MAT-52_Plant1'],e676
+Create Sales Order Item,2024-01-02,['MAT-52'],['Plant4'],,['SO_ITEM--33-2'],['CUSTOMER--38'],,0.0,17.0,['MAT-52_Plant4'],e677
+Goods Receipt (Understock to Overstock),2024-01-17,['MAT-52'],['Plant1'],['PO_ITEM--110-3'],,,['SUPPLIER--25'],0.0,17.0,['MAT-52_Plant1'],e678
+Create Sales Order Item (Overstock to Overstock),2024-01-27,['MAT-52'],['Plant5'],,['SO_ITEM--55-2'],['CUSTOMER--25'],,64.0,64.0,['MAT-52_Plant5'],e679
+Create Sales Order Item (Overstock to Overstock),2024-01-28,['MAT-52'],['Plant3'],,['SO_ITEM--9-2'],['CUSTOMER--47'],,64.0,64.0,['MAT-52_Plant3'],e680
+Create Sales Order Item (Overstock to Overstock),2024-05-07,['MAT-52'],['Plant5'],,['SO_ITEM--37-4'],['CUSTOMER--39'],,64.0,64.0,['MAT-52_Plant5'],e681
+Create Purchase Order Item (Overstock),2024-05-13,['MAT-52'],['Plant1'],['PO_ITEM--139-1'],,,['SUPPLIER--14'],81.0,98.0,['MAT-52_Plant1'],e682
+Goods Issue (Overstock to Overstock),2024-05-14,['MAT-52'],['Plant5'],,,['CUSTOMER--163788'],,64.0,64.0,['MAT-52_Plant5'],e683
+Create Sales Order Item (Overstock to Overstock),2024-05-19,['MAT-52'],['Plant3'],,['SO_ITEM--100-2'],['CUSTOMER--7'],,30.0,30.0,['MAT-52_Plant3'],e684
+Create Purchase Order Item (Normal),2024-08-18,['MAT-52'],['Plant5'],['PO_ITEM--90-3'],,,['SUPPLIER--21'],30.0,30.0,['MAT-52_Plant5'],e685
+Create Purchase Order Item (Understock),2023-10-08,['MAT-53'],['Plant5'],['PO_ITEM--62-4'],,,['SUPPLIER--15'],0.0,0.0,['MAT-53_Plant5'],e687
+Create Sales Order Item (Overstock to Overstock),2023-10-09,['MAT-53'],['Plant4'],,['SO_ITEM--120-1'],['CUSTOMER--47'],,44.0,88.0,['MAT-53_Plant4'],e688
+Create Purchase Order Item (Understock),2023-11-06,['MAT-53'],['Plant5'],['PO_ITEM--130-2'],,,['SUPPLIER--26'],0.0,0.0,['MAT-53_Plant5'],e689
+Create Purchase Suggestion Item (Overstock),2023-11-13,['MAT-53'],['Plant3'],,,,,44.0,88.0,['MAT-53_Plant3'],e690
+Create Purchase Order Item (Overstock),2023-12-22,['MAT-53'],['Plant3'],['PO_ITEM--47-2'],,,['SUPPLIER--27'],44.0,88.0,['MAT-53_Plant3'],e691
+Create Sales Order Item (Overstock to Overstock),2024-01-05,['MAT-53'],['Plant3'],,['SO_ITEM--197-2'],['CUSTOMER--6'],,44.0,88.0,['MAT-53_Plant3'],e692
+Create Sales Order Item (Understock to Understock),2024-01-31,['MAT-53'],['Plant5'],,['SO_ITEM--41-5'],['CUSTOMER--38'],,0.0,0.0,['MAT-53_Plant5'],e693
+Create Purchase Order Item (Overstock),2024-02-15,['MAT-53'],['Plant4'],['PO_ITEM--38-1'],,,['SUPPLIER--11'],44.0,88.0,['MAT-53_Plant4'],e694
+Create Sales Order Item,2024-03-03,['MAT-53'],['Plant1'],,['SO_ITEM--44-2'],['CUSTOMER--37'],,44.0,88.0,['MAT-53_Plant1'],e695
+Create Purchase Order Item (Overstock),2024-04-04,['MAT-53'],['Plant3'],['PO_ITEM--95-2'],,,['SUPPLIER--17'],44.0,88.0,['MAT-53_Plant3'],e696
+Goods Receipt (Overstock to Overstock),2024-05-04,['MAT-53'],['Plant4'],['PO_ITEM--56-5'],,,['SUPPLIER--10'],44.0,88.0,['MAT-53_Plant4'],e697
+Create Purchase Order Item (Overstock),2024-06-11,['MAT-53'],['Plant2'],['PO_ITEM--123-1'],,,['SUPPLIER--14'],27.0,27.0,['MAT-53_Plant2'],e698
+Create Sales Order Item (Overstock to Overstock),2024-07-08,['MAT-53'],['Plant4'],,['SO_ITEM--75-3'],['CUSTOMER--14'],,71.0,115.0,['MAT-53_Plant4'],e699
+Create Purchase Order Item (Overstock),2024-07-19,['MAT-53'],['Plant1'],['PO_ITEM--127-1'],,,['SUPPLIER--24'],71.0,115.0,['MAT-53_Plant1'],e700
+Goods Issue (Overstock to Overstock),2024-08-05,['MAT-53'],['Plant1'],,,['CUSTOMER--656289'],,71.0,115.0,['MAT-53_Plant1'],e701
+Create Purchase Order Item (Understock),2024-08-18,['MAT-53'],['Plant4'],['PO_ITEM--90-1'],,,['SUPPLIER--21'],0.0,44.0,['MAT-53_Plant4'],e702
+Create Sales Order Item,2024-09-06,['MAT-53'],['Plant3'],,['SO_ITEM--93-1'],['CUSTOMER--12'],,0.0,44.0,['MAT-53_Plant3'],e703
+Create Sales Order Item,2024-09-09,['MAT-53'],['Plant4'],,['SO_ITEM--128-3'],['CUSTOMER--47'],,0.0,44.0,['MAT-53_Plant4'],e704
+Create Purchase Order Item (Understock),2024-09-13,['MAT-53'],['Plant3'],['PO_ITEM--82-1'],,,['SUPPLIER--29'],0.0,44.0,['MAT-53_Plant3'],e705
+Create Sales Order Item (Understock to Understock),2023-10-31,['MAT-54'],['Plant1'],,['SO_ITEM--138-1'],['CUSTOMER--14'],,0.0,0.0,['MAT-54_Plant1'],e707
+Create Purchase Order Item (Understock),2023-11-28,['MAT-54'],['Plant1'],['PO_ITEM--134-4'],,,['SUPPLIER--21'],0.0,0.0,['MAT-54_Plant1'],e708
+Create Purchase Order Item (Understock),2023-11-29,['MAT-54'],['Plant5'],['PO_ITEM--50-4'],,,['SUPPLIER--29'],0.0,0.0,['MAT-54_Plant5'],e709
+Create Purchase Order Item (Understock),2023-12-17,['MAT-54'],['Plant3'],['PO_ITEM--10-1'],,,['SUPPLIER--20'],0.0,0.0,['MAT-54_Plant3'],e710
+Create Purchase Suggestion Item (Understock),2023-12-31,['MAT-54'],['Plant1'],,,,,0.0,0.0,['MAT-54_Plant1'],e711
+Create Purchase Order Item (Understock),2024-01-12,['MAT-54'],['Plant4'],['PO_ITEM--146-5'],,,['SUPPLIER--21'],0.0,0.0,['MAT-54_Plant4'],e712
+Create Sales Order Item (Understock to Understock),2024-02-02,['MAT-54'],['Plant1'],,['SO_ITEM--109-2'],['CUSTOMER--27'],,0.0,0.0,['MAT-54_Plant1'],e713
+Create Sales Order Item (Understock to Understock),2024-03-31,['MAT-54'],['Plant2'],,['SO_ITEM--82-1'],['CUSTOMER--9'],,0.0,0.0,['MAT-54_Plant2'],e714
+Create Sales Order Item (Understock to Understock),2024-05-08,['MAT-54'],['Plant3'],,['SO_ITEM--39-3'],['CUSTOMER--28'],,0.0,0.0,['MAT-54_Plant3'],e715
+Create Purchase Suggestion Item (Understock),2024-05-11,['MAT-54'],['Plant5'],,,,,0.0,0.0,['MAT-54_Plant5'],e716
+Create Purchase Order Item (Understock),2024-06-06,['MAT-54'],['Plant5'],['PO_ITEM--18-4'],,,['SUPPLIER--29'],0.0,0.0,['MAT-54_Plant5'],e717
+Create Sales Order Item (Understock to Understock),2024-06-14,['MAT-54'],['Plant5'],,['SO_ITEM--181-3'],['CUSTOMER--37'],,0.0,0.0,['MAT-54_Plant5'],e718
+Goods Receipt (Understock to Understock),2024-06-17,['MAT-54'],['Plant1'],['PO_ITEM--8-3'],,,['SUPPLIER--26'],0.0,0.0,['MAT-54_Plant1'],e719
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-54'],['Plant4'],['PO_ITEM--100-1'],,,['SUPPLIER--15'],28.0,28.0,['MAT-54_Plant4'],e720
+Create Sales Order Item (Overstock to Overstock),2024-09-04,['MAT-54'],['Plant5'],,['SO_ITEM--62-2'],['CUSTOMER--49'],,28.0,28.0,['MAT-54_Plant5'],e721
+Create Sales Order Item (Understock to Understock),2023-10-05,['MAT-55'],['Plant1'],,['SO_ITEM--16-1'],['CUSTOMER--43'],,0.0,0.0,['MAT-55_Plant1'],e723
+Create Purchase Suggestion Item (Understock),2023-10-10,['MAT-55'],['Plant2'],,,,,0.0,0.0,['MAT-55_Plant2'],e724
+Create Sales Order Item (Understock to Understock),2023-11-08,['MAT-55'],['Plant5'],,['SO_ITEM--105-2'],['CUSTOMER--21'],,0.0,0.0,['MAT-55_Plant5'],e725
+Create Sales Order Item (Understock to Understock),2023-12-03,['MAT-55'],['Plant4'],,['SO_ITEM--104-1'],['CUSTOMER--11'],,0.0,0.0,['MAT-55_Plant4'],e726
+Create Purchase Order Item (Understock),2023-12-19,['MAT-55'],['Plant2'],['PO_ITEM--108-3'],,,['SUPPLIER--29'],0.0,0.0,['MAT-55_Plant2'],e727
+Goods Receipt (Understock to Understock),2023-12-27,['MAT-55'],['Plant2'],['PO_ITEM--100-1'],,,['SUPPLIER--15'],0.0,0.0,['MAT-55_Plant2'],e728
+Create Purchase Order Item (Overstock),2024-01-08,['MAT-55'],['Plant1'],['PO_ITEM--84-3'],,,['SUPPLIER--13'],96.0,96.0,['MAT-55_Plant1'],e729
+Create Sales Order Item (Overstock to Overstock),2024-05-19,['MAT-55'],['Plant4'],,['SO_ITEM--176-1'],['CUSTOMER--42'],,96.0,96.0,['MAT-55_Plant4'],e730
+Create Sales Order Item (Overstock to Overstock),2024-06-24,['MAT-55'],['Plant5'],,['SO_ITEM--170-1'],['CUSTOMER--20'],,96.0,96.0,['MAT-55_Plant5'],e731
+Create Sales Order Item (Overstock to Overstock),2024-08-10,['MAT-55'],['Plant3'],,['SO_ITEM--1-1'],['CUSTOMER--10'],,96.0,96.0,['MAT-55_Plant3'],e732
+Create Sales Order Item (Overstock to Overstock),2024-09-04,['MAT-55'],['Plant2'],,['SO_ITEM--62-1'],['CUSTOMER--49'],,96.0,96.0,['MAT-55_Plant2'],e733
+Goods Issue (Overstock to Overstock),2024-09-08,['MAT-55'],['Plant4'],,,['CUSTOMER--740339'],,96.0,96.0,['MAT-55_Plant4'],e734
+Create Sales Order Item (Overstock to Overstock),2024-09-17,['MAT-55'],['Plant1'],,['SO_ITEM--103-3'],['CUSTOMER--4'],,87.0,87.0,['MAT-55_Plant1'],e735
+Goods Receipt (Overstock to Overstock),2024-09-25,['MAT-55'],['Plant1'],['PO_ITEM--72-4'],,,['SUPPLIER--4'],87.0,87.0,['MAT-55_Plant1'],e736
+Create Sales Order Item (Understock to Understock),2024-01-28,['MAT-56'],['Plant2'],,['SO_ITEM--9-3'],['CUSTOMER--47'],,0.0,0.0,['MAT-56_Plant2'],e738
+Create Purchase Order Item (Understock),2024-03-17,['MAT-56'],['Plant1'],['PO_ITEM--11-3'],,,['SUPPLIER--24'],0.0,0.0,['MAT-56_Plant1'],e739
+Create Sales Order Item (Understock to Understock),2024-03-26,['MAT-56'],['Plant1'],,['SO_ITEM--7-1'],['CUSTOMER--33'],,0.0,0.0,['MAT-56_Plant1'],e740
+Create Purchase Suggestion Item (Overstock),2024-04-24,['MAT-56'],['Plant4'],,,,,202.0,404.0,['MAT-56_Plant4'],e741
+Create Sales Order Item (Overstock to Overstock),2024-05-02,['MAT-56'],['Plant3'],,['SO_ITEM--67-5'],['CUSTOMER--22'],,122.0,244.0,['MAT-56_Plant3'],e742
+Create Purchase Suggestion Item (Overstock),2024-05-11,['MAT-56'],['Plant5'],,,,,81.0,162.0,['MAT-56_Plant5'],e743
+Create Sales Order Item (Understock to Understock),2024-06-29,['MAT-56'],['Plant1'],,['SO_ITEM--99-2'],['CUSTOMER--23'],,0.0,0.0,['MAT-56_Plant1'],e744
+Create Sales Order Item (Overstock to Overstock),2024-07-13,['MAT-56'],['Plant5'],,['SO_ITEM--17-2'],['CUSTOMER--35'],,81.0,162.0,['MAT-56_Plant5'],e745
+Create Sales Order Item (Overstock to Overstock),2024-07-17,['MAT-56'],['Plant4'],,['SO_ITEM--182-1'],['CUSTOMER--44'],,202.0,404.0,['MAT-56_Plant4'],e746
+Goods Issue (Overstock to Overstock),2024-08-18,['MAT-56'],['Plant5'],,,['CUSTOMER--360843'],,81.0,162.0,['MAT-56_Plant5'],e747
+Goods Issue,2024-08-19,['MAT-56'],['Plant3'],,,['CUSTOMER--158849'],,41.0,163.0,['MAT-56_Plant3'],e748
+Goods Issue (Overstock to Overstock),2024-09-15,['MAT-56'],['Plant4'],,,['CUSTOMER--348772'],,80.0,282.0,['MAT-56_Plant4'],e749
+Create Sales Order Item (Understock to Understock),2024-02-28,['MAT-57'],['Plant4'],,['SO_ITEM--71-2'],['CUSTOMER--45'],,0.0,0.0,['MAT-57_Plant4'],e751
+Create Sales Order Item (Understock to Understock),2024-02-28,['MAT-57'],['Plant5'],,['SO_ITEM--71-3'],['CUSTOMER--45'],,0.0,0.0,['MAT-57_Plant5'],e752
+Create Sales Order Item (Understock to Understock),2024-03-04,['MAT-57'],['Plant1'],,['SO_ITEM--121-2'],['CUSTOMER--2'],,0.0,0.0,['MAT-57_Plant1'],e753
+Create Sales Order Item (Understock to Understock),2024-03-10,['MAT-57'],['Plant2'],,['SO_ITEM--200-3'],['CUSTOMER--15'],,0.0,0.0,['MAT-57_Plant2'],e754
+Create Sales Order Item (Understock to Understock),2024-05-13,['MAT-57'],['Plant1'],,['SO_ITEM--74-4'],['CUSTOMER--32'],,0.0,0.0,['MAT-57_Plant1'],e755
+Create Purchase Order Item (Understock),2024-06-08,['MAT-57'],['Plant5'],['PO_ITEM--86-5'],,,['SUPPLIER--18'],0.0,0.0,['MAT-57_Plant5'],e756
+Create Purchase Order Item (Understock),2024-07-19,['MAT-57'],['Plant5'],['PO_ITEM--127-2'],,,['SUPPLIER--24'],0.0,0.0,['MAT-57_Plant5'],e757
+Create Purchase Suggestion Item (Understock),2024-08-04,['MAT-57'],['Plant2'],,,,,0.0,0.0,['MAT-57_Plant2'],e758
+Create Purchase Suggestion Item (Understock),2024-08-11,['MAT-57'],['Plant5'],,,,,0.0,0.0,['MAT-57_Plant5'],e759
+Create Sales Order Item (Understock to Understock),2024-09-06,['MAT-57'],['Plant2'],,['SO_ITEM--93-4'],['CUSTOMER--12'],,0.0,0.0,['MAT-57_Plant2'],e760
+Create Purchase Order Item (Overstock),2023-10-21,['MAT-58'],['Plant2'],['PO_ITEM--149-1'],,,['SUPPLIER--10'],58.0,116.0,['MAT-58_Plant2'],e762
+Create Purchase Order Item (Overstock),2023-11-05,['MAT-58'],['Plant2'],['PO_ITEM--48-1'],,,['SUPPLIER--1'],58.0,116.0,['MAT-58_Plant2'],e763
+Create Sales Order Item (Overstock to Overstock),2023-12-16,['MAT-58'],['Plant2'],,['SO_ITEM--28-1'],['CUSTOMER--44'],,58.0,116.0,['MAT-58_Plant2'],e764
+Goods Issue,2023-12-19,['MAT-58'],['Plant5'],,,['CUSTOMER--213312'],,58.0,116.0,['MAT-58_Plant5'],e765
+Create Sales Order Item (Overstock to Overstock),2024-01-11,['MAT-58'],['Plant1'],,['SO_ITEM--130-2'],['CUSTOMER--23'],,73.0,204.0,['MAT-58_Plant1'],e766
+Create Sales Order Item,2024-02-12,['MAT-58'],['Plant2'],,['SO_ITEM--102-3'],['CUSTOMER--33'],,0.0,58.0,['MAT-58_Plant2'],e767
+Create Sales Order Item,2024-02-14,['MAT-58'],['Plant2'],,['SO_ITEM--108-1'],['CUSTOMER--25'],,0.0,58.0,['MAT-58_Plant2'],e768
+Create Purchase Order Item (Understock),2024-02-27,['MAT-58'],['Plant3'],['PO_ITEM--37-2'],,,['SUPPLIER--4'],0.0,58.0,['MAT-58_Plant3'],e769
+Create Purchase Order Item (Understock),2024-03-08,['MAT-58'],['Plant5'],['PO_ITEM--54-5'],,,['SUPPLIER--18'],0.0,58.0,['MAT-58_Plant5'],e770
+Create Sales Order Item,2024-04-22,['MAT-58'],['Plant3'],,['SO_ITEM--47-5'],['CUSTOMER--2'],,0.0,58.0,['MAT-58_Plant3'],e771
+Goods Issue (Overstock to Overstock),2024-06-25,['MAT-58'],['Plant1'],,,['CUSTOMER--214783'],,73.0,204.0,['MAT-58_Plant1'],e772
+Create Purchase Order Item (Understock),2024-08-01,['MAT-58'],['Plant4'],['PO_ITEM--144-5'],,,['SUPPLIER--13'],0.0,131.0,['MAT-58_Plant4'],e773
+Create Purchase Order Item (Understock),2024-08-08,['MAT-58'],['Plant4'],['PO_ITEM--137-2'],,,['SUPPLIER--18'],0.0,131.0,['MAT-58_Plant4'],e774
+Goods Receipt (Understock to Overstock),2024-08-23,['MAT-58'],['Plant4'],['PO_ITEM--101-5'],,,['SUPPLIER--24'],0.0,131.0,['MAT-58_Plant4'],e775
+Goods Receipt (Understock to Understock),2023-11-13,['MAT-59'],['Plant2'],['PO_ITEM--4-5'],,,['SUPPLIER--17'],0.0,0.0,['MAT-59_Plant2'],e777
+Goods Issue (Overstock to Overstock),2024-03-04,['MAT-59'],['Plant4'],,,['CUSTOMER--695377'],,98.0,98.0,['MAT-59_Plant4'],e778
+Create Sales Order Item (Overstock to Overstock),2024-04-21,['MAT-59'],['Plant5'],,['SO_ITEM--156-2'],['CUSTOMER--11'],,31.0,31.0,['MAT-59_Plant5'],e779
+Create Purchase Order Item (Normal),2024-06-02,['MAT-59'],['Plant4'],['PO_ITEM--30-4'],,,['SUPPLIER--1'],31.0,31.0,['MAT-59_Plant4'],e780
+Create Purchase Suggestion Item (Overstock),2024-08-02,['MAT-59'],['Plant2'],,,,,31.0,31.0,['MAT-59_Plant2'],e781
+Create Sales Order Item (Overstock to Overstock),2024-08-04,['MAT-59'],['Plant3'],,['SO_ITEM--65-1'],['CUSTOMER--1'],,31.0,31.0,['MAT-59_Plant3'],e782
+Create Purchase Order Item (Overstock),2023-10-06,['MAT-60'],['Plant2'],['PO_ITEM--141-4'],,,['SUPPLIER--10'],129.0,353.0,['MAT-60_Plant2'],e784
+Create Purchase Order Item (Overstock),2023-11-05,['MAT-60'],['Plant2'],['PO_ITEM--44-1'],,,['SUPPLIER--11'],129.0,353.0,['MAT-60_Plant2'],e785
+Goods Issue,2023-12-31,['MAT-60'],['Plant1'],,,['CUSTOMER--464618'],,119.0,333.0,['MAT-60_Plant1'],e786
+Goods Issue (Overstock to Overstock),2024-01-13,['MAT-60'],['Plant3'],,,['CUSTOMER--458181'],,96.0,310.0,['MAT-60_Plant3'],e787
+Create Purchase Order Item (Understock),2024-02-10,['MAT-60'],['Plant1'],['PO_ITEM--25-2'],,,['SUPPLIER--24'],0.0,214.0,['MAT-60_Plant1'],e788
+Create Purchase Order Item (Understock),2024-03-14,['MAT-60'],['Plant3'],['PO_ITEM--49-4'],,,['SUPPLIER--20'],0.0,214.0,['MAT-60_Plant3'],e789
+Create Sales Order Item (Overstock to Overstock),2024-06-13,['MAT-60'],['Plant2'],,['SO_ITEM--184-1'],['CUSTOMER--42'],,10.0,234.0,['MAT-60_Plant2'],e790
+Create Purchase Suggestion Item (Understock),2024-07-03,['MAT-60'],['Plant4'],,,,,0.0,214.0,['MAT-60_Plant4'],e791
+Create Sales Order Item,2024-07-08,['MAT-60'],['Plant5'],,['SO_ITEM--195-3'],['CUSTOMER--42'],,10.0,234.0,['MAT-60_Plant5'],e792
+Goods Issue,2024-07-14,['MAT-60'],['Plant5'],,,['CUSTOMER--514348'],,10.0,234.0,['MAT-60_Plant5'],e793
+Create Purchase Order Item (Understock),2024-09-07,['MAT-60'],['Plant2'],['PO_ITEM--107-3'],,,['SUPPLIER--11'],0.0,224.0,['MAT-60_Plant2'],e794
+Create Purchase Order Item (Understock),2024-09-24,['MAT-60'],['Plant2'],['PO_ITEM--143-4'],,,['SUPPLIER--17'],0.0,224.0,['MAT-60_Plant2'],e795
+Create Purchase Order Item (Understock),2023-11-07,['MAT-61'],['Plant5'],['PO_ITEM--45-2'],,,['SUPPLIER--15'],0.0,0.0,['MAT-61_Plant5'],e797
+Create Sales Order Item (Understock to Understock),2023-11-14,['MAT-61'],['Plant3'],,['SO_ITEM--111-3'],['CUSTOMER--15'],,0.0,0.0,['MAT-61_Plant3'],e798
+Goods Issue (Overstock to Overstock),2023-12-05,['MAT-61'],['Plant4'],,,['CUSTOMER--719243'],,157.0,314.0,['MAT-61_Plant4'],e799
+Create Sales Order Item (Overstock to Overstock),2024-03-04,['MAT-61'],['Plant2'],,['SO_ITEM--121-3'],['CUSTOMER--2'],,100.0,204.0,['MAT-61_Plant2'],e800
+Goods Issue (Overstock to Overstock),2024-04-20,['MAT-61'],['Plant2'],,,['CUSTOMER--889346'],,100.0,204.0,['MAT-61_Plant2'],e801
+Create Sales Order Item (Overstock to Overstock),2024-05-08,['MAT-61'],['Plant4'],,['SO_ITEM--32-1'],['CUSTOMER--24'],,53.0,210.0,['MAT-61_Plant4'],e802
+Goods Issue,2024-08-11,['MAT-61'],['Plant1'],,,['CUSTOMER--680019'],,53.0,210.0,['MAT-61_Plant1'],e803
+Create Sales Order Item,2024-09-13,['MAT-61'],['Plant4'],,['SO_ITEM--160-2'],['CUSTOMER--44'],,0.0,157.0,['MAT-61_Plant4'],e804
+Create Purchase Order Item (Understock),2023-10-09,['MAT-62'],['Plant2'],['PO_ITEM--99-3'],,,['SUPPLIER--4'],0.0,0.0,['MAT-62_Plant2'],e806
+Create Sales Order Item (Understock to Understock),2023-11-06,['MAT-62'],['Plant1'],,['SO_ITEM--118-1'],['CUSTOMER--8'],,0.0,0.0,['MAT-62_Plant1'],e807
+Create Purchase Order Item (Understock),2023-11-19,['MAT-62'],['Plant1'],['PO_ITEM--12-4'],,,['SUPPLIER--20'],0.0,0.0,['MAT-62_Plant1'],e808
+Create Sales Order Item (Understock to Understock),2023-12-04,['MAT-62'],['Plant3'],,['SO_ITEM--81-2'],['CUSTOMER--20'],,0.0,0.0,['MAT-62_Plant3'],e809
+Create Purchase Order Item (Understock),2023-12-05,['MAT-62'],['Plant4'],['PO_ITEM--98-4'],,,['SUPPLIER--11'],0.0,0.0,['MAT-62_Plant4'],e810
+Goods Receipt (Understock to Understock),2023-12-16,['MAT-62'],['Plant3'],['PO_ITEM--78-3'],,,['SUPPLIER--22'],0.0,0.0,['MAT-62_Plant3'],e811
+Create Purchase Suggestion Item (Overstock),2023-12-22,['MAT-62'],['Plant1'],,,,,61.0,61.0,['MAT-62_Plant1'],e812
+Create Purchase Order Item (Overstock),2023-12-22,['MAT-62'],['Plant5'],['PO_ITEM--47-5'],,,['SUPPLIER--27'],61.0,61.0,['MAT-62_Plant5'],e813
+Create Purchase Suggestion Item (Overstock),2023-12-24,['MAT-62'],['Plant3'],,,,,61.0,61.0,['MAT-62_Plant3'],e814
+Goods Receipt (Overstock to Overstock),2023-12-24,['MAT-62'],['Plant1'],['PO_ITEM--19-1'],,,['SUPPLIER--12'],61.0,61.0,['MAT-62_Plant1'],e815
+Create Sales Order Item (Overstock to Overstock),2024-01-08,['MAT-62'],['Plant1'],,['SO_ITEM--145-2'],['CUSTOMER--39'],,110.0,110.0,['MAT-62_Plant1'],e816
+Create Sales Order Item (Overstock to Overstock),2024-02-22,['MAT-62'],['Plant5'],,['SO_ITEM--58-1'],['CUSTOMER--37'],,110.0,110.0,['MAT-62_Plant5'],e817
+Create Sales Order Item (Overstock to Overstock),2024-04-21,['MAT-62'],['Plant5'],,['SO_ITEM--156-3'],['CUSTOMER--11'],,110.0,110.0,['MAT-62_Plant5'],e818
+Create Purchase Order Item (Overstock),2024-04-28,['MAT-62'],['Plant1'],['PO_ITEM--9-1'],,,['SUPPLIER--27'],110.0,110.0,['MAT-62_Plant1'],e819
+Create Sales Order Item (Overstock to Overstock),2024-05-17,['MAT-62'],['Plant3'],,['SO_ITEM--21-1'],['CUSTOMER--25'],,110.0,110.0,['MAT-62_Plant3'],e820
+Create Purchase Order Item (Overstock),2024-05-29,['MAT-62'],['Plant5'],['PO_ITEM--60-2'],,,['SUPPLIER--3'],110.0,110.0,['MAT-62_Plant5'],e821
+Create Purchase Order Item (Overstock),2024-08-18,['MAT-62'],['Plant1'],['PO_ITEM--90-2'],,,['SUPPLIER--21'],110.0,110.0,['MAT-62_Plant1'],e822
+Create Purchase Order Item (Overstock),2024-08-18,['MAT-62'],['Plant2'],['PO_ITEM--90-4'],,,['SUPPLIER--21'],110.0,110.0,['MAT-62_Plant2'],e823
+Create Purchase Order Item (Overstock),2024-09-11,['MAT-62'],['Plant2'],['PO_ITEM--87-4'],,,['SUPPLIER--23'],110.0,110.0,['MAT-62_Plant2'],e824
+Goods Receipt (Overstock to Overstock),2024-09-12,['MAT-62'],['Plant3'],['PO_ITEM--110-4'],,,['SUPPLIER--25'],110.0,110.0,['MAT-62_Plant3'],e825
+Create Purchase Order Item (Overstock),2024-09-13,['MAT-62'],['Plant5'],['PO_ITEM--82-2'],,,['SUPPLIER--29'],166.0,166.0,['MAT-62_Plant5'],e826
+Create Sales Order Item (Understock to Understock),2023-12-05,['MAT-63'],['Plant1'],,['SO_ITEM--134-4'],['CUSTOMER--14'],,0.0,0.0,['MAT-63_Plant1'],e828
+Create Sales Order Item (Understock to Understock),2023-12-15,['MAT-63'],['Plant4'],,['SO_ITEM--50-3'],['CUSTOMER--48'],,0.0,0.0,['MAT-63_Plant4'],e829
+Create Purchase Order Item (Understock),2023-12-31,['MAT-63'],['Plant4'],['PO_ITEM--96-2'],,,['SUPPLIER--17'],0.0,0.0,['MAT-63_Plant4'],e830
+Create Sales Order Item (Understock to Understock),2024-01-08,['MAT-63'],['Plant5'],,['SO_ITEM--79-1'],['CUSTOMER--49'],,0.0,0.0,['MAT-63_Plant5'],e831
+Create Purchase Order Item (Understock),2024-04-07,['MAT-63'],['Plant4'],['PO_ITEM--131-2'],,,['SUPPLIER--21'],0.0,0.0,['MAT-63_Plant4'],e832
+Create Purchase Order Item (Understock),2024-04-28,['MAT-63'],['Plant3'],['PO_ITEM--9-3'],,,['SUPPLIER--27'],0.0,0.0,['MAT-63_Plant3'],e833
+Create Sales Order Item (Understock to Understock),2024-05-09,['MAT-63'],['Plant1'],,['SO_ITEM--97-1'],['CUSTOMER--2'],,0.0,0.0,['MAT-63_Plant1'],e834
+Create Purchase Order Item (Understock),2024-06-18,['MAT-63'],['Plant5'],['PO_ITEM--77-3'],,,['SUPPLIER--22'],0.0,0.0,['MAT-63_Plant5'],e835
+Create Purchase Order Item (Understock),2024-07-27,['MAT-63'],['Plant1'],['PO_ITEM--101-1'],,,['SUPPLIER--24'],0.0,0.0,['MAT-63_Plant1'],e836
+Create Sales Order Item (Understock to Understock),2024-09-04,['MAT-63'],['Plant1'],,['SO_ITEM--66-3'],['CUSTOMER--44'],,0.0,0.0,['MAT-63_Plant1'],e837
+Create Purchase Suggestion Item (Understock),2024-09-09,['MAT-63'],['Plant5'],,,,,0.0,0.0,['MAT-63_Plant5'],e838
+Create Sales Order Item (Understock to Understock),2023-10-05,['MAT-64'],['Plant4'],,['SO_ITEM--16-5'],['CUSTOMER--43'],,0.0,0.0,['MAT-64_Plant4'],e840
+Create Purchase Order Item (Understock),2023-11-05,['MAT-64'],['Plant5'],['PO_ITEM--48-3'],,,['SUPPLIER--1'],0.0,0.0,['MAT-64_Plant5'],e841
+Goods Receipt (Understock to Understock),2023-11-18,['MAT-64'],['Plant3'],['PO_ITEM--44-2'],,,['SUPPLIER--11'],0.0,0.0,['MAT-64_Plant3'],e842
+Goods Issue (Overstock to Overstock),2023-12-17,['MAT-64'],['Plant5'],,,['CUSTOMER--366706'],,100.0,100.0,['MAT-64_Plant5'],e843
+Goods Receipt (Overstock to Overstock),2023-12-19,['MAT-64'],['Plant4'],['PO_ITEM--26-5'],,,['SUPPLIER--16'],71.0,71.0,['MAT-64_Plant4'],e844
+Create Purchase Suggestion Item (Overstock),2023-12-30,['MAT-64'],['Plant1'],,,,,161.0,161.0,['MAT-64_Plant1'],e845
+Create Purchase Order Item (Overstock),2024-01-02,['MAT-64'],['Plant3'],['PO_ITEM--17-3'],,,['SUPPLIER--12'],161.0,161.0,['MAT-64_Plant3'],e846
+Create Sales Order Item (Overstock to Overstock),2024-01-25,['MAT-64'],['Plant2'],,['SO_ITEM--137-3'],['CUSTOMER--50'],,161.0,161.0,['MAT-64_Plant2'],e847
+Create Purchase Order Item (Overstock),2024-03-01,['MAT-64'],['Plant4'],['PO_ITEM--40-2'],,,['SUPPLIER--18'],161.0,161.0,['MAT-64_Plant4'],e848
+Create Purchase Suggestion Item (Overstock),2024-03-22,['MAT-64'],['Plant5'],,,,,161.0,161.0,['MAT-64_Plant5'],e849
+Create Sales Order Item (Overstock to Overstock),2024-03-28,['MAT-64'],['Plant4'],,['SO_ITEM--61-2'],['CUSTOMER--43'],,161.0,161.0,['MAT-64_Plant4'],e850
+Goods Issue (Overstock to Overstock),2024-04-01,['MAT-64'],['Plant1'],,,['CUSTOMER--155983'],,161.0,161.0,['MAT-64_Plant1'],e851
+Goods Issue (Overstock to Overstock),2024-05-15,['MAT-64'],['Plant4'],,,['CUSTOMER--635618'],,125.0,125.0,['MAT-64_Plant4'],e852
+Create Sales Order Item (Overstock to Overstock),2024-05-19,['MAT-64'],['Plant1'],,['SO_ITEM--176-2'],['CUSTOMER--42'],,98.0,98.0,['MAT-64_Plant1'],e853
+Create Purchase Order Item (Overstock),2024-05-21,['MAT-64'],['Plant5'],['PO_ITEM--32-3'],,,['SUPPLIER--12'],98.0,98.0,['MAT-64_Plant5'],e854
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-64'],['Plant2'],['PO_ITEM--88-4'],,,['SUPPLIER--30'],98.0,98.0,['MAT-64_Plant2'],e855
+Create Sales Order Item (Overstock to Overstock),2024-06-09,['MAT-64'],['Plant5'],,['SO_ITEM--85-4'],['CUSTOMER--34'],,98.0,98.0,['MAT-64_Plant5'],e856
+Create Sales Order Item (Overstock to Overstock),2024-06-14,['MAT-64'],['Plant2'],,['SO_ITEM--181-4'],['CUSTOMER--37'],,98.0,98.0,['MAT-64_Plant2'],e857
+Create Sales Order Item (Overstock to Overstock),2024-06-25,['MAT-64'],['Plant1'],,['SO_ITEM--94-2'],['CUSTOMER--24'],,98.0,98.0,['MAT-64_Plant1'],e858
+Create Purchase Suggestion Item (Overstock),2024-07-23,['MAT-64'],['Plant5'],,,,,98.0,98.0,['MAT-64_Plant5'],e859
+Goods Receipt (Overstock to Overstock),2024-07-27,['MAT-64'],['Plant1'],['PO_ITEM--81-1'],,,['SUPPLIER--19'],98.0,98.0,['MAT-64_Plant1'],e860
+Create Sales Order Item (Overstock to Overstock),2024-07-28,['MAT-64'],['Plant5'],,['SO_ITEM--122-1'],['CUSTOMER--9'],,146.0,146.0,['MAT-64_Plant5'],e861
+Create Sales Order Item (Overstock to Overstock),2024-09-01,['MAT-64'],['Plant2'],,['SO_ITEM--146-4'],['CUSTOMER--29'],,146.0,146.0,['MAT-64_Plant2'],e862
+Create Sales Order Item (Overstock to Overstock),2024-02-17,['MAT-65'],['Plant5'],,['SO_ITEM--36-2'],['CUSTOMER--17'],,53.0,106.0,['MAT-65_Plant5'],e864
+Create Sales Order Item (Understock to Understock),2024-02-18,['MAT-65'],['Plant3'],,['SO_ITEM--80-3'],['CUSTOMER--30'],,0.0,0.0,['MAT-65_Plant3'],e865
+Goods Issue,2024-02-25,['MAT-65'],['Plant4'],,,['CUSTOMER--299078'],,53.0,106.0,['MAT-65_Plant4'],e866
+Create Sales Order Item,2024-04-22,['MAT-65'],['Plant5'],,['SO_ITEM--73-1'],['CUSTOMER--3'],,0.0,53.0,['MAT-65_Plant5'],e867
+Create Sales Order Item,2024-05-07,['MAT-65'],['Plant5'],,['SO_ITEM--37-1'],['CUSTOMER--39'],,0.0,53.0,['MAT-65_Plant5'],e868
+Create Sales Order Item,2024-06-19,['MAT-65'],['Plant1'],,['SO_ITEM--8-1'],['CUSTOMER--34'],,0.0,53.0,['MAT-65_Plant1'],e869
+Create Sales Order Item,2024-06-29,['MAT-65'],['Plant1'],,['SO_ITEM--99-1'],['CUSTOMER--23'],,0.0,53.0,['MAT-65_Plant1'],e870
+Create Purchase Suggestion Item (Understock),2024-08-14,['MAT-65'],['Plant4'],,,,,0.0,53.0,['MAT-65_Plant4'],e871
+Create Purchase Order Item (Understock),2024-09-11,['MAT-65'],['Plant1'],['PO_ITEM--87-5'],,,['SUPPLIER--23'],0.0,53.0,['MAT-65_Plant1'],e872
+Create Sales Order Item (Understock to Understock),2024-03-05,['MAT-66'],['Plant1'],,['SO_ITEM--133-1'],['CUSTOMER--28'],,0.0,0.0,['MAT-66_Plant1'],e874
+Create Purchase Suggestion Item (Understock),2024-03-30,['MAT-66'],['Plant4'],,,,,0.0,0.0,['MAT-66_Plant4'],e875
+Create Sales Order Item (Understock to Understock),2024-06-14,['MAT-66'],['Plant2'],,['SO_ITEM--181-5'],['CUSTOMER--37'],,0.0,0.0,['MAT-66_Plant2'],e876
+Create Sales Order Item (Understock to Understock),2024-06-19,['MAT-66'],['Plant3'],,['SO_ITEM--8-3'],['CUSTOMER--34'],,0.0,0.0,['MAT-66_Plant3'],e877
+Create Purchase Order Item (Understock),2024-08-01,['MAT-66'],['Plant4'],['PO_ITEM--144-1'],,,['SUPPLIER--13'],0.0,0.0,['MAT-66_Plant4'],e878
+Create Purchase Order Item (Understock),2024-08-27,['MAT-66'],['Plant2'],['PO_ITEM--69-2'],,,['SUPPLIER--17'],0.0,0.0,['MAT-66_Plant2'],e879
+Create Sales Order Item (Understock to Understock),2024-09-06,['MAT-66'],['Plant4'],,['SO_ITEM--93-2'],['CUSTOMER--12'],,0.0,0.0,['MAT-66_Plant4'],e880
+Create Purchase Order Item (Understock),2024-09-25,['MAT-66'],['Plant1'],['PO_ITEM--68-1'],,,['SUPPLIER--19'],0.0,0.0,['MAT-66_Plant1'],e881
+Create Purchase Order Item (Understock),2023-11-05,['MAT-67'],['Plant1'],['PO_ITEM--44-5'],,,['SUPPLIER--11'],20.0,40.0,['MAT-67_Plant1'],e883
+Create Sales Order Item,2024-01-04,['MAT-67'],['Plant1'],,['SO_ITEM--24-4'],['CUSTOMER--33'],,20.0,40.0,['MAT-67_Plant1'],e884
+Create Sales Order Item,2024-01-16,['MAT-67'],['Plant1'],,['SO_ITEM--42-2'],['CUSTOMER--1'],,20.0,40.0,['MAT-67_Plant1'],e885
+Create Sales Order Item (Overstock to Overstock),2024-02-04,['MAT-67'],['Plant3'],,['SO_ITEM--49-4'],['CUSTOMER--16'],,17.0,34.0,['MAT-67_Plant3'],e886
+Goods Issue,2024-02-20,['MAT-67'],['Plant1'],,,['CUSTOMER--643887'],,20.0,40.0,['MAT-67_Plant1'],e887
+Create Purchase Order Item (Understock),2024-02-27,['MAT-67'],['Plant5'],['PO_ITEM--37-1'],,,['SUPPLIER--4'],0.0,20.0,['MAT-67_Plant5'],e888
+Create Sales Order Item,2024-02-28,['MAT-67'],['Plant2'],,['SO_ITEM--71-1'],['CUSTOMER--45'],,0.0,20.0,['MAT-67_Plant2'],e889
+Create Sales Order Item (Understock to Understock),2024-04-22,['MAT-67'],['Plant1'],,['SO_ITEM--47-3'],['CUSTOMER--2'],,0.0,20.0,['MAT-67_Plant1'],e890
+Goods Receipt (Understock to Overstock),2024-05-05,['MAT-67'],['Plant4'],['PO_ITEM--82-1'],,,['SUPPLIER--29'],0.0,20.0,['MAT-67_Plant4'],e891
+Create Sales Order Item (Overstock to Overstock),2024-06-25,['MAT-67'],['Plant5'],,['SO_ITEM--94-4'],['CUSTOMER--24'],,13.0,33.0,['MAT-67_Plant5'],e892
+Create Purchase Order Item (Overstock),2024-07-02,['MAT-67'],['Plant4'],['PO_ITEM--31-1'],,,['SUPPLIER--21'],13.0,33.0,['MAT-67_Plant4'],e893
+Create Purchase Order Item (Overstock),2024-07-15,['MAT-67'],['Plant3'],['PO_ITEM--115-1'],,,['SUPPLIER--14'],10.0,27.0,['MAT-67_Plant3'],e894
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-67'],['Plant5'],['PO_ITEM--111-3'],,,['SUPPLIER--18'],13.0,33.0,['MAT-67_Plant5'],e895
+Goods Issue,2024-09-01,['MAT-67'],['Plant1'],,,['CUSTOMER--647970'],,13.0,33.0,['MAT-67_Plant1'],e896
+Create Sales Order Item,2024-09-09,['MAT-67'],['Plant3'],,['SO_ITEM--13-1'],['CUSTOMER--1'],,0.0,17.0,['MAT-67_Plant3'],e897
+Create Sales Order Item (Understock to Understock),2023-10-21,['MAT-68'],['Plant3'],,['SO_ITEM--23-3'],['CUSTOMER--41'],,0.0,0.0,['MAT-68_Plant3'],e899
+Create Sales Order Item (Understock to Understock),2023-10-23,['MAT-68'],['Plant1'],,['SO_ITEM--88-2'],['CUSTOMER--49'],,0.0,0.0,['MAT-68_Plant1'],e900
+Create Purchase Order Item (Understock),2023-11-06,['MAT-68'],['Plant1'],['PO_ITEM--121-1'],,,['SUPPLIER--16'],0.0,0.0,['MAT-68_Plant1'],e901
+Create Purchase Order Item (Understock),2023-11-09,['MAT-68'],['Plant2'],['PO_ITEM--21-2'],,,['SUPPLIER--13'],0.0,0.0,['MAT-68_Plant2'],e902
+Create Purchase Order Item (Understock),2023-12-19,['MAT-68'],['Plant1'],['PO_ITEM--108-5'],,,['SUPPLIER--29'],0.0,0.0,['MAT-68_Plant1'],e903
+Create Sales Order Item (Understock to Understock),2024-01-07,['MAT-68'],['Plant3'],,['SO_ITEM--173-1'],['CUSTOMER--13'],,0.0,0.0,['MAT-68_Plant3'],e904
+Create Purchase Order Item (Understock),2024-02-26,['MAT-68'],['Plant2'],['PO_ITEM--3-3'],,,['SUPPLIER--12'],0.0,0.0,['MAT-68_Plant2'],e905
+Create Purchase Order Item (Understock),2024-04-25,['MAT-68'],['Plant3'],['PO_ITEM--70-2'],,,['SUPPLIER--18'],0.0,0.0,['MAT-68_Plant3'],e906
+Create Purchase Order Item (Understock),2024-06-11,['MAT-68'],['Plant2'],['PO_ITEM--123-2'],,,['SUPPLIER--14'],0.0,0.0,['MAT-68_Plant2'],e907
+Create Sales Order Item (Understock to Understock),2024-06-29,['MAT-68'],['Plant3'],,['SO_ITEM--99-3'],['CUSTOMER--23'],,0.0,0.0,['MAT-68_Plant3'],e908
+Create Purchase Order Item (Understock),2024-09-02,['MAT-68'],['Plant3'],['PO_ITEM--6-1'],,,['SUPPLIER--5'],0.0,0.0,['MAT-68_Plant3'],e909
+Create Purchase Order Item (Understock),2024-09-07,['MAT-68'],['Plant1'],['PO_ITEM--107-1'],,,['SUPPLIER--11'],0.0,0.0,['MAT-68_Plant1'],e910
+Create Purchase Order Item (Overstock),2023-09-28,['MAT-69'],['Plant1'],['PO_ITEM--128-1'],,,['SUPPLIER--3'],109.0,218.0,['MAT-69_Plant1'],e912
+Goods Issue (Overstock to Overstock),2023-11-19,['MAT-69'],['Plant5'],,,['CUSTOMER--133496'],,109.0,218.0,['MAT-69_Plant5'],e913
+Goods Issue,2023-11-24,['MAT-69'],['Plant5'],,,['CUSTOMER--614849'],,48.0,157.0,['MAT-69_Plant5'],e914
+Create Purchase Suggestion Item (Understock),2023-12-24,['MAT-69'],['Plant2'],,,,,0.0,109.0,['MAT-69_Plant2'],e915
+Create Purchase Suggestion Item (Understock),2024-01-31,['MAT-69'],['Plant1'],,,,,0.0,109.0,['MAT-69_Plant1'],e916
+Create Sales Order Item,2024-01-31,['MAT-69'],['Plant2'],,['SO_ITEM--41-2'],['CUSTOMER--38'],,0.0,109.0,['MAT-69_Plant2'],e917
+Create Sales Order Item,2024-02-24,['MAT-69'],['Plant4'],,['SO_ITEM--147-5'],['CUSTOMER--19'],,0.0,109.0,['MAT-69_Plant4'],e918
+Create Purchase Suggestion Item (Understock),2024-04-02,['MAT-69'],['Plant4'],,,,,0.0,109.0,['MAT-69_Plant4'],e919
+Create Purchase Order Item (Understock),2024-04-03,['MAT-69'],['Plant2'],['PO_ITEM--103-1'],,,['SUPPLIER--25'],0.0,109.0,['MAT-69_Plant2'],e920
+Create Purchase Suggestion Item (Understock),2024-04-08,['MAT-69'],['Plant4'],,,,,0.0,109.0,['MAT-69_Plant4'],e921
+Create Purchase Order Item (Understock),2024-05-12,['MAT-69'],['Plant5'],['PO_ITEM--20-3'],,,['SUPPLIER--25'],0.0,109.0,['MAT-69_Plant5'],e922
+Create Sales Order Item,2024-05-17,['MAT-69'],['Plant1'],,['SO_ITEM--191-1'],['CUSTOMER--40'],,0.0,109.0,['MAT-69_Plant1'],e923
+Create Sales Order Item,2024-05-28,['MAT-69'],['Plant1'],,['SO_ITEM--69-2'],['CUSTOMER--11'],,0.0,109.0,['MAT-69_Plant1'],e924
+Create Purchase Suggestion Item (Understock),2024-06-14,['MAT-69'],['Plant3'],,,,,0.0,109.0,['MAT-69_Plant3'],e925
+Create Sales Order Item,2024-09-03,['MAT-69'],['Plant3'],,['SO_ITEM--83-3'],['CUSTOMER--17'],,0.0,109.0,['MAT-69_Plant3'],e926
+Create Sales Order Item (Understock to Understock),2023-12-19,['MAT-70'],['Plant1'],,['SO_ITEM--56-3'],['CUSTOMER--45'],,0.0,0.0,['MAT-70_Plant1'],e928
+Create Sales Order Item (Understock to Understock),2023-12-26,['MAT-70'],['Plant5'],,['SO_ITEM--123-2'],['CUSTOMER--31'],,0.0,0.0,['MAT-70_Plant5'],e929
+Goods Receipt (Understock to Understock),2023-12-31,['MAT-70'],['Plant4'],['PO_ITEM--30-4'],,,['SUPPLIER--1'],0.0,0.0,['MAT-70_Plant4'],e930
+Create Sales Order Item (Overstock to Overstock),2023-12-31,['MAT-70'],['Plant2'],,['SO_ITEM--101-2'],['CUSTOMER--49'],,26.0,26.0,['MAT-70_Plant2'],e931
+Create Sales Order Item (Overstock to Overstock),2024-01-08,['MAT-70'],['Plant3'],,['SO_ITEM--145-1'],['CUSTOMER--39'],,26.0,26.0,['MAT-70_Plant3'],e932
+Create Sales Order Item (Overstock to Overstock),2024-02-12,['MAT-70'],['Plant5'],,['SO_ITEM--102-2'],['CUSTOMER--33'],,26.0,26.0,['MAT-70_Plant5'],e933
+Create Purchase Order Item (Overstock),2024-02-17,['MAT-70'],['Plant2'],['PO_ITEM--15-1'],,,['SUPPLIER--25'],26.0,26.0,['MAT-70_Plant2'],e934
+Create Sales Order Item (Overstock to Overstock),2024-03-05,['MAT-70'],['Plant4'],,['SO_ITEM--133-3'],['CUSTOMER--28'],,26.0,26.0,['MAT-70_Plant4'],e935
+Create Purchase Order Item (Overstock),2024-03-14,['MAT-70'],['Plant2'],['PO_ITEM--129-5'],,,['SUPPLIER--11'],26.0,26.0,['MAT-70_Plant2'],e936
+Create Sales Order Item (Overstock to Overstock),2024-04-23,['MAT-70'],['Plant1'],,['SO_ITEM--161-1'],['CUSTOMER--16'],,26.0,26.0,['MAT-70_Plant1'],e937
+Create Purchase Order Item (Overstock),2024-04-28,['MAT-70'],['Plant3'],['PO_ITEM--9-2'],,,['SUPPLIER--27'],26.0,26.0,['MAT-70_Plant3'],e938
+Goods Receipt (Overstock to Overstock),2024-06-12,['MAT-70'],['Plant3'],['PO_ITEM--108-5'],,,['SUPPLIER--29'],26.0,26.0,['MAT-70_Plant3'],e939
+Create Sales Order Item (Overstock to Overstock),2024-07-11,['MAT-70'],['Plant3'],,['SO_ITEM--180-2'],['CUSTOMER--28'],,87.0,87.0,['MAT-70_Plant3'],e940
+Create Purchase Order Item (Understock),2023-10-08,['MAT-71'],['Plant4'],['PO_ITEM--62-3'],,,['SUPPLIER--15'],0.0,0.0,['MAT-71_Plant4'],e942
+Create Sales Order Item (Understock to Understock),2023-10-09,['MAT-71'],['Plant3'],,['SO_ITEM--3-1'],['CUSTOMER--9'],,0.0,0.0,['MAT-71_Plant3'],e943
+Create Sales Order Item (Understock to Understock),2023-10-27,['MAT-71'],['Plant3'],,['SO_ITEM--2-3'],['CUSTOMER--49'],,0.0,0.0,['MAT-71_Plant3'],e944
+Create Sales Order Item (Understock to Understock),2024-01-09,['MAT-71'],['Plant3'],,['SO_ITEM--48-5'],['CUSTOMER--46'],,0.0,0.0,['MAT-71_Plant3'],e945
+Create Purchase Order Item (Understock),2024-01-12,['MAT-71'],['Plant5'],['PO_ITEM--146-2'],,,['SUPPLIER--21'],0.0,0.0,['MAT-71_Plant5'],e946
+Create Purchase Suggestion Item (Understock),2024-01-16,['MAT-71'],['Plant4'],,,,,0.0,0.0,['MAT-71_Plant4'],e947
+Create Sales Order Item (Understock to Understock),2024-01-27,['MAT-71'],['Plant5'],,['SO_ITEM--55-3'],['CUSTOMER--25'],,0.0,0.0,['MAT-71_Plant5'],e948
+Create Purchase Order Item (Understock),2024-03-11,['MAT-71'],['Plant4'],['PO_ITEM--150-1'],,,['SUPPLIER--20'],0.0,0.0,['MAT-71_Plant4'],e949
+Create Sales Order Item (Understock to Understock),2024-04-10,['MAT-71'],['Plant1'],,['SO_ITEM--132-1'],['CUSTOMER--13'],,0.0,0.0,['MAT-71_Plant1'],e950
+Create Sales Order Item (Understock to Understock),2024-04-18,['MAT-71'],['Plant3'],,['SO_ITEM--4-1'],['CUSTOMER--47'],,0.0,0.0,['MAT-71_Plant3'],e951
+Create Sales Order Item (Understock to Understock),2024-06-06,['MAT-71'],['Plant4'],,['SO_ITEM--166-2'],['CUSTOMER--23'],,0.0,0.0,['MAT-71_Plant4'],e952
+Create Sales Order Item (Understock to Understock),2024-07-31,['MAT-71'],['Plant1'],,['SO_ITEM--112-3'],['CUSTOMER--3'],,0.0,0.0,['MAT-71_Plant1'],e953
+Create Sales Order Item (Understock to Understock),2023-11-10,['MAT-72'],['Plant3'],,['SO_ITEM--150-1'],['CUSTOMER--36'],,0.0,0.0,['MAT-72_Plant3'],e955
+Create Purchase Order Item (Understock),2024-04-04,['MAT-72'],['Plant3'],['PO_ITEM--95-1'],,,['SUPPLIER--17'],0.0,0.0,['MAT-72_Plant3'],e956
+Create Purchase Suggestion Item (Understock),2024-04-24,['MAT-72'],['Plant2'],,,,,0.0,0.0,['MAT-72_Plant2'],e957
+Create Purchase Order Item (Understock),2024-04-25,['MAT-72'],['Plant5'],['PO_ITEM--70-1'],,,['SUPPLIER--18'],0.0,0.0,['MAT-72_Plant5'],e958
+Create Purchase Suggestion Item (Understock),2024-05-09,['MAT-72'],['Plant5'],,,,,0.0,0.0,['MAT-72_Plant5'],e959
+Create Sales Order Item (Understock to Understock),2024-05-17,['MAT-72'],['Plant5'],,['SO_ITEM--191-4'],['CUSTOMER--40'],,0.0,0.0,['MAT-72_Plant5'],e960
+Create Sales Order Item (Understock to Understock),2024-06-07,['MAT-72'],['Plant2'],,['SO_ITEM--11-3'],['CUSTOMER--33'],,0.0,0.0,['MAT-72_Plant2'],e961
+Create Sales Order Item (Understock to Understock),2024-06-29,['MAT-72'],['Plant5'],,['SO_ITEM--99-4'],['CUSTOMER--23'],,0.0,0.0,['MAT-72_Plant5'],e962
+Create Sales Order Item (Understock to Understock),2024-08-04,['MAT-72'],['Plant5'],,['SO_ITEM--65-4'],['CUSTOMER--1'],,0.0,0.0,['MAT-72_Plant5'],e963
+Create Purchase Order Item (Understock),2024-09-16,['MAT-72'],['Plant3'],['PO_ITEM--51-2'],,,['SUPPLIER--1'],0.0,0.0,['MAT-72_Plant3'],e964
+Create Purchase Order Item (Understock),2024-09-25,['MAT-72'],['Plant3'],['PO_ITEM--133-5'],,,['SUPPLIER--20'],0.0,0.0,['MAT-72_Plant3'],e965
+Goods Receipt (Overstock to Overstock),2023-10-16,['MAT-73'],['Plant2'],['PO_ITEM--66-5'],,,['SUPPLIER--27'],86.0,172.0,['MAT-73_Plant2'],e967
+Create Sales Order Item (Overstock to Overstock),2023-11-01,['MAT-73'],['Plant2'],,['SO_ITEM--15-2'],['CUSTOMER--6'],,112.0,198.0,['MAT-73_Plant2'],e968
+Create Sales Order Item (Overstock to Overstock),2023-11-02,['MAT-73'],['Plant3'],,['SO_ITEM--190-1'],['CUSTOMER--12'],,61.0,96.0,['MAT-73_Plant3'],e969
+Goods Receipt (Overstock to Overstock),2023-11-09,['MAT-73'],['Plant5'],['PO_ITEM--66-5'],,,['SUPPLIER--27'],112.0,198.0,['MAT-73_Plant5'],e970
+Create Purchase Order Item (Overstock),2023-12-05,['MAT-73'],['Plant4'],['PO_ITEM--98-3'],,,['SUPPLIER--11'],44.0,44.0,['MAT-73_Plant4'],e971
+Create Purchase Order Item (Overstock),2024-02-02,['MAT-73'],['Plant2'],['PO_ITEM--7-2'],,,['SUPPLIER--19'],130.0,216.0,['MAT-73_Plant2'],e972
+Create Purchase Order Item (Overstock),2024-02-10,['MAT-73'],['Plant5'],['PO_ITEM--25-1'],,,['SUPPLIER--24'],130.0,216.0,['MAT-73_Plant5'],e973
+Goods Issue (Overstock to Overstock),2024-03-05,['MAT-73'],['Plant5'],,,['CUSTOMER--128545'],,130.0,216.0,['MAT-73_Plant5'],e974
+Create Purchase Order Item (Understock),2024-03-16,['MAT-73'],['Plant3'],['PO_ITEM--92-2'],,,['SUPPLIER--28'],0.0,35.0,['MAT-73_Plant3'],e975
+Create Sales Order Item (Overstock to Overstock),2024-05-05,['MAT-73'],['Plant2'],,['SO_ITEM--43-2'],['CUSTOMER--28'],,51.0,137.0,['MAT-73_Plant2'],e976
+Create Sales Order Item (Overstock to Overstock),2024-05-15,['MAT-73'],['Plant2'],,['SO_ITEM--196-2'],['CUSTOMER--26'],,51.0,137.0,['MAT-73_Plant2'],e977
+Goods Issue,2024-05-24,['MAT-73'],['Plant1'],,,['CUSTOMER--837727'],,51.0,137.0,['MAT-73_Plant1'],e978
+Create Purchase Order Item (Understock),2024-07-29,['MAT-73'],['Plant2'],['PO_ITEM--136-1'],,,['SUPPLIER--26'],0.0,86.0,['MAT-73_Plant2'],e979
+Create Purchase Order Item (Understock),2024-08-18,['MAT-73'],['Plant5'],['PO_ITEM--90-5'],,,['SUPPLIER--21'],0.0,86.0,['MAT-73_Plant5'],e980
+Create Sales Order Item (Overstock to Overstock),2023-12-15,['MAT-74'],['Plant2'],,['SO_ITEM--50-1'],['CUSTOMER--48'],,83.0,154.0,['MAT-74_Plant2'],e982
+Create Sales Order Item (Overstock to Overstock),2023-12-16,['MAT-74'],['Plant4'],,['SO_ITEM--28-2'],['CUSTOMER--44'],,83.0,154.0,['MAT-74_Plant4'],e983
+Create Purchase Order Item (Overstock),2023-12-19,['MAT-74'],['Plant5'],['PO_ITEM--108-2'],,,['SUPPLIER--29'],130.0,248.0,['MAT-74_Plant5'],e984
+Create Purchase Order Item (Overstock),2024-01-13,['MAT-74'],['Plant2'],['PO_ITEM--112-5'],,,['SUPPLIER--25'],83.0,154.0,['MAT-74_Plant2'],e985
+Create Sales Order Item (Overstock to Overstock),2024-01-19,['MAT-74'],['Plant1'],,['SO_ITEM--53-3'],['CUSTOMER--10'],,174.0,336.0,['MAT-74_Plant1'],e986
+Goods Issue (Overstock to Overstock),2024-02-14,['MAT-74'],['Plant2'],,,['CUSTOMER--231618'],,83.0,154.0,['MAT-74_Plant2'],e987
+Create Sales Order Item,2024-02-20,['MAT-74'],['Plant5'],,['SO_ITEM--139-2'],['CUSTOMER--1'],,47.0,165.0,['MAT-74_Plant5'],e988
+Create Purchase Order Item (Normal),2024-04-05,['MAT-74'],['Plant5'],['PO_ITEM--132-2'],,,['SUPPLIER--20'],47.0,165.0,['MAT-74_Plant5'],e989
+Create Sales Order Item (Overstock to Overstock),2024-04-21,['MAT-74'],['Plant1'],,['SO_ITEM--29-1'],['CUSTOMER--41'],,91.0,253.0,['MAT-74_Plant1'],e990
+Create Sales Order Item,2024-05-15,['MAT-74'],['Plant4'],,['SO_ITEM--126-2'],['CUSTOMER--46'],,0.0,71.0,['MAT-74_Plant4'],e991
+Goods Issue,2024-07-07,['MAT-74'],['Plant5'],,,['CUSTOMER--116932'],,47.0,165.0,['MAT-74_Plant5'],e992
+Goods Issue,2024-07-21,['MAT-74'],['Plant1'],,,['CUSTOMER--377348'],,44.0,206.0,['MAT-74_Plant1'],e993
+Goods Issue,2024-09-05,['MAT-74'],['Plant3'],,,['CUSTOMER--875934'],,34.0,230.0,['MAT-74_Plant3'],e994
+Create Sales Order Item,2024-09-17,['MAT-74'],['Plant3'],,['SO_ITEM--103-1'],['CUSTOMER--4'],,0.0,196.0,['MAT-74_Plant3'],e995
+Create Purchase Order Item (Overstock),2023-09-29,['MAT-75'],['Plant1'],['PO_ITEM--29-2'],,,['SUPPLIER--29'],45.0,90.0,['MAT-75_Plant1'],e997
+Create Purchase Order Item (Normal),2023-10-08,['MAT-75'],['Plant2'],['PO_ITEM--62-1'],,,['SUPPLIER--15'],45.0,90.0,['MAT-75_Plant2'],e998
+Goods Issue,2023-10-27,['MAT-75'],['Plant2'],,,['CUSTOMER--925830'],,45.0,90.0,['MAT-75_Plant2'],e999
+Create Purchase Order Item (Understock),2023-12-03,['MAT-75'],['Plant5'],['PO_ITEM--97-1'],,,['SUPPLIER--19'],0.0,45.0,['MAT-75_Plant5'],e1000
+Create Sales Order Item,2023-12-04,['MAT-75'],['Plant1'],,['SO_ITEM--192-3'],['CUSTOMER--30'],,0.0,45.0,['MAT-75_Plant1'],e1001
+Create Purchase Order Item (Understock),2023-12-10,['MAT-75'],['Plant3'],['PO_ITEM--8-2'],,,['SUPPLIER--26'],0.0,45.0,['MAT-75_Plant3'],e1002
+Create Purchase Order Item (Understock),2023-12-22,['MAT-75'],['Plant2'],['PO_ITEM--47-1'],,,['SUPPLIER--27'],0.0,45.0,['MAT-75_Plant2'],e1003
+Create Purchase Order Item (Understock),2024-01-02,['MAT-75'],['Plant5'],['PO_ITEM--17-2'],,,['SUPPLIER--12'],0.0,45.0,['MAT-75_Plant5'],e1004
+Create Purchase Order Item (Understock),2024-01-11,['MAT-75'],['Plant2'],['PO_ITEM--28-2'],,,['SUPPLIER--6'],0.0,45.0,['MAT-75_Plant2'],e1005
+Create Purchase Order Item (Understock),2024-02-13,['MAT-75'],['Plant2'],['PO_ITEM--5-1'],,,['SUPPLIER--16'],0.0,45.0,['MAT-75_Plant2'],e1006
+Create Sales Order Item,2024-02-17,['MAT-75'],['Plant5'],,['SO_ITEM--36-1'],['CUSTOMER--17'],,0.0,45.0,['MAT-75_Plant5'],e1007
+Create Sales Order Item,2024-02-18,['MAT-75'],['Plant2'],,['SO_ITEM--18-2'],['CUSTOMER--14'],,0.0,45.0,['MAT-75_Plant2'],e1008
+Create Purchase Order Item (Understock),2024-06-12,['MAT-75'],['Plant5'],['PO_ITEM--1-1'],,,['SUPPLIER--9'],0.0,45.0,['MAT-75_Plant5'],e1009
+Goods Receipt (Understock to Overstock),2024-06-23,['MAT-75'],['Plant5'],['PO_ITEM--150-3'],,,['SUPPLIER--20'],0.0,45.0,['MAT-75_Plant5'],e1010
+Create Purchase Order Item (Overstock),2023-10-03,['MAT-76'],['Plant4'],['PO_ITEM--35-3'],,,['SUPPLIER--24'],96.0,192.0,['MAT-76_Plant4'],e1012
+Goods Issue (Overstock to Overstock),2023-10-12,['MAT-76'],['Plant5'],,,['CUSTOMER--942282'],,96.0,192.0,['MAT-76_Plant5'],e1013
+Create Sales Order Item,2023-10-19,['MAT-76'],['Plant2'],,['SO_ITEM--12-2'],['CUSTOMER--31'],,0.0,96.0,['MAT-76_Plant2'],e1014
+Create Sales Order Item,2023-10-27,['MAT-76'],['Plant1'],,['SO_ITEM--59-2'],['CUSTOMER--16'],,0.0,96.0,['MAT-76_Plant1'],e1015
+Create Purchase Order Item (Understock),2023-11-05,['MAT-76'],['Plant3'],['PO_ITEM--44-2'],,,['SUPPLIER--11'],0.0,96.0,['MAT-76_Plant3'],e1016
+Create Purchase Order Item (Understock),2023-11-26,['MAT-76'],['Plant4'],['PO_ITEM--34-4'],,,['SUPPLIER--6'],0.0,96.0,['MAT-76_Plant4'],e1017
+Create Purchase Order Item (Understock),2023-11-29,['MAT-76'],['Plant5'],['PO_ITEM--75-4'],,,['SUPPLIER--30'],0.0,96.0,['MAT-76_Plant5'],e1018
+Create Purchase Order Item (Understock),2023-11-29,['MAT-76'],['Plant5'],['PO_ITEM--75-5'],,,['SUPPLIER--30'],0.0,96.0,['MAT-76_Plant5'],e1019
+Create Sales Order Item,2024-01-22,['MAT-76'],['Plant4'],,['SO_ITEM--159-5'],['CUSTOMER--2'],,0.0,96.0,['MAT-76_Plant4'],e1020
+Create Sales Order Item,2024-03-03,['MAT-76'],['Plant2'],,['SO_ITEM--44-1'],['CUSTOMER--37'],,0.0,96.0,['MAT-76_Plant2'],e1021
+Create Sales Order Item,2024-04-22,['MAT-76'],['Plant3'],,['SO_ITEM--20-5'],['CUSTOMER--1'],,0.0,96.0,['MAT-76_Plant3'],e1022
+Create Purchase Order Item (Understock),2024-07-13,['MAT-76'],['Plant1'],['PO_ITEM--89-4'],,,['SUPPLIER--23'],0.0,96.0,['MAT-76_Plant1'],e1023
+Create Sales Order Item,2024-09-09,['MAT-76'],['Plant1'],,['SO_ITEM--13-3'],['CUSTOMER--1'],,0.0,96.0,['MAT-76_Plant1'],e1024
+Create Purchase Order Item (Understock),2024-09-11,['MAT-76'],['Plant1'],['PO_ITEM--87-1'],,,['SUPPLIER--23'],0.0,96.0,['MAT-76_Plant1'],e1025
+Create Purchase Order Item (Understock),2024-09-13,['MAT-76'],['Plant2'],['PO_ITEM--82-3'],,,['SUPPLIER--29'],0.0,96.0,['MAT-76_Plant2'],e1026
+Goods Issue (Normal to Normal),2023-12-26,['MAT-77'],['Plant5'],,,['CUSTOMER--388296'],,5.0,10.0,['MAT-77_Plant5'],e1028
+Goods Receipt (Understock to Overstock),2024-01-28,['MAT-77'],['Plant3'],['PO_ITEM--118-1'],,,['SUPPLIER--26'],0.0,5.0,['MAT-77_Plant3'],e1029
+Create Sales Order Item (Overstock to Overstock),2024-03-10,['MAT-77'],['Plant3'],,['SO_ITEM--200-1'],['CUSTOMER--15'],,66.0,71.0,['MAT-77_Plant3'],e1030
+Create Purchase Order Item (Overstock),2024-03-23,['MAT-77'],['Plant3'],['PO_ITEM--126-1'],,,['SUPPLIER--3'],66.0,71.0,['MAT-77_Plant3'],e1031
+Create Purchase Order Item (Overstock),2024-04-10,['MAT-77'],['Plant4'],['PO_ITEM--19-1'],,,['SUPPLIER--12'],61.0,61.0,['MAT-77_Plant4'],e1032
+Create Purchase Order Item (Overstock),2024-08-27,['MAT-77'],['Plant2'],['PO_ITEM--69-1'],,,['SUPPLIER--17'],61.0,61.0,['MAT-77_Plant2'],e1033
+Create Sales Order Item (Overstock to Overstock),2023-10-19,['MAT-78'],['Plant3'],,['SO_ITEM--153-1'],['CUSTOMER--10'],,50.0,89.0,['MAT-78_Plant3'],e1035
+Create Purchase Order Item (Overstock),2023-12-01,['MAT-78'],['Plant2'],['PO_ITEM--71-1'],,,['SUPPLIER--20'],50.0,89.0,['MAT-78_Plant2'],e1036
+Goods Issue,2023-12-18,['MAT-78'],['Plant4'],,,['CUSTOMER--715682'],,50.0,89.0,['MAT-78_Plant4'],e1037
+Create Sales Order Item,2024-01-05,['MAT-78'],['Plant2'],,['SO_ITEM--54-3'],['CUSTOMER--12'],,0.0,39.0,['MAT-78_Plant2'],e1038
+Create Sales Order Item,2024-01-07,['MAT-78'],['Plant5'],,['SO_ITEM--125-1'],['CUSTOMER--26'],,0.0,39.0,['MAT-78_Plant5'],e1039
+Create Sales Order Item,2024-01-26,['MAT-78'],['Plant3'],,['SO_ITEM--95-1'],['CUSTOMER--40'],,0.0,39.0,['MAT-78_Plant3'],e1040
+Goods Receipt (Understock to Overstock),2024-03-23,['MAT-78'],['Plant1'],['PO_ITEM--119-4'],,,['SUPPLIER--8'],0.0,39.0,['MAT-78_Plant1'],e1041
+Goods Issue (Overstock to Overstock),2024-04-18,['MAT-78'],['Plant5'],,,['CUSTOMER--508814'],,51.0,90.0,['MAT-78_Plant5'],e1042
+Create Purchase Order Item (Overstock),2024-05-12,['MAT-78'],['Plant1'],['PO_ITEM--20-2'],,,['SUPPLIER--25'],36.0,75.0,['MAT-78_Plant1'],e1043
+Create Sales Order Item (Overstock to Overstock),2024-05-22,['MAT-78'],['Plant3'],,['SO_ITEM--115-2'],['CUSTOMER--15'],,36.0,75.0,['MAT-78_Plant3'],e1044
+Create Purchase Order Item (Normal),2024-06-02,['MAT-78'],['Plant4'],['PO_ITEM--30-3'],,,['SUPPLIER--1'],36.0,75.0,['MAT-78_Plant4'],e1045
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-78'],['Plant2'],['PO_ITEM--18-2'],,,['SUPPLIER--29'],36.0,75.0,['MAT-78_Plant2'],e1046
+Goods Receipt (Overstock to Overstock),2023-12-21,['MAT-79'],['Plant1'],['PO_ITEM--15-2'],,,['SUPPLIER--25'],140.0,280.0,['MAT-79_Plant1'],e1048
+Create Sales Order Item (Overstock to Overstock),2024-01-16,['MAT-79'],['Plant2'],,['SO_ITEM--42-3'],['CUSTOMER--1'],,113.0,221.0,['MAT-79_Plant2'],e1049
+Goods Issue,2024-01-25,['MAT-79'],['Plant4'],,,['CUSTOMER--142113'],,145.0,285.0,['MAT-79_Plant4'],e1050
+Create Purchase Order Item (Understock),2024-03-14,['MAT-79'],['Plant3'],['PO_ITEM--49-5'],,,['SUPPLIER--20'],0.0,23.0,['MAT-79_Plant3'],e1051
+Create Purchase Order Item (Understock),2024-04-03,['MAT-79'],['Plant3'],['PO_ITEM--103-2'],,,['SUPPLIER--25'],0.0,23.0,['MAT-79_Plant3'],e1052
+Goods Issue,2024-04-04,['MAT-79'],['Plant5'],,,['CUSTOMER--621119'],,31.0,85.0,['MAT-79_Plant5'],e1053
+Create Sales Order Item,2024-05-08,['MAT-79'],['Plant5'],,['SO_ITEM--32-2'],['CUSTOMER--24'],,0.0,54.0,['MAT-79_Plant5'],e1054
+Create Sales Order Item,2024-05-17,['MAT-79'],['Plant4'],,['SO_ITEM--191-2'],['CUSTOMER--40'],,86.0,226.0,['MAT-79_Plant4'],e1055
+Goods Issue,2024-06-25,['MAT-79'],['Plant4'],,,['CUSTOMER--991037'],,86.0,226.0,['MAT-79_Plant4'],e1056
+Goods Receipt (Understock to Overstock),2024-07-14,['MAT-79'],['Plant1'],['PO_ITEM--139-2'],,,['SUPPLIER--14'],0.0,140.0,['MAT-79_Plant1'],e1057
+Create Sales Order Item,2024-08-16,['MAT-79'],['Plant2'],,['SO_ITEM--157-4'],['CUSTOMER--44'],,0.0,108.0,['MAT-79_Plant2'],e1058
+Create Purchase Order Item (Overstock),2024-09-10,['MAT-79'],['Plant1'],['PO_ITEM--36-1'],,,['SUPPLIER--27'],32.0,172.0,['MAT-79_Plant1'],e1059
+Create Sales Order Item (Understock to Understock),2023-10-12,['MAT-80'],['Plant2'],,['SO_ITEM--96-3'],['CUSTOMER--10'],,0.0,0.0,['MAT-80_Plant2'],e1061
+Create Sales Order Item (Overstock to Overstock),2024-01-16,['MAT-80'],['Plant3'],,['SO_ITEM--42-4'],['CUSTOMER--1'],,56.0,112.0,['MAT-80_Plant3'],e1062
+Create Sales Order Item,2024-01-30,['MAT-80'],['Plant5'],,['SO_ITEM--177-3'],['CUSTOMER--35'],,56.0,112.0,['MAT-80_Plant5'],e1063
+Create Sales Order Item (Overstock to Overstock),2024-02-17,['MAT-80'],['Plant3'],,['SO_ITEM--36-3'],['CUSTOMER--17'],,56.0,112.0,['MAT-80_Plant3'],e1064
+Create Sales Order Item (Overstock to Overstock),2024-02-18,['MAT-80'],['Plant3'],,['SO_ITEM--18-1'],['CUSTOMER--14'],,56.0,112.0,['MAT-80_Plant3'],e1065
+Goods Issue,2024-03-20,['MAT-80'],['Plant5'],,,['CUSTOMER--289394'],,56.0,112.0,['MAT-80_Plant5'],e1066
+Create Purchase Order Item (Understock),2024-04-07,['MAT-80'],['Plant4'],['PO_ITEM--131-3'],,,['SUPPLIER--21'],0.0,56.0,['MAT-80_Plant4'],e1067
+Create Sales Order Item,2024-04-16,['MAT-80'],['Plant1'],,['SO_ITEM--183-1'],['CUSTOMER--50'],,0.0,56.0,['MAT-80_Plant1'],e1068
+Create Sales Order Item,2024-05-02,['MAT-80'],['Plant4'],,['SO_ITEM--67-2'],['CUSTOMER--22'],,0.0,56.0,['MAT-80_Plant4'],e1069
+Create Sales Order Item,2024-05-12,['MAT-80'],['Plant5'],,['SO_ITEM--90-1'],['CUSTOMER--32'],,0.0,56.0,['MAT-80_Plant5'],e1070
+Create Sales Order Item,2024-09-09,['MAT-80'],['Plant3'],,['SO_ITEM--128-2'],['CUSTOMER--47'],,0.0,56.0,['MAT-80_Plant3'],e1071
+Create Sales Order Item,2024-09-13,['MAT-80'],['Plant1'],,['SO_ITEM--160-1'],['CUSTOMER--44'],,0.0,56.0,['MAT-80_Plant1'],e1072
+Create Sales Order Item (Understock to Understock),2023-10-05,['MAT-81'],['Plant4'],,['SO_ITEM--16-3'],['CUSTOMER--43'],,0.0,0.0,['MAT-81_Plant4'],e1074
+Create Sales Order Item (Overstock to Overstock),2023-10-16,['MAT-81'],['Plant3'],,['SO_ITEM--144-2'],['CUSTOMER--24'],,89.0,178.0,['MAT-81_Plant3'],e1075
+Create Purchase Order Item (Overstock),2023-11-28,['MAT-81'],['Plant3'],['PO_ITEM--134-3'],,,['SUPPLIER--21'],89.0,178.0,['MAT-81_Plant3'],e1076
+Create Purchase Order Item (Understock),2024-01-12,['MAT-81'],['Plant4'],['PO_ITEM--146-3'],,,['SUPPLIER--21'],0.0,0.0,['MAT-81_Plant4'],e1077
+Create Sales Order Item (Overstock to Overstock),2024-01-26,['MAT-81'],['Plant3'],,['SO_ITEM--95-2'],['CUSTOMER--40'],,89.0,178.0,['MAT-81_Plant3'],e1078
+Create Purchase Order Item (Understock),2024-03-13,['MAT-81'],['Plant1'],['PO_ITEM--43-1'],,,['SUPPLIER--6'],0.0,0.0,['MAT-81_Plant1'],e1079
+Goods Issue,2024-03-17,['MAT-81'],['Plant2'],,,['CUSTOMER--696190'],,89.0,178.0,['MAT-81_Plant2'],e1080
+Create Purchase Order Item (Understock),2024-05-09,['MAT-81'],['Plant5'],['PO_ITEM--85-1'],,,['SUPPLIER--9'],0.0,10.0,['MAT-81_Plant5'],e1081
+Goods Issue,2024-05-19,['MAT-81'],['Plant2'],,,['CUSTOMER--833228'],,79.0,168.0,['MAT-81_Plant2'],e1082
+Create Purchase Order Item (Understock),2024-05-24,['MAT-81'],['Plant2'],['PO_ITEM--55-1'],,,['SUPPLIER--13'],0.0,89.0,['MAT-81_Plant2'],e1083
+Create Purchase Order Item (Understock),2024-09-16,['MAT-81'],['Plant3'],['PO_ITEM--74-2'],,,['SUPPLIER--2'],0.0,89.0,['MAT-81_Plant3'],e1084
+Goods Issue,2023-11-24,['MAT-82'],['Plant5'],,,['CUSTOMER--959683'],,51.0,102.0,['MAT-82_Plant5'],e1086
+Create Sales Order Item,2023-12-27,['MAT-82'],['Plant1'],,['SO_ITEM--155-1'],['CUSTOMER--42'],,0.0,51.0,['MAT-82_Plant1'],e1087
+Create Sales Order Item,2024-02-02,['MAT-82'],['Plant5'],,['SO_ITEM--22-1'],['CUSTOMER--3'],,0.0,51.0,['MAT-82_Plant5'],e1088
+Goods Receipt (Understock to Overstock),2024-02-18,['MAT-82'],['Plant1'],['PO_ITEM--120-4'],,,['SUPPLIER--6'],0.0,51.0,['MAT-82_Plant1'],e1089
+Create Purchase Order Item (Normal),2024-03-14,['MAT-82'],['Plant5'],['PO_ITEM--129-3'],,,['SUPPLIER--11'],27.0,78.0,['MAT-82_Plant5'],e1090
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-82'],['Plant4'],,['SO_ITEM--46-2'],['CUSTOMER--6'],,44.0,112.0,['MAT-82_Plant4'],e1091
+Create Purchase Suggestion Item (Overstock),2024-04-05,['MAT-82'],['Plant4'],,,,,44.0,112.0,['MAT-82_Plant4'],e1092
+Create Purchase Order Item (Understock),2024-04-18,['MAT-82'],['Plant2'],['PO_ITEM--120-3'],,,['SUPPLIER--6'],0.0,24.0,['MAT-82_Plant2'],e1093
+Create Sales Order Item,2024-04-19,['MAT-82'],['Plant3'],,['SO_ITEM--89-1'],['CUSTOMER--27'],,44.0,112.0,['MAT-82_Plant3'],e1094
+Create Sales Order Item (Overstock to Overstock),2024-04-24,['MAT-82'],['Plant1'],,['SO_ITEM--45-2'],['CUSTOMER--13'],,27.0,78.0,['MAT-82_Plant1'],e1095
+Create Sales Order Item,2024-05-02,['MAT-82'],['Plant2'],,['SO_ITEM--67-3'],['CUSTOMER--22'],,0.0,24.0,['MAT-82_Plant2'],e1096
+Create Purchase Order Item (Understock),2024-05-06,['MAT-82'],['Plant2'],['PO_ITEM--46-1'],,,['SUPPLIER--21'],0.0,24.0,['MAT-82_Plant2'],e1097
+Create Purchase Order Item (Normal),2024-07-13,['MAT-82'],['Plant5'],['PO_ITEM--106-2'],,,['SUPPLIER--15'],27.0,78.0,['MAT-82_Plant5'],e1098
+Goods Issue,2024-07-13,['MAT-82'],['Plant3'],,,['CUSTOMER--121344'],,44.0,112.0,['MAT-82_Plant3'],e1099
+Create Sales Order Item,2024-07-28,['MAT-82'],['Plant3'],,['SO_ITEM--122-2'],['CUSTOMER--9'],,0.0,68.0,['MAT-82_Plant3'],e1100
+Create Sales Order Item,2024-07-31,['MAT-82'],['Plant4'],,['SO_ITEM--112-4'],['CUSTOMER--3'],,0.0,68.0,['MAT-82_Plant4'],e1101
+Create Purchase Order Item (Understock),2024-09-23,['MAT-82'],['Plant4'],['PO_ITEM--93-4'],,,['SUPPLIER--29'],0.0,68.0,['MAT-82_Plant4'],e1102
+Goods Receipt (Understock to Understock),2023-11-24,['MAT-83'],['Plant2'],['PO_ITEM--44-4'],,,['SUPPLIER--11'],0.0,0.0,['MAT-83_Plant2'],e1104
+Create Sales Order Item (Overstock to Overstock),2023-11-27,['MAT-83'],['Plant3'],,['SO_ITEM--199-1'],['CUSTOMER--38'],,38.0,38.0,['MAT-83_Plant3'],e1105
+Create Purchase Order Item (Overstock),2023-12-12,['MAT-83'],['Plant2'],['PO_ITEM--14-1'],,,['SUPPLIER--10'],38.0,38.0,['MAT-83_Plant2'],e1106
+Create Purchase Suggestion Item (Overstock),2023-12-16,['MAT-83'],['Plant4'],,,,,38.0,38.0,['MAT-83_Plant4'],e1107
+Create Purchase Order Item (Overstock),2023-12-31,['MAT-83'],['Plant4'],['PO_ITEM--96-3'],,,['SUPPLIER--17'],38.0,38.0,['MAT-83_Plant4'],e1108
+Create Purchase Suggestion Item (Overstock),2024-01-29,['MAT-83'],['Plant1'],,,,,38.0,38.0,['MAT-83_Plant1'],e1109
+Create Purchase Order Item (Overstock),2024-02-26,['MAT-83'],['Plant3'],['PO_ITEM--3-1'],,,['SUPPLIER--12'],38.0,38.0,['MAT-83_Plant3'],e1110
+Create Sales Order Item (Overstock to Overstock),2024-03-01,['MAT-83'],['Plant5'],,['SO_ITEM--171-1'],['CUSTOMER--31'],,38.0,38.0,['MAT-83_Plant5'],e1111
+Goods Receipt (Overstock to Overstock),2024-03-23,['MAT-83'],['Plant2'],['PO_ITEM--97-2'],,,['SUPPLIER--19'],38.0,38.0,['MAT-83_Plant2'],e1112
+Create Sales Order Item (Overstock to Overstock),2024-05-15,['MAT-83'],['Plant3'],,['SO_ITEM--126-5'],['CUSTOMER--46'],,56.0,56.0,['MAT-83_Plant3'],e1113
+Goods Receipt (Overstock to Overstock),2024-09-10,['MAT-83'],['Plant2'],['PO_ITEM--26-3'],,,['SUPPLIER--16'],56.0,56.0,['MAT-83_Plant2'],e1114
+Create Sales Order Item (Overstock to Overstock),2024-05-15,['MAT-84'],['Plant2'],,['SO_ITEM--196-5'],['CUSTOMER--26'],,14.0,28.0,['MAT-84_Plant2'],e1116
+Goods Issue,2024-05-30,['MAT-84'],['Plant3'],,,['CUSTOMER--387166'],,28.0,56.0,['MAT-84_Plant3'],e1117
+Goods Receipt (Understock to Overstock),2024-07-09,['MAT-84'],['Plant4'],['PO_ITEM--26-2'],,,['SUPPLIER--16'],0.0,28.0,['MAT-84_Plant4'],e1118
+Create Sales Order Item,2024-08-20,['MAT-84'],['Plant2'],,['SO_ITEM--114-1'],['CUSTOMER--39'],,0.0,14.0,['MAT-84_Plant2'],e1119
+Create Purchase Order Item (Normal),2024-09-25,['MAT-84'],['Plant3'],['PO_ITEM--133-2'],,,['SUPPLIER--20'],14.0,42.0,['MAT-84_Plant3'],e1120
+Create Purchase Order Item (Understock),2023-11-23,['MAT-85'],['Plant2'],['PO_ITEM--138-1'],,,['SUPPLIER--29'],0.0,0.0,['MAT-85_Plant2'],e1122
+Create Purchase Order Item (Normal),2023-11-24,['MAT-85'],['Plant5'],['PO_ITEM--110-2'],,,['SUPPLIER--25'],2.0,4.0,['MAT-85_Plant5'],e1123
+Create Purchase Order Item (Overstock),2023-11-29,['MAT-85'],['Plant4'],['PO_ITEM--50-5'],,,['SUPPLIER--29'],2.0,4.0,['MAT-85_Plant4'],e1124
+Create Purchase Order Item (Overstock),2023-12-28,['MAT-85'],['Plant4'],['PO_ITEM--76-2'],,,['SUPPLIER--13'],2.0,4.0,['MAT-85_Plant4'],e1125
+Goods Issue (Normal to Normal),2024-01-12,['MAT-85'],['Plant5'],,,['CUSTOMER--906867'],,2.0,4.0,['MAT-85_Plant5'],e1126
+Create Purchase Order Item (Understock),2024-02-25,['MAT-85'],['Plant4'],['PO_ITEM--27-1'],,,['SUPPLIER--10'],0.0,2.0,['MAT-85_Plant4'],e1127
+Create Sales Order Item,2024-03-05,['MAT-85'],['Plant5'],,['SO_ITEM--133-2'],['CUSTOMER--28'],,0.0,2.0,['MAT-85_Plant5'],e1128
+Goods Receipt (Understock to Overstock),2024-04-11,['MAT-85'],['Plant3'],['PO_ITEM--149-5'],,,['SUPPLIER--10'],0.0,2.0,['MAT-85_Plant3'],e1129
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-85'],['Plant5'],,['SO_ITEM--20-1'],['CUSTOMER--1'],,50.0,52.0,['MAT-85_Plant5'],e1130
+Create Purchase Order Item (Overstock),2024-05-12,['MAT-85'],['Plant2'],['PO_ITEM--20-4'],,,['SUPPLIER--25'],48.0,48.0,['MAT-85_Plant2'],e1131
+Create Purchase Order Item (Overstock),2024-05-31,['MAT-85'],['Plant3'],['PO_ITEM--102-1'],,,['SUPPLIER--2'],50.0,52.0,['MAT-85_Plant3'],e1132
+Create Purchase Order Item (Overstock),2024-06-06,['MAT-85'],['Plant3'],['PO_ITEM--88-3'],,,['SUPPLIER--30'],50.0,52.0,['MAT-85_Plant3'],e1133
+Create Sales Order Item (Overstock to Overstock),2024-06-14,['MAT-85'],['Plant1'],,['SO_ITEM--181-2'],['CUSTOMER--37'],,48.0,48.0,['MAT-85_Plant1'],e1134
+Create Purchase Order Item (Overstock),2024-08-22,['MAT-85'],['Plant4'],['PO_ITEM--111-2'],,,['SUPPLIER--18'],50.0,52.0,['MAT-85_Plant4'],e1135
+Create Purchase Order Item (Understock),2023-12-07,['MAT-86'],['Plant2'],['PO_ITEM--148-2'],,,['SUPPLIER--30'],0.0,62.0,['MAT-86_Plant2'],e1137
+Create Sales Order Item,2024-02-18,['MAT-86'],['Plant3'],,['SO_ITEM--80-2'],['CUSTOMER--30'],,0.0,62.0,['MAT-86_Plant3'],e1138
+Create Sales Order Item,2024-05-18,['MAT-86'],['Plant1'],,['SO_ITEM--19-1'],['CUSTOMER--25'],,0.0,62.0,['MAT-86_Plant1'],e1139
+Create Purchase Suggestion Item (Understock),2024-06-11,['MAT-86'],['Plant1'],,,,,0.0,62.0,['MAT-86_Plant1'],e1140
+Create Sales Order Item,2024-07-11,['MAT-86'],['Plant1'],,['SO_ITEM--180-1'],['CUSTOMER--28'],,0.0,62.0,['MAT-86_Plant1'],e1141
+Create Purchase Order Item (Understock),2024-09-02,['MAT-86'],['Plant1'],['PO_ITEM--6-2'],,,['SUPPLIER--5'],0.0,62.0,['MAT-86_Plant1'],e1142
+Create Purchase Order Item (Understock),2023-09-29,['MAT-87'],['Plant4'],['PO_ITEM--29-1'],,,['SUPPLIER--29'],0.0,0.0,['MAT-87_Plant4'],e1144
+Create Purchase Order Item (Understock),2023-10-01,['MAT-87'],['Plant3'],['PO_ITEM--65-3'],,,['SUPPLIER--24'],0.0,0.0,['MAT-87_Plant3'],e1145
+Create Purchase Order Item (Understock),2023-10-09,['MAT-87'],['Plant5'],['PO_ITEM--99-4'],,,['SUPPLIER--4'],0.0,0.0,['MAT-87_Plant5'],e1146
+Create Purchase Suggestion Item (Understock),2023-10-11,['MAT-87'],['Plant3'],,,,,0.0,0.0,['MAT-87_Plant3'],e1147
+Create Sales Order Item (Understock to Understock),2023-10-23,['MAT-87'],['Plant5'],,['SO_ITEM--38-2'],['CUSTOMER--34'],,0.0,0.0,['MAT-87_Plant5'],e1148
+Create Purchase Suggestion Item (Understock),2023-11-19,['MAT-87'],['Plant3'],,,,,0.0,0.0,['MAT-87_Plant3'],e1149
+Create Purchase Order Item (Understock),2023-11-28,['MAT-87'],['Plant5'],['PO_ITEM--134-2'],,,['SUPPLIER--21'],0.0,0.0,['MAT-87_Plant5'],e1150
+Create Purchase Suggestion Item (Understock),2024-01-02,['MAT-87'],['Plant5'],,,,,0.0,0.0,['MAT-87_Plant5'],e1151
+Goods Receipt (Understock to Understock),2024-01-17,['MAT-87'],['Plant3'],['PO_ITEM--112-4'],,,['SUPPLIER--25'],0.0,0.0,['MAT-87_Plant3'],e1152
+Create Sales Order Item (Overstock to Overstock),2024-04-16,['MAT-87'],['Plant5'],,['SO_ITEM--183-3'],['CUSTOMER--50'],,20.0,20.0,['MAT-87_Plant5'],e1153
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-87'],['Plant3'],,['SO_ITEM--47-2'],['CUSTOMER--2'],,20.0,20.0,['MAT-87_Plant3'],e1154
+Create Sales Order Item (Overstock to Overstock),2024-08-16,['MAT-87'],['Plant3'],,['SO_ITEM--157-1'],['CUSTOMER--44'],,20.0,20.0,['MAT-87_Plant3'],e1155
+Goods Issue (Normal to Normal),2024-09-04,['MAT-87'],['Plant2'],,,['CUSTOMER--931226'],,21.0,22.0,['MAT-87_Plant2'],e1156
+Create Sales Order Item (Understock to Understock),2024-09-09,['MAT-87'],['Plant2'],,['SO_ITEM--128-1'],['CUSTOMER--47'],,0.0,1.0,['MAT-87_Plant2'],e1157
+Goods Issue (Overstock to Overstock),2024-02-08,['MAT-88'],['Plant1'],,,['CUSTOMER--956608'],,75.0,150.0,['MAT-88_Plant1'],e1159
+Create Sales Order Item,2024-03-09,['MAT-88'],['Plant2'],,['SO_ITEM--77-2'],['CUSTOMER--35'],,0.0,75.0,['MAT-88_Plant2'],e1160
+Create Sales Order Item,2024-03-25,['MAT-88'],['Plant5'],,['SO_ITEM--10-1'],['CUSTOMER--27'],,0.0,75.0,['MAT-88_Plant5'],e1161
+Create Sales Order Item,2024-04-14,['MAT-88'],['Plant1'],,['SO_ITEM--34-1'],['CUSTOMER--34'],,0.0,75.0,['MAT-88_Plant1'],e1162
+Create Sales Order Item,2024-05-13,['MAT-88'],['Plant3'],,['SO_ITEM--74-2'],['CUSTOMER--32'],,39.0,153.0,['MAT-88_Plant3'],e1163
+Create Sales Order Item,2024-05-17,['MAT-88'],['Plant1'],,['SO_ITEM--191-3'],['CUSTOMER--40'],,0.0,75.0,['MAT-88_Plant1'],e1164
+Create Purchase Order Item (Understock),2024-07-02,['MAT-88'],['Plant1'],['PO_ITEM--31-2'],,,['SUPPLIER--21'],0.0,75.0,['MAT-88_Plant1'],e1165
+Goods Issue,2024-09-20,['MAT-88'],['Plant3'],,,['CUSTOMER--589614'],,39.0,153.0,['MAT-88_Plant3'],e1166
+Goods Issue (Overstock to Overstock),2023-10-21,['MAT-89'],['Plant5'],,,['CUSTOMER--949206'],,87.0,174.0,['MAT-89_Plant5'],e1168
+Create Sales Order Item (Overstock to Overstock),2023-10-23,['MAT-89'],['Plant2'],,['SO_ITEM--88-4'],['CUSTOMER--49'],,40.0,127.0,['MAT-89_Plant2'],e1169
+Create Purchase Order Item (Overstock),2023-11-05,['MAT-89'],['Plant1'],['PO_ITEM--44-3'],,,['SUPPLIER--11'],40.0,127.0,['MAT-89_Plant1'],e1170
+Create Sales Order Item,2023-12-04,['MAT-89'],['Plant5'],,['SO_ITEM--81-3'],['CUSTOMER--20'],,40.0,127.0,['MAT-89_Plant5'],e1171
+Create Purchase Order Item (Overstock),2023-12-09,['MAT-89'],['Plant3'],['PO_ITEM--142-3'],,,['SUPPLIER--4'],40.0,127.0,['MAT-89_Plant3'],e1172
+Create Purchase Order Item (Normal),2024-01-13,['MAT-89'],['Plant5'],['PO_ITEM--112-3'],,,['SUPPLIER--25'],40.0,127.0,['MAT-89_Plant5'],e1173
+Goods Issue,2024-01-21,['MAT-89'],['Plant4'],,,['CUSTOMER--316849'],,40.0,127.0,['MAT-89_Plant4'],e1174
+Goods Issue,2024-01-25,['MAT-89'],['Plant4'],,,['CUSTOMER--727119'],,26.0,113.0,['MAT-89_Plant4'],e1175
+Create Sales Order Item,2024-01-31,['MAT-89'],['Plant1'],,['SO_ITEM--41-4'],['CUSTOMER--38'],,0.0,87.0,['MAT-89_Plant1'],e1176
+Create Sales Order Item,2024-02-14,['MAT-89'],['Plant1'],,['SO_ITEM--108-2'],['CUSTOMER--25'],,0.0,87.0,['MAT-89_Plant1'],e1177
+Create Sales Order Item,2024-02-18,['MAT-89'],['Plant2'],,['SO_ITEM--80-1'],['CUSTOMER--30'],,0.0,87.0,['MAT-89_Plant2'],e1178
+Create Purchase Order Item (Understock),2024-06-06,['MAT-89'],['Plant2'],['PO_ITEM--18-1'],,,['SUPPLIER--29'],0.0,87.0,['MAT-89_Plant2'],e1179
+Create Sales Order Item,2024-06-06,['MAT-89'],['Plant5'],,['SO_ITEM--136-1'],['CUSTOMER--28'],,0.0,87.0,['MAT-89_Plant5'],e1180
+Create Sales Order Item,2024-06-09,['MAT-89'],['Plant5'],,['SO_ITEM--85-1'],['CUSTOMER--34'],,0.0,87.0,['MAT-89_Plant5'],e1181
+Create Purchase Order Item (Understock),2024-07-21,['MAT-89'],['Plant5'],['PO_ITEM--66-2'],,,['SUPPLIER--27'],0.0,87.0,['MAT-89_Plant5'],e1182
+Create Purchase Order Item (Understock),2024-07-27,['MAT-89'],['Plant3'],['PO_ITEM--101-3'],,,['SUPPLIER--24'],0.0,87.0,['MAT-89_Plant3'],e1183
+Create Sales Order Item,2024-09-06,['MAT-89'],['Plant5'],,['SO_ITEM--93-3'],['CUSTOMER--12'],,0.0,87.0,['MAT-89_Plant5'],e1184
+Create Sales Order Item,2024-09-09,['MAT-89'],['Plant2'],,['SO_ITEM--128-5'],['CUSTOMER--47'],,0.0,87.0,['MAT-89_Plant2'],e1185
+Create Purchase Order Item (Understock),2023-11-07,['MAT-90'],['Plant1'],['PO_ITEM--45-3'],,,['SUPPLIER--15'],0.0,0.0,['MAT-90_Plant1'],e1187
+Create Sales Order Item (Understock to Understock),2023-11-27,['MAT-90'],['Plant5'],,['SO_ITEM--199-2'],['CUSTOMER--38'],,0.0,0.0,['MAT-90_Plant5'],e1188
+Create Sales Order Item (Understock to Understock),2023-12-04,['MAT-90'],['Plant1'],,['SO_ITEM--192-4'],['CUSTOMER--30'],,0.0,0.0,['MAT-90_Plant1'],e1189
+Create Sales Order Item (Understock to Understock),2023-12-16,['MAT-90'],['Plant3'],,['SO_ITEM--127-2'],['CUSTOMER--44'],,0.0,0.0,['MAT-90_Plant3'],e1190
+Create Purchase Suggestion Item (Understock),2024-01-05,['MAT-90'],['Plant1'],,,,,0.0,0.0,['MAT-90_Plant1'],e1191
+Create Purchase Suggestion Item (Understock),2024-02-13,['MAT-90'],['Plant2'],,,,,0.0,0.0,['MAT-90_Plant2'],e1192
+Goods Receipt (Understock to Understock),2024-03-12,['MAT-90'],['Plant3'],['PO_ITEM--125-5'],,,['SUPPLIER--10'],0.0,0.0,['MAT-90_Plant3'],e1193
+Create Sales Order Item (Overstock to Overstock),2024-04-14,['MAT-90'],['Plant5'],,['SO_ITEM--34-2'],['CUSTOMER--34'],,1.0,1.0,['MAT-90_Plant5'],e1194
+Create Sales Order Item (Overstock to Overstock),2024-04-21,['MAT-90'],['Plant2'],,['SO_ITEM--29-2'],['CUSTOMER--41'],,1.0,1.0,['MAT-90_Plant2'],e1195
+Create Sales Order Item (Overstock to Overstock),2024-08-23,['MAT-90'],['Plant2'],,['SO_ITEM--31-1'],['CUSTOMER--15'],,1.0,1.0,['MAT-90_Plant2'],e1196
+Create Purchase Order Item (Overstock),2024-08-30,['MAT-90'],['Plant5'],['PO_ITEM--26-1'],,,['SUPPLIER--16'],1.0,1.0,['MAT-90_Plant5'],e1197
+Create Sales Order Item (Overstock to Overstock),2024-09-04,['MAT-90'],['Plant4'],,['SO_ITEM--62-3'],['CUSTOMER--49'],,1.0,1.0,['MAT-90_Plant4'],e1198
+Create Sales Order Item (Overstock to Overstock),2023-10-19,['MAT-91'],['Plant5'],,['SO_ITEM--12-5'],['CUSTOMER--31'],,67.0,134.0,['MAT-91_Plant5'],e1200
+Create Purchase Suggestion Item (Overstock),2023-12-01,['MAT-91'],['Plant2'],,,,,67.0,134.0,['MAT-91_Plant2'],e1201
+Goods Issue (Overstock to Overstock),2024-04-02,['MAT-91'],['Plant1'],,,['CUSTOMER--920634'],,67.0,134.0,['MAT-91_Plant1'],e1202
+Create Sales Order Item,2024-04-25,['MAT-91'],['Plant5'],,['SO_ITEM--113-2'],['CUSTOMER--49'],,0.0,67.0,['MAT-91_Plant5'],e1203
+Create Purchase Order Item (Understock),2024-09-16,['MAT-91'],['Plant2'],['PO_ITEM--74-3'],,,['SUPPLIER--2'],0.0,67.0,['MAT-91_Plant2'],e1204
+Create Purchase Suggestion Item (Understock),2023-10-01,['MAT-92'],['Plant2'],,,,,0.0,0.0,['MAT-92_Plant2'],e1206
+Create Purchase Order Item (Understock),2023-11-29,['MAT-92'],['Plant4'],['PO_ITEM--75-1'],,,['SUPPLIER--30'],0.0,0.0,['MAT-92_Plant4'],e1207
+Create Sales Order Item (Understock to Understock),2024-01-04,['MAT-92'],['Plant2'],,['SO_ITEM--24-3'],['CUSTOMER--33'],,0.0,0.0,['MAT-92_Plant2'],e1208
+Create Purchase Suggestion Item (Understock),2024-04-18,['MAT-92'],['Plant1'],,,,,0.0,0.0,['MAT-92_Plant1'],e1209
+Create Sales Order Item (Understock to Understock),2024-05-15,['MAT-92'],['Plant3'],,['SO_ITEM--196-3'],['CUSTOMER--26'],,0.0,0.0,['MAT-92_Plant3'],e1210
+Create Purchase Order Item (Understock),2024-06-02,['MAT-92'],['Plant3'],['PO_ITEM--30-2'],,,['SUPPLIER--1'],0.0,0.0,['MAT-92_Plant3'],e1211
+Goods Receipt (Understock to Understock),2024-06-13,['MAT-92'],['Plant2'],['PO_ITEM--83-1'],,,['SUPPLIER--12'],0.0,0.0,['MAT-92_Plant2'],e1212
+Create Sales Order Item (Overstock to Overstock),2024-06-25,['MAT-92'],['Plant4'],,['SO_ITEM--70-1'],['CUSTOMER--4'],,39.0,39.0,['MAT-92_Plant4'],e1213
+Create Sales Order Item (Overstock to Overstock),2024-07-13,['MAT-92'],['Plant5'],,['SO_ITEM--17-1'],['CUSTOMER--35'],,39.0,39.0,['MAT-92_Plant5'],e1214
+Goods Receipt (Overstock to Overstock),2024-09-15,['MAT-92'],['Plant4'],['PO_ITEM--63-4'],,,['SUPPLIER--26'],39.0,39.0,['MAT-92_Plant4'],e1215
+Create Sales Order Item (Understock to Understock),2023-12-06,['MAT-93'],['Plant2'],,['SO_ITEM--164-3'],['CUSTOMER--16'],,0.0,0.0,['MAT-93_Plant2'],e1217
+Create Sales Order Item (Understock to Understock),2023-12-19,['MAT-93'],['Plant5'],,['SO_ITEM--56-1'],['CUSTOMER--45'],,0.0,0.0,['MAT-93_Plant5'],e1218
+Create Sales Order Item,2024-01-05,['MAT-93'],['Plant4'],,['SO_ITEM--197-1'],['CUSTOMER--6'],,12.0,24.0,['MAT-93_Plant4'],e1219
+Create Sales Order Item (Overstock to Overstock),2024-03-13,['MAT-93'],['Plant1'],,['SO_ITEM--84-4'],['CUSTOMER--22'],,12.0,24.0,['MAT-93_Plant1'],e1220
+Create Purchase Order Item (Understock),2024-03-19,['MAT-93'],['Plant5'],['PO_ITEM--13-1'],,,['SUPPLIER--26'],0.0,0.0,['MAT-93_Plant5'],e1221
+Create Purchase Order Item (Understock),2024-05-12,['MAT-93'],['Plant3'],['PO_ITEM--20-5'],,,['SUPPLIER--25'],0.0,0.0,['MAT-93_Plant3'],e1222
+Create Sales Order Item (Understock to Understock),2024-07-08,['MAT-93'],['Plant5'],,['SO_ITEM--75-1'],['CUSTOMER--14'],,0.0,0.0,['MAT-93_Plant5'],e1223
+Create Sales Order Item,2024-08-04,['MAT-93'],['Plant4'],,['SO_ITEM--65-5'],['CUSTOMER--1'],,12.0,24.0,['MAT-93_Plant4'],e1224
+Create Sales Order Item (Understock to Understock),2024-08-11,['MAT-93'],['Plant3'],,['SO_ITEM--52-3'],['CUSTOMER--5'],,0.0,0.0,['MAT-93_Plant3'],e1225
+Create Purchase Order Item (Understock),2024-09-07,['MAT-93'],['Plant2'],['PO_ITEM--107-2'],,,['SUPPLIER--11'],0.0,0.0,['MAT-93_Plant2'],e1226
+Goods Issue,2024-09-14,['MAT-93'],['Plant4'],,,['CUSTOMER--545777'],,12.0,24.0,['MAT-93_Plant4'],e1227
+Create Purchase Order Item (Understock),2024-09-16,['MAT-93'],['Plant1'],['PO_ITEM--74-1'],,,['SUPPLIER--2'],0.0,12.0,['MAT-93_Plant1'],e1228
+Create Sales Order Item (Understock to Understock),2023-10-12,['MAT-94'],['Plant3'],,['SO_ITEM--96-1'],['CUSTOMER--10'],,0.0,0.0,['MAT-94_Plant3'],e1230
+Create Sales Order Item (Understock to Understock),2024-01-04,['MAT-94'],['Plant5'],,['SO_ITEM--24-5'],['CUSTOMER--33'],,0.0,0.0,['MAT-94_Plant5'],e1231
+Create Purchase Order Item (Understock),2024-01-08,['MAT-94'],['Plant1'],['PO_ITEM--84-4'],,,['SUPPLIER--13'],0.0,0.0,['MAT-94_Plant1'],e1232
+Create Sales Order Item (Understock to Understock),2024-01-22,['MAT-94'],['Plant3'],,['SO_ITEM--159-4'],['CUSTOMER--2'],,0.0,0.0,['MAT-94_Plant3'],e1233
+Create Sales Order Item (Understock to Understock),2024-02-20,['MAT-94'],['Plant4'],,['SO_ITEM--139-1'],['CUSTOMER--1'],,0.0,0.0,['MAT-94_Plant4'],e1234
+Create Purchase Order Item (Understock),2024-02-27,['MAT-94'],['Plant4'],['PO_ITEM--37-4'],,,['SUPPLIER--4'],0.0,0.0,['MAT-94_Plant4'],e1235
+Create Sales Order Item (Understock to Understock),2024-02-28,['MAT-94'],['Plant4'],,['SO_ITEM--71-4'],['CUSTOMER--45'],,0.0,0.0,['MAT-94_Plant4'],e1236
+Goods Receipt (Understock to Understock),2024-03-02,['MAT-94'],['Plant1'],['PO_ITEM--121-5'],,,['SUPPLIER--16'],0.0,0.0,['MAT-94_Plant1'],e1237
+Create Purchase Suggestion Item (Overstock),2024-03-27,['MAT-94'],['Plant1'],,,,,50.0,50.0,['MAT-94_Plant1'],e1238
+Create Sales Order Item (Overstock to Overstock),2024-04-22,['MAT-94'],['Plant3'],,['SO_ITEM--20-4'],['CUSTOMER--1'],,50.0,50.0,['MAT-94_Plant3'],e1239
+Create Sales Order Item (Overstock to Overstock),2024-04-28,['MAT-94'],['Plant3'],,['SO_ITEM--172-5'],['CUSTOMER--10'],,50.0,50.0,['MAT-94_Plant3'],e1240
+Create Purchase Order Item (Overstock),2024-06-02,['MAT-94'],['Plant3'],['PO_ITEM--30-1'],,,['SUPPLIER--1'],50.0,50.0,['MAT-94_Plant3'],e1241
+Create Sales Order Item (Overstock to Overstock),2024-06-09,['MAT-94'],['Plant3'],,['SO_ITEM--85-3'],['CUSTOMER--34'],,50.0,50.0,['MAT-94_Plant3'],e1242
+Create Purchase Order Item (Understock),2023-11-07,['MAT-95'],['Plant4'],['PO_ITEM--135-5'],,,['SUPPLIER--6'],0.0,0.0,['MAT-95_Plant4'],e1244
+Create Sales Order Item (Understock to Understock),2024-01-09,['MAT-95'],['Plant1'],,['SO_ITEM--48-1'],['CUSTOMER--46'],,0.0,0.0,['MAT-95_Plant1'],e1245
+Create Purchase Order Item (Understock),2024-01-10,['MAT-95'],['Plant1'],['PO_ITEM--145-2'],,,['SUPPLIER--9'],0.0,0.0,['MAT-95_Plant1'],e1246
+Create Purchase Order Item (Understock),2024-02-10,['MAT-95'],['Plant2'],['PO_ITEM--25-3'],,,['SUPPLIER--24'],0.0,0.0,['MAT-95_Plant2'],e1247
+Create Sales Order Item (Understock to Understock),2024-02-25,['MAT-95'],['Plant3'],,['SO_ITEM--60-1'],['CUSTOMER--7'],,0.0,0.0,['MAT-95_Plant3'],e1248
+Create Purchase Order Item (Understock),2024-03-08,['MAT-95'],['Plant3'],['PO_ITEM--54-4'],,,['SUPPLIER--18'],0.0,0.0,['MAT-95_Plant3'],e1249
+Goods Receipt (Understock to Understock),2024-03-08,['MAT-95'],['Plant3'],['PO_ITEM--45-4'],,,['SUPPLIER--15'],0.0,0.0,['MAT-95_Plant3'],e1250
+Create Sales Order Item (Overstock to Overstock),2024-03-20,['MAT-95'],['Plant1'],,['SO_ITEM--169-1'],['CUSTOMER--23'],,42.0,42.0,['MAT-95_Plant1'],e1251
+Create Sales Order Item (Overstock to Overstock),2024-03-25,['MAT-95'],['Plant5'],,['SO_ITEM--46-1'],['CUSTOMER--6'],,42.0,42.0,['MAT-95_Plant5'],e1252
+Goods Receipt (Overstock to Overstock),2024-04-08,['MAT-95'],['Plant2'],['PO_ITEM--88-2'],,,['SUPPLIER--30'],42.0,42.0,['MAT-95_Plant2'],e1253
+Create Sales Order Item (Overstock to Overstock),2024-05-05,['MAT-95'],['Plant2'],,['SO_ITEM--43-1'],['CUSTOMER--28'],,142.0,142.0,['MAT-95_Plant2'],e1254
+Create Sales Order Item (Understock to Understock),2023-12-06,['MAT-96'],['Plant1'],,['SO_ITEM--164-1'],['CUSTOMER--16'],,0.0,0.0,['MAT-96_Plant1'],e1256
+Create Purchase Order Item (Understock),2023-12-19,['MAT-96'],['Plant1'],['PO_ITEM--108-1'],,,['SUPPLIER--29'],0.0,0.0,['MAT-96_Plant1'],e1257
+Create Purchase Order Item (Understock),2024-01-11,['MAT-96'],['Plant5'],['PO_ITEM--28-1'],,,['SUPPLIER--6'],0.0,0.0,['MAT-96_Plant5'],e1258
+Create Purchase Order Item (Understock),2024-04-07,['MAT-96'],['Plant3'],['PO_ITEM--81-1'],,,['SUPPLIER--19'],0.0,0.0,['MAT-96_Plant3'],e1259
+Create Purchase Suggestion Item (Understock),2024-04-09,['MAT-96'],['Plant4'],,,,,0.0,0.0,['MAT-96_Plant4'],e1260
+Create Sales Order Item (Understock to Understock),2024-05-15,['MAT-96'],['Plant3'],,['SO_ITEM--126-4'],['CUSTOMER--46'],,0.0,0.0,['MAT-96_Plant3'],e1261
+Create Sales Order Item (Understock to Understock),2024-05-18,['MAT-96'],['Plant5'],,['SO_ITEM--19-3'],['CUSTOMER--25'],,0.0,0.0,['MAT-96_Plant5'],e1262
+Create Purchase Order Item (Understock),2024-05-31,['MAT-96'],['Plant4'],['PO_ITEM--102-2'],,,['SUPPLIER--2'],0.0,0.0,['MAT-96_Plant4'],e1263
+Create Sales Order Item (Understock to Understock),2024-06-06,['MAT-96'],['Plant1'],,['SO_ITEM--166-1'],['CUSTOMER--23'],,0.0,0.0,['MAT-96_Plant1'],e1264
+Create Sales Order Item (Understock to Understock),2024-06-25,['MAT-96'],['Plant1'],,['SO_ITEM--70-3'],['CUSTOMER--4'],,0.0,0.0,['MAT-96_Plant1'],e1265
+Create Purchase Order Item (Understock),2024-08-28,['MAT-96'],['Plant2'],['PO_ITEM--64-1'],,,['SUPPLIER--16'],0.0,0.0,['MAT-96_Plant2'],e1266
+Create Sales Order Item (Understock to Understock),2024-09-12,['MAT-96'],['Plant3'],,['SO_ITEM--187-4'],['CUSTOMER--21'],,0.0,0.0,['MAT-96_Plant3'],e1267
+Create Purchase Suggestion Item (Understock),2023-11-30,['MAT-97'],['Plant3'],,,,,0.0,0.0,['MAT-97_Plant3'],e1269
+Create Purchase Order Item (Understock),2023-12-07,['MAT-97'],['Plant1'],['PO_ITEM--148-1'],,,['SUPPLIER--30'],0.0,0.0,['MAT-97_Plant1'],e1270
+Create Purchase Order Item (Understock),2023-12-25,['MAT-97'],['Plant3'],['PO_ITEM--122-3'],,,['SUPPLIER--20'],0.0,0.0,['MAT-97_Plant3'],e1271
+Create Sales Order Item (Understock to Understock),2023-12-26,['MAT-97'],['Plant1'],,['SO_ITEM--123-5'],['CUSTOMER--31'],,0.0,0.0,['MAT-97_Plant1'],e1272
+Create Purchase Order Item (Understock),2024-01-22,['MAT-97'],['Plant3'],['PO_ITEM--23-2'],,,['SUPPLIER--17'],0.0,0.0,['MAT-97_Plant3'],e1273
+Create Sales Order Item (Understock to Understock),2024-01-25,['MAT-97'],['Plant4'],,['SO_ITEM--137-5'],['CUSTOMER--50'],,0.0,0.0,['MAT-97_Plant4'],e1274
+Create Sales Order Item (Understock to Understock),2024-07-11,['MAT-97'],['Plant5'],,['SO_ITEM--180-3'],['CUSTOMER--28'],,0.0,0.0,['MAT-97_Plant5'],e1275
+Goods Receipt (Understock to Understock),2024-09-16,['MAT-97'],['Plant1'],['PO_ITEM--52-3'],,,['SUPPLIER--29'],0.0,0.0,['MAT-97_Plant1'],e1276
+Goods Issue (Overstock to Overstock),2024-09-17,['MAT-97'],['Plant4'],,,['CUSTOMER--330147'],,72.0,72.0,['MAT-97_Plant4'],e1277
+Create Purchase Order Item (Overstock),2023-12-09,['MAT-98'],['Plant3'],['PO_ITEM--142-4'],,,['SUPPLIER--4'],84.0,168.0,['MAT-98_Plant3'],e1279
+Goods Issue (Overstock to Overstock),2023-12-10,['MAT-98'],['Plant3'],,,['CUSTOMER--297944'],,84.0,168.0,['MAT-98_Plant3'],e1280
+Create Purchase Order Item (Understock),2023-12-19,['MAT-98'],['Plant3'],['PO_ITEM--117-1'],,,['SUPPLIER--20'],0.0,84.0,['MAT-98_Plant3'],e1281
+Create Purchase Order Item (Understock),2024-01-02,['MAT-98'],['Plant3'],['PO_ITEM--17-4'],,,['SUPPLIER--12'],0.0,84.0,['MAT-98_Plant3'],e1282
+Create Sales Order Item,2024-01-07,['MAT-98'],['Plant5'],,['SO_ITEM--173-2'],['CUSTOMER--13'],,0.0,84.0,['MAT-98_Plant5'],e1283
+Create Purchase Order Item (Understock),2024-01-08,['MAT-98'],['Plant3'],['PO_ITEM--84-1'],,,['SUPPLIER--13'],0.0,84.0,['MAT-98_Plant3'],e1284
+Create Sales Order Item,2024-01-27,['MAT-98'],['Plant1'],,['SO_ITEM--55-1'],['CUSTOMER--25'],,0.0,84.0,['MAT-98_Plant1'],e1285
+Create Sales Order Item,2024-01-28,['MAT-98'],['Plant5'],,['SO_ITEM--5-1'],['CUSTOMER--12'],,0.0,84.0,['MAT-98_Plant5'],e1286
+Create Purchase Suggestion Item (Understock),2024-02-09,['MAT-98'],['Plant2'],,,,,0.0,84.0,['MAT-98_Plant2'],e1287
+Create Purchase Suggestion Item (Understock),2024-02-09,['MAT-98'],['Plant3'],,,,,0.0,84.0,['MAT-98_Plant3'],e1288
+Create Purchase Order Item (Understock),2024-03-16,['MAT-98'],['Plant5'],['PO_ITEM--61-3'],,,['SUPPLIER--22'],0.0,84.0,['MAT-98_Plant5'],e1289
+Create Purchase Order Item (Understock),2024-04-05,['MAT-98'],['Plant4'],['PO_ITEM--132-1'],,,['SUPPLIER--20'],0.0,84.0,['MAT-98_Plant4'],e1290
+Create Sales Order Item,2024-05-15,['MAT-98'],['Plant4'],,['SO_ITEM--126-1'],['CUSTOMER--46'],,0.0,84.0,['MAT-98_Plant4'],e1291
+Goods Receipt (Understock to Overstock),2024-08-01,['MAT-98'],['Plant3'],['PO_ITEM--43-4'],,,['SUPPLIER--6'],0.0,84.0,['MAT-98_Plant3'],e1292
+Create Purchase Order Item (Overstock),2024-09-23,['MAT-98'],['Plant4'],['PO_ITEM--93-3'],,,['SUPPLIER--29'],13.0,97.0,['MAT-98_Plant4'],e1293
+Create Purchase Order Item (Understock),2023-09-30,['MAT-99'],['Plant2'],['PO_ITEM--104-4'],,,['SUPPLIER--11'],0.0,0.0,['MAT-99_Plant2'],e1295
+Create Purchase Order Item (Understock),2023-09-30,['MAT-99'],['Plant3'],['PO_ITEM--104-5'],,,['SUPPLIER--11'],0.0,0.0,['MAT-99_Plant3'],e1296
+Create Sales Order Item (Understock to Understock),2024-01-12,['MAT-99'],['Plant4'],,['SO_ITEM--68-4'],['CUSTOMER--34'],,0.0,0.0,['MAT-99_Plant4'],e1297
+Create Sales Order Item (Understock to Understock),2024-01-30,['MAT-99'],['Plant4'],,['SO_ITEM--177-2'],['CUSTOMER--35'],,0.0,0.0,['MAT-99_Plant4'],e1298
+Create Sales Order Item (Understock to Understock),2024-03-10,['MAT-99'],['Plant2'],,['SO_ITEM--200-2'],['CUSTOMER--15'],,0.0,0.0,['MAT-99_Plant2'],e1299
+Create Sales Order Item (Understock to Understock),2024-05-07,['MAT-99'],['Plant5'],,['SO_ITEM--37-3'],['CUSTOMER--39'],,0.0,0.0,['MAT-99_Plant5'],e1300
+Create Purchase Order Item (Understock),2024-05-29,['MAT-99'],['Plant3'],['PO_ITEM--60-1'],,,['SUPPLIER--3'],0.0,0.0,['MAT-99_Plant3'],e1301
+Create Purchase Order Item (Understock),2024-07-27,['MAT-99'],['Plant5'],['PO_ITEM--101-2'],,,['SUPPLIER--24'],0.0,0.0,['MAT-99_Plant5'],e1302
+Create Purchase Order Item (Understock),2023-11-24,['MAT-100'],['Plant5'],['PO_ITEM--110-1'],,,['SUPPLIER--25'],0.0,0.0,['MAT-100_Plant5'],e1304
+Create Sales Order Item (Understock to Understock),2024-04-22,['MAT-100'],['Plant2'],,['SO_ITEM--47-4'],['CUSTOMER--2'],,0.0,0.0,['MAT-100_Plant2'],e1305
+Create Sales Order Item (Understock to Understock),2024-05-13,['MAT-100'],['Plant5'],,['SO_ITEM--74-3'],['CUSTOMER--32'],,0.0,0.0,['MAT-100_Plant5'],e1306
+Create Sales Order Item (Understock to Understock),2024-06-07,['MAT-100'],['Plant3'],,['SO_ITEM--11-1'],['CUSTOMER--33'],,0.0,0.0,['MAT-100_Plant3'],e1307
+Create Sales Order Item (Understock to Understock),2024-07-22,['MAT-100'],['Plant2'],,['SO_ITEM--154-1'],['CUSTOMER--42'],,0.0,0.0,['MAT-100_Plant2'],e1308
+Goods Receipt (Understock to Understock),2024-09-19,['MAT-100'],['Plant1'],['PO_ITEM--137-5'],,,['SUPPLIER--18'],0.0,0.0,['MAT-100_Plant1'],e1309
