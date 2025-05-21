@@ -184,34 +184,61 @@ if __name__ == '__main__':
         activity = row["ocel:activity"]
         stock_before = row['Stock Before']
         stock_after = row['Stock After']
+        cumcount = row["CUMCOUNT"]
+        invcumcount = row["INVCUMCOUNT"]
 
         SS = row['Safety Stock (SS)']
         OS = row['OS']
 
-        if stock_before < SS:
+        ret_label = None
+
+        if cumcount == 0:
             if stock_after < SS:
-                ret_label = None
-            elif stock_after >= SS and stock_after < OS:
-                ret_label =  "Understock to Normal"
+                ret_label = "START UNDERSTOCK"
             elif stock_after >= OS:
-                ret_label =  "Understock to Overstock"
-        elif stock_before >= SS and stock_before < OS:
-            if stock_after < SS:
-                ret_label =  'Normal to Understock'
-            elif stock_after >= SS and stock_after < OS:
-                ret_label =  None
-            elif stock_after >= OS:
-                ret_label = 'Normal to Overstock'
-        elif stock_before >= OS:
-            if stock_after >= SS and stock_after < OS:
-                ret_label =  'Overstock to Normal'
-            elif stock_after >= OS:
-                ret_label = None
-            elif stock_after < SS:
-                ret_label = 'Overstock to Understock'
+                ret_label = "START OVERSTOCK"
+            else:
+                ret_label = "START NORMAL"
+        else:
+            label_before = "UNDERSTOCK" if stock_before < SS else "OVERSTOCK" if stock_before >= OS else "NORMAL"
+            label_after = "UNDERSTOCK" if stock_after < SS else "OVERSTOCK" if stock_after >= OS else "NORMAL"
+
+            if label_before != label_after:
+                ret_label = "ST CHANGE "+label_before+" to "+label_after
 
         return ret_label
 
+
+    def status_change_happened2(row):
+        activity = row["ocel:activity"]
+        stock_before = row['Stock Before']
+        stock_after = row['Stock After']
+        cumcount = row["CUMCOUNT"]
+        invcumcount = row["INVCUMCOUNT"]
+
+        SS = row['Safety Stock (SS)']
+        OS = row['OS']
+
+        ret_label = None
+
+        if invcumcount == 0:
+            if stock_after < SS:
+                ret_label = "END UNDERSTOCK"
+            elif stock_after >= OS:
+                ret_label = "END OVERSTOCK"
+            else:
+                ret_label = "END NORMAL"
+
+        return ret_label
+
+
+    df_merged["CUMCOUNT"] = df_merged.groupby("ocel:type:MAT_PLA").cumcount()
+    df_merged['INVCUMCOUNT'] = (
+        df_merged.iloc[::-1]
+        .groupby('ocel:type:MAT_PLA')
+        .cumcount()
+        .iloc[::-1]
+    )
 
     # Apply transformations
     df_merged['ocel:activity'] = df_merged.apply(
@@ -220,6 +247,7 @@ if __name__ == '__main__':
     )
 
     df_merged['Status Change Happened'] = df_merged.apply(lambda row: status_change_happened(row), axis=1)
+    df_merged['Status Change Happened2'] = df_merged.apply(lambda row: status_change_happened2(row), axis=1)
 
     if False:
         # Update 'ocel:activity' in df2
@@ -242,10 +270,18 @@ if __name__ == '__main__':
     df2_updated["ocel:timestamp"] = pd.to_datetime(df2_updated["ocel:timestamp"])
 
     df3 = df2_updated.dropna(subset=["Status Change Happened"])
-    df3["ocel:activity"] = "STCHANGE " + df3["Status Change Happened"]
-    df3["ocel:timestamp"] = df3["ocel:timestamp"] - pd.to_timedelta(1, unit='s')
 
-    df2_updated = pd.concat([df2_updated, df3])
+    df4 = df2_updated.dropna(subset=["Status Change Happened"])
+    df4["ocel:activity"] = df4["Status Change Happened"]
+    df4["ocel:timestamp"] = df4["ocel:timestamp"] - pd.to_timedelta(1, unit='s')
+    df4["ocel:eid"] = df4["ocel:eid"] + "_STARTSC"
+
+    df5 = df2_updated.dropna(subset=["Status Change Happened2"])
+    df5["ocel:activity"] = df5["Status Change Happened2"]
+    df5["ocel:timestamp"] = df5["ocel:timestamp"] + pd.to_timedelta(1, unit='s')
+    df5["ocel:eid"] = df5["ocel:eid"] + "_END"
+
+    df2_updated = pd.concat([df2_updated, df4, df5])
     df2_updated.sort_values(["ocel:type:MAT_PLA", "ocel:timestamp"], inplace=True)
 
     for col in df2_updated.columns:
