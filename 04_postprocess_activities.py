@@ -181,6 +181,7 @@ if __name__ == '__main__':
             return activity + " (Normal)"
 
     def status_change_happened(row):
+        activity = row["ocel:activity"]
         stock_before = row['Stock Before']
         stock_after = row['Stock After']
 
@@ -189,38 +190,44 @@ if __name__ == '__main__':
 
         if stock_before < SS:
             if stock_after < SS:
-                return None
+                ret_label = None
             elif stock_after >= SS and stock_after < OS:
-                return "Understock to Normal"
+                ret_label =  "Understock to Normal"
             elif stock_after >= OS:
-                return "Understock to Overstock"
+                ret_label =  "Understock to Overstock"
         elif stock_before >= SS and stock_before < OS:
             if stock_after < SS:
-                return 'Normal to Understock'
+                ret_label =  'Normal to Understock'
             elif stock_after >= SS and stock_after < OS:
-                return None
+                ret_label =  None
             elif stock_after >= OS:
-                return 'Normal to Overstock'
+                ret_label = 'Normal to Overstock'
         elif stock_before >= OS:
             if stock_after >= SS and stock_after < OS:
-                return 'Overstock to Normal'
+                ret_label =  'Overstock to Normal'
             elif stock_after >= OS:
-                return None
+                ret_label = None
             elif stock_after < SS:
-                return 'Overstock to Understock'
+                ret_label = 'Overstock to Understock'
+
+        return ret_label
+
 
     # Apply transformations
-    df_merged['Transformed Activity'] = df_merged.apply(
+    df_merged['ocel:activity'] = df_merged.apply(
         lambda row: transform_activity(row),
         axis=1
     )
 
     df_merged['Status Change Happened'] = df_merged.apply(lambda row: status_change_happened(row), axis=1)
 
-    # Update 'ocel:activity' in df2
-    df2_updated = df2.copy()
-    df2_updated['ocel:activity'] = df_merged['Transformed Activity']
-    df2_updated['Status Change Happened'] = df_merged['Status Change Happened']
+    if False:
+        # Update 'ocel:activity' in df2
+        df2_updated = df2.copy()
+        df2_updated['ocel:activity'] = df_merged['Transformed Activity']
+        df2_updated['Status Change Happened'] = df_merged['Status Change Happened']
+    else:
+        df2_updated = df_merged
 
     seconds = df2_updated.index * 10
 
