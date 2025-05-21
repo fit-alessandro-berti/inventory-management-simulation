@@ -173,7 +173,7 @@ if __name__ == '__main__':
     stock_min = {x: min(y, stock_after_min[x]) for x, y in stock_before_min.items()}
     adding_stock = {x: max(0, -y) for x, y in stock_min.items()}
     event_log_df["Stock Before"] = event_log_df["Stock Before"] + event_log_df["ocel:type:MAT_PLA"].map(adding_stock)
-    event_log_df["Stock After"] = event_log_df["Stock Before"] + event_log_df["ocel:type:MAT_PLA"].map(adding_stock)
+    event_log_df["Stock After"] = event_log_df["Stock After"] + event_log_df["ocel:type:MAT_PLA"].map(adding_stock)
 
     event_log_df["ocel:eid"] = "e"+event_log_df.index.astype("string")
 
