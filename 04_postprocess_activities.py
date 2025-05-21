@@ -162,107 +162,23 @@ if __name__ == '__main__':
     # Step 2: Compute Overstock (OS)
     df_merged['OS'] = df_merged['Safety Stock (SS)'] + df_merged['EOQ']
 
-    print(len(df_merged))
-    df_merged.dropna(subset=["OS", "EOQ", "Safety Stock (SS)"], inplace=True)
-    print(len(df_merged))
-    print(df_merged[["OS", "EOQ", "Safety Stock (SS)"]])
-    input()
-
+    df_merged.dropna(subset=["OS", "EOQ", "Safety Stock (SS)", "Stock Before", "Stock After"], inplace=True)
     # Step 3: Apply Transformation Rules
 
-    def transform_goods_receipt(row):
-        stock_before = row['Stock Before']
+
+    def transform_activity(row):
+        activity = row["ocel:activity"]
         stock_after = row['Stock After']
+
         SS = row['Safety Stock (SS)']
         OS = row['OS']
 
-        if stock_before < SS:
-            if stock_after < SS:
-                return 'Goods Receipt (Understock)'
-            elif stock_after >= SS and stock_after < OS:
-                return 'Goods Receipt (Normal)'
-            elif stock_after >= OS:
-                return 'Goods Receipt (Overstock)'
-        elif stock_before >= SS and stock_before < OS:
-            if stock_after >= SS and stock_after < OS:
-                return 'Goods Receipt (Normal)'
-            elif stock_after >= OS:
-                return 'Goods Receipt (Overstock)'
-        elif stock_before >= OS:
-            if stock_after >= OS:
-                return 'Goods Receipt (Overstock)'
-        return row['ocel:activity']
-
-
-    def transform_goods_issue(row):
-        stock_before = row['Stock Before']
-        stock_after = row['Stock After']
-        SS = row['Safety Stock (SS)']
-        OS = row['OS']
-
-        if stock_before < SS:
-            if stock_after < SS:
-                return 'Goods Issue (Understock)'
-        elif stock_before >= SS and stock_before < OS:
-            if stock_after < SS:
-                return 'Goods Issue (Understock)'
-            elif stock_after >= SS and stock_after < OS:
-                return 'Goods Issue (Normal)'
-        elif stock_before >= OS:
-            if stock_after >= SS and stock_after < OS:
-                return 'Goods Issue (Normal)'
-            elif stock_after >= OS:
-                return 'Goods Issue (Overstock)'
-        return row['ocel:activity']
-
-
-    def transform_create_sales_order_item(row):
-        stock_before = row['Stock Before']
-        stock_after = row['Stock After']
-        SS = row['Safety Stock (SS)']
-        OS = row['OS']
-
-        if stock_before <= SS and stock_after <= SS:
-            return 'Create Sales Order Item (Understock)'
-        elif stock_before >= SS and stock_before < OS and stock_after <= SS:
-            return 'Create Sales Order Item (Understock)'
-        elif stock_before > SS and stock_after <= SS:
-            return 'Create Sales Order Item (Understock)'
-        elif stock_before >= SS and stock_before < OS and stock_after >= SS and stock_after < OS:
-            return 'Create Sales Order Item (Normal)'
-        elif stock_before >= OS and stock_after >= SS and stock_after < OS:
-            return 'Create Sales Order Item (Normal)'
-        elif stock_before >= OS and stock_after >= OS:
-            return 'Create Sales Order Item (Overstock)'
-        return row['ocel:activity']
-
-
-    def transform_create_purchase_order_item(row):
-        stock_before = row['Stock Before']
-        SS = row['Safety Stock (SS)']
-        OS = row['OS']
-
-        if stock_before < SS:
-            return 'Create Purchase Order Item (Understock)'
-        elif stock_before >= SS and stock_before < OS:
-            return 'Create Purchase Order Item (Normal)'
-        elif stock_before >= OS:
-            return 'Create Purchase Order Item (Overstock)'
-        return row['ocel:activity']
-
-
-    def transform_create_purchase_suggestion_item(row):
-        stock_before = row['Stock Before']
-        SS = row['Safety Stock (SS)']
-        OS = row['OS']
-
-        if stock_before < SS:
-            return 'Create Purchase Suggestion Item (Understock)'
-        elif stock_before >= SS and stock_before < OS:
-            return 'Create Purchase Suggestion Item (Normal)'
-        elif stock_before >= OS:
-            return 'Create Purchase Suggestion Item (Overstock)'
-        return row['ocel:activity']
+        if stock_after < SS:
+            return activity + " (Understock)"
+        elif stock_after > OS:
+            return activity + " (Overstock)"
+        else:
+            return activity + " (Normal)"
 
     def status_change_happened(row):
         stock_before = row['Stock Before']
@@ -295,12 +211,7 @@ if __name__ == '__main__':
 
     # Apply transformations
     df_merged['Transformed Activity'] = df_merged.apply(
-        lambda row: transform_goods_receipt(row) if row['ocel:activity'] == 'Goods Receipt' else
-        transform_goods_issue(row) if row['ocel:activity'] == 'Goods Issue' else
-        transform_create_sales_order_item(row) if row['ocel:activity'] == 'Create Sales Order Item' else
-        transform_create_purchase_order_item(row) if row['ocel:activity'] == 'Create Purchase Order Item' else
-        transform_create_purchase_suggestion_item(row) if row['ocel:activity'] == 'Create Purchase Suggestion Item' else
-        row['ocel:activity'],
+        lambda row: transform_activity(row),
         axis=1
     )
 
@@ -328,7 +239,7 @@ if __name__ == '__main__':
     df3["ocel:timestamp"] = df3["ocel:timestamp"] - pd.to_timedelta(1, unit='s')
 
     df2_updated = pd.concat([df2_updated, df3])
-    df2_updated.sort_values(["ocel:timestamp"], inplace=True)
+    df2_updated.sort_values(["ocel:type:MAT_PLA", "ocel:timestamp"], inplace=True)
 
     for col in df2_updated.columns:
         if col.startswith("ocel:type"):
