@@ -1,6 +1,6 @@
 import sqlite3
 import pandas as pd
-
+import numpy as np
 
 query = """
 WITH MaterialsPlants AS (
@@ -166,19 +166,18 @@ if __name__ == '__main__':
     # Step 3: Apply Transformation Rules
 
 
-    def transform_activity(row):
-        activity = row["ocel:activity"]
+    def get_statuss(row):
         stock_after = row['Stock After']
 
         SS = row['Safety Stock (SS)']
         OS = row['OS']
 
         if stock_after < SS:
-            return activity + " (Understock)"
+            return "Understock"
         elif stock_after > OS:
-            return activity + " (Overstock)"
+            return "Overstock"
         else:
-            return activity + " (Normal)"
+            return "Normal"
 
     def status_change_happened(row):
         activity = row["ocel:activity"]
@@ -232,6 +231,7 @@ if __name__ == '__main__':
         return ret_label
 
 
+
     df_merged["CUMCOUNT"] = df_merged.groupby("ocel:type:MAT_PLA").cumcount()
     df_merged['INVCUMCOUNT'] = (
         df_merged.iloc[::-1]
@@ -240,14 +240,28 @@ if __name__ == '__main__':
         .iloc[::-1]
     )
 
-    # Apply transformations
-    df_merged['ocel:activity'] = df_merged.apply(
-        lambda row: transform_activity(row),
+    df_merged["Current Status"]  = df_merged.apply(
+        lambda row: get_statuss(row),
         axis=1
     )
+    df_merged['ocel:activity'] = df_merged["ocel:activity"] + " (" + df_merged["Current Status"] + ")"
 
     df_merged['Status Change Happened'] = df_merged.apply(lambda row: status_change_happened(row), axis=1)
     df_merged['Status Change Happened2'] = df_merged.apply(lambda row: status_change_happened2(row), axis=1)
+    df_merged['Status Change Happened3'] = (
+        df_merged.groupby('ocel:type:MAT_PLA')['Current Status']
+        .transform(lambda x: np.where(
+            x.shift(1) == x,
+            np.nan,
+            "ST CHANGE " + x.shift(1) + " to " + x
+        ))
+        .fillna(np.nan)
+    )
+    df_merged['Status Change Happened4'] = np.where(
+        (df_merged['Status Change Happened'].notna()),
+        np.nan,
+        df_merged['Status Change Happened3']
+    )
 
     if False:
         # Update 'ocel:activity' in df2
@@ -281,7 +295,12 @@ if __name__ == '__main__':
     df5["ocel:timestamp"] = df5["ocel:timestamp"] + pd.to_timedelta(1, unit='s')
     df5["ocel:eid"] = df5["ocel:eid"] + "_END"
 
-    df2_updated = pd.concat([df2_updated, df4, df5])
+    df6 = df2_updated.dropna(subset=["Status Change Happened4"])
+    df6["ocel:activity"] = df6["Status Change Happened4"]
+    df6["ocel:timestamp"] = df6["ocel:timestamp"] - pd.to_timedelta(1, unit='s')
+    df6["ocel:eid"] = df6["ocel:eid"] + "_ARTSC"
+
+    df2_updated = pd.concat([df2_updated, df4, df5, df6])
     df2_updated.sort_values(["ocel:type:MAT_PLA", "ocel:timestamp"], inplace=True)
 
     for col in df2_updated.columns:
